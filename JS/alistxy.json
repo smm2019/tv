@@ -1,0 +1,43 @@
+[
+        {
+        "name" : "🙋丫仙女",
+        "server" : "http://162.14.102.10:5678",
+        "startPage" : "/",
+        "showAll" : false,
+        "search" : true
+    },
+        {
+        "name" : "🐋雅仙女2",
+        "server" : "http://www.gwsxh.top:5678",
+        "startPage" : "/",
+        "showAll" : false,
+        "search" : true
+    },
+        {
+        "name" : "🌊雅仙女3",
+        "server" : "http://www.yyamm.fun:5678",
+        "startPage" : "/",
+        "showAll" : false,
+        "search" : true
+    },
+        {
+        "name" : "🐉雅仙女4",
+        "server" : "http://43.249.207.226:5678",
+        "startPage" : "/",
+        "showAll" : false,
+        "search" : true
+    },
+        {
+        "name" : "☃️姬路白雪",
+        "server" : "https://pan.jlbx.xyz",
+        "startPage" : "/",
+        "showAll" : false,
+        "search" : true
+    },
+        {
+        "name" : "✨星梦",
+        "server" : "https://pan.bashroot.top",
+        "startPage" : "/",
+        "showAll" : false,
+        "search" : true
+    }]

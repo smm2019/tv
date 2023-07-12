@@ -1,0 +1,14 @@
+{"urls":
+	[
+	{"url":"clan://localhost/tvbox/js.json","name":"道长本地"},
+    {"url":"clan://localhost/tvbox/xiaohu.json","name":"小胡本地"},
+    {"url":"clan://localhost/tvbox/0821.json","name":"饭太硬全本地"},
+    {"url":"clan://localhost/tvbox/0825.json","name":"饭太硬精简本地"},
+    {"url":"clan://localhost/tvbox/0826.json","name":"饭太硬本地"},
+    {"url":"clan://localhost/tvbox/0827.json","name":"fongmi本地"},
+    {"url":"clan://localhost/tvbox/0828.json","name":"唐三本地"},
+    {"url":"clan://localhost/tvbox/XYQ.json","name":"香雅情本地"},
+    {"url":"clan://localhost/tvbox/X.json","name":"Xtang本地"},
+    {"url":"clan://localhost/tvbox/XBPQ.json","name":"小米小爆脾气本地"}
+	]
+}

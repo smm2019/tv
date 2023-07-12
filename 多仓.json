@@ -1,0 +1,6 @@
+{
+"storeHouse": [
+{"sourceName":"💚在线仓","sourceUrl":"https://jihulab.com/songxiaobao/tv/-/raw/main/dcjk.txt"},
+{"sourceName":"💛本地仓","sourceUrl":"clan://localhost/tvbox/本地仓订阅.txt"},
+{"sourceName":"💜多多预备仓","sourceUrl":"https://gitlab.com/duomv/apps/-/raw/main/d.txt"}
+]}
