@@ -1,7 +1,7 @@
-{"urls":
+﻿{"urls":
 	[
 	{"url":"clan://localhost/tvbox/js.json","name":"道长本地"},
-    {"url":"clan://localhost/tvbox/xiaohu.json","name":"小胡本地"},
+    {"url":"clan://localhost/tvbox/xiaobao.json","name":"小宝本地"},
     {"url":"clan://localhost/tvbox/0821.json","name":"饭太硬全本地"},
     {"url":"clan://localhost/tvbox/0825.json","name":"饭太硬精简本地"},
     {"url":"clan://localhost/tvbox/0826.json","name":"饭太硬本地"},
