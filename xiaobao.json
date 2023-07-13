@@ -193,7 +193,7 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/360.js"
     },
-    {"key":"drpy_js_我的哔哩","name":"哔哩合集[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/我的哔哩.js"},
+    {"key":"drpy_js_我的哔哩","name":"哔哩合集[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/wodebili.js"},
 
     {
       "key":"drpy_js_短视频",
@@ -228,7 +228,7 @@
        "type":3,
        "api":"./lib/drpy2.min.js",
        "changeable":0,
-       "ext":"./js/斗鱼直播.js"
+       "ext":"./js/douyuzhibo.js"
     },
     {
        "key":"drpy_js_虎牙直播",
@@ -236,7 +236,7 @@
        "type":3,
        "api":"./lib/drpy2.min.js",
        "changeable":0,
-       "ext":"./js/虎牙直播.js"
+       "ext":"./js/huyazhibo.js"
     },
     
    
@@ -698,13 +698,6 @@
       "ext": "./lib/饭团.json"
     },
     {
-      "key": "达达龟",
-      "name": "达达┃乌龟",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./lib/达达龟.json"
-    },
-    {
       "key": "Freeok",
       "name": "Free┃影视",
       "type": 3,
@@ -740,6 +733,14 @@
       "ext": "./lib/139.json"
     },
     {
+			"key": "🌀暴风",
+			"name": "暴风┃BPQ",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"playerType": "1",
+			"ext": "./xBPQ/暴风.json"
+		},
+    {
       "key": "77",
       "name": "七七┃影视",
       "type": 3,
@@ -752,12 +753,6 @@
       "type": 3,
       "playerType": 2,
       "ext": "https://hk-api-cf.yqk5659.com"
-    },
-    {
-      "key": "暴风",
-      "name": "暴风┃资源",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/"
     },
     {
       "key": "非凡",
@@ -789,18 +784,7 @@
 {"key":"drpy_js_ddys","name": "低端影视┃官源","type": 3,"api": "./lib/drpymin.js","ext": "./lib/ddys.js"},
 {"key": "dr_91free","name":"91free┃影视","type": 3,"api": "./lib/drpy2.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "./lib/91free.js"},
 {"key":"迷你库","name":"迷你库","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
-
-{
-      "key": "csp_大米",
-      "name": "大米星球|T追剧",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/大米星球.json"
-    },
-
+{"key":"drpy_js_大米星球","name":"影视 | 大米星球[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/大米星球.js"},
     {
       "key": "push_agent",
       "name": "🍸手机┃推送",
