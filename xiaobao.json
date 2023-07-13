@@ -193,7 +193,7 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/360.js"
     },
-    {"key":"drpy_js_我的哔哩","name":"哔哩合集[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/wodebili.js"},
+    {"key":"drpy_js_我的哔哩","name":"哔哩合集[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"https://agit.ai/lcx/gao/raw/branch/master/js/%e6%88%91%e7%9a%84%e5%93%94%e5%93%a9.js"},
 
     {
       "key":"drpy_js_短视频",
@@ -228,7 +228,7 @@
        "type":3,
        "api":"./lib/drpy2.min.js",
        "changeable":0,
-       "ext":"./js/douyuzhibo.js"
+       "ext":"https://agit.ai/lcx/gao/raw/branch/master/js/%e6%96%97%e9%b1%bc%e7%9b%b4%e6%92%ad.js"
     },
     {
        "key":"drpy_js_虎牙直播",
@@ -236,7 +236,7 @@
        "type":3,
        "api":"./lib/drpy2.min.js",
        "changeable":0,
-       "ext":"./js/huyazhibo.js"
+       "ext":"https://agit.ai/lcx/gao/raw/branch/master/js/%e8%99%8e%e7%89%99%e7%9b%b4%e6%92%ad.js"
     },
     
    
