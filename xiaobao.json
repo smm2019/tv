@@ -413,8 +413,30 @@
       "api":"./lib/alist.min.js",
       "changeable":0,
       "ext":"./js/alistxy.json"},
-      
+      {
+      "key": "csp_ShiLiuDY",
+      "name": "石榴电影",
+      "api": "csp_ShiLiuDY",
+      "type": 3,
+      "filterable": 1,
+      "playerType": 2,
+      "quickSearch": 1,
+      "searchable": 1,
+      "ext": "",
+      "jar": "./lib/more.txt;md5;c263725cc4502bae4a02f4b71cc1af71"
+    },
 ##优质在线源
+    {
+      "key": "csp_NanGua",
+      "name": "南瓜影视",
+      "type": 3,
+      "api": "csp_NanGua",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "",
+      "jar": "./lib/more.txt;md5;c263725cc4502bae4a02f4b71cc1af71"
+    },
     {
       "key": "csp_Bdys",
       "name": "🐞哔嘀影视",
@@ -901,6 +923,16 @@
       // "filterable": 1,
       // "jar": "./jar/XYQ.jar"
     // },
+    {
+      "key": "csp_Mp4Mov",
+      "name": "🧲Mp4电影",
+      "type": 3,
+      "api": "csp_Mp4Mov",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "./jar/XYQ.jar"
+    },
     {
       "key": "csp_XYQHiker_6V磁力",
       "name": "6V磁力(XYQH)",
