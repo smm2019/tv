@@ -176,7 +176,7 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/iqy.js"
     },
-    {"key":"drpy_js_优酷","name":"优酷｜视频","type":3,"api":"./lib/drpy2.min.js","ext":"./js/优酷.js"},
+    {"key":"drpy_js_优酷","name":"优酷｜视频","type":3,"api":"./lib/drpy2.min.js","ext":"https://agit.ai/jm/gao/raw/branch/master/js/%e4%bc%98%e9%85%b7.js"},
     {"key":"drpy_js_百忙无果","name":"芒果｜视频","type":3,"api":"./lib/drpy2.min.js","ext":"./js/百忙无果.js"},
     //{
       // "key": "官方资源",
@@ -250,6 +250,80 @@
 //{"key":"网盘搜索","name": "🖥网盘搜索","type": 3,"api": "csp_PanSearch","searchable": 1,"filterable": 1,"changeable": 0,"jar":"./lib/ali.jar"},
 //{"key":"土狗","name":"🖥土狗搜索","type":3,"api":"csp_TuGou","searchable":1,"changeable":0,"jar":"./lib/ali.jar"},
 
+
+//来源业余阿里
+  { "key":"Gitcafeyy",
+      "name":"🔎小纸条*香佬",
+      "type":3,
+      "api":"csp_Gitcafe",
+      "playerType":1,
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
+       //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      "jar": "./jar/XYQ.jar"
+    },
+       { "key":"csp_Zhaozyyy",
+      "name":"🔎找资源*香佬",
+      "type":3,
+      "api":"csp_Zhaozy",
+      "playerType":1,
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":0,
+      "ext":"http://alitoken--smm2019.repl.co/token?iv=12345678&key=12345678",
+      //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      "jar": "./jar/XYQ.jar"
+    },
+    { "key":"csp_AliPSyy",
+      "name":"🔎喵狸搜*香佬",
+      "type":3,
+      "api":"csp_AliPS",
+      "playerType":1,
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":0,
+      "ext":"http://alitoken--smm2019.repl.co/token?iv=12345678&key=12345678",
+   //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      "jar": "./jar/XYQ.jar"
+    },
+    { "key":"csp_Yisouyy",
+      "name":"🔎易搜索*香佬",
+      "type":3,
+      "api":"csp_Yisou",
+      "playerType":1,
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":0,
+      "ext":"http://alitoken--smm2019.repl.co/token?iv=12345678&key=12345678",
+   //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      "jar": "./jar/XYQ.jar"
+    },
+    { "key":"csp_Upyunsoyy",
+      "name":"🔎UP云搜*香佬",
+      "type":3,
+      "api":"csp_Upyunso",
+      "playerType":1,
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":0,
+      "ext":"http://alitoken--smm2019.repl.co/token?iv=12345678&key=12345678",
+   //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      "jar": "./jar/XYQ.jar"
+    },
+    { "key": "csp_XYQHikerAL_玩偶yy",
+      "name":"🔎玩偶哥哥*香佬",
+      "type":3,
+      "api":"csp_XYQHikerAL",
+      "playerType":1,
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"./lib/玩偶哥哥.json",
+      "jar": "./jar/XYQ.jar"
+    },
+
      //来源业余分享，外挂香雅倩Jar和外挂Token
   { "key":"Gitcafe",
       "name":"📀小纸条*香佬",
@@ -322,13 +396,14 @@
       "ext":"./lib/玩偶哥哥.json",
       "jar": "./jar/XYQ.jar"
     },
-{"key":"csp_WoGG","name":"玩偶哥哥[jar]","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto$$$http://tvfan.xxooo.cf/"},
-{"key":"csp_YiSo","name":"易搜[jar]","type":3,"api":"csp_YiSo","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto"},
-{"key":"csp_Zhaozy","name":"找资源[jar]","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto$$$fanfan$$$qqq111"},
-{"key":"csp_PanSou","name":"盘搜[jar]","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto"},
-{"key":"csp_UpYun","name":"Up搜[jar]","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto"},
-{"key":"csp_PanSearch","name":"盘Se[jar]","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto"},
-{"key":"csp_七夜","name":"七夜[jar]","type":3,"api":"csp_Dovx","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto"},
+    //饭太硬阿里
+// {"key":"csp_WoGG","name":"玩偶哥哥[jar]","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto$$$http://tvfan.xxooo.cf/"},
+// {"key":"csp_YiSo","name":"易搜[jar]","type":3,"api":"csp_YiSo","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto"},
+// {"key":"csp_Zhaozy","name":"找资源[jar]","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto$$$fanfan$$$qqq111"},
+// {"key":"csp_PanSou","name":"盘搜[jar]","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto"},
+// {"key":"csp_UpYun","name":"Up搜[jar]","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto"},
+// {"key":"csp_PanSearch","name":"盘Se[jar]","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto"},
+// {"key":"csp_七夜","name":"七夜[jar]","type":3,"api":"csp_Dovx","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto"},
 
 
     {
@@ -373,17 +448,7 @@
 				"分类url": "https://app.syrme.top/video/type/tag?type={cateId}&tag=&page={catePg}&size=18;;u0"
 			}
 		},
-	{
-			"key": "csp_appys_影探",
-			"name": "影探┃APP",
-			"type": 3,
-			"api": "csp_AppYsV2",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			  "jar": "./jar/小暴脾气.jar",
-			"ext": "http://ytcms.lfytyl.com/api.php/app/"
-		},
+	
 		{
 			"key": "龟龟",
 			"name": "龟龟┃BPQ",
@@ -618,6 +683,17 @@
 				"三次跳转播放链接": "\"url\"*\"&&\""
 			}
 
+		},
+	    {
+			"key": "csp_appys_影探",
+			"name": "影探┃APP",
+			"type": 3,
+			"api": "csp_AppYsV2",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			  "jar": "./jar/小暴脾气.jar",
+			"ext": "http://ytcms.lfytyl.com/api.php/app/"
 		},
 	   {
       "key": "阿里资源",
