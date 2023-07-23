@@ -272,7 +272,7 @@
       "searchable":1,
       "quickSearch":1,
       "filterable":0,
-      "ext":"http://alitoken--smm2019.repl.co/token?iv=12345678&key=12345678",
+      "ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
       //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
       "jar": "./jar/XYQ.jar"
     },
@@ -284,7 +284,7 @@
       "searchable":1,
       "quickSearch":1,
       "filterable":0,
-      "ext":"http://alitoken--smm2019.repl.co/token?iv=12345678&key=12345678",
+      "ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
    //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
       "jar": "./jar/XYQ.jar"
     },
@@ -296,7 +296,7 @@
       "searchable":1,
       "quickSearch":1,
       "filterable":0,
-      "ext":"http://alitoken--smm2019.repl.co/token?iv=12345678&key=12345678",
+      "ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
    //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
       "jar": "./jar/XYQ.jar"
     },
@@ -308,7 +308,7 @@
       "searchable":1,
       "quickSearch":1,
       "filterable":0,
-      "ext":"http://alitoken--smm2019.repl.co/token?iv=12345678&key=12345678",
+      "ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
    //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
       "jar": "./jar/XYQ.jar"
     },
@@ -915,16 +915,16 @@
  ##优质磁力
      {"key": "js荐片","name": "🧲荐片-手机专用","type": 3,"api": "./lib/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "./js/jianpian.js"},
     
-    {
-      "key": "csp_Mp4Mov",
-      "name": "🧲Mp4电影-手机专用",
-      "type": 3,
-      "api": "csp_Mp4Mov",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "./jar/XYQ.jar"
-    },
+    // {
+      // "key": "csp_Mp4Mov",
+      // "name": "🧲Mp4电影-手机专用",
+      // "type": 3,
+      // "api": "csp_Mp4Mov",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 1,
+      // "jar": "./jar/XYQ.jar"
+    // },
     // {
       // "key": "csp_XYQHiker_6V磁力",
       // "name": "🧲6V磁力-手机专用",
