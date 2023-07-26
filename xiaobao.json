@@ -263,78 +263,78 @@
 //{"key":"土狗","name":"🖥土狗搜索","type":3,"api":"csp_TuGou","searchable":1,"changeable":0,"jar":"./lib/ali.jar"},
 //saulxxx_future
 
-// {
-            // "key": "csp_WoGG",
-            // "name": "👽玩偶┃4K",
-            // "type": 3,
-            // "api": "csp_WoGG",
-            // "searchable": 1,
-            // "changeable": 0,
-            // "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
-        // },
-        // {
-            // "key": "七夜",
-            // "name": "🐺七夜┃4K",
-            // "type": 3,
-            // "api": "csp_Dovx",
-            // "searchable": 1,
-            // "changeable": 0,
-            // "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
-        // },
-        // {
-            // "key": "盤搜索",
-            // "name": "🙀盘Se┃4K",
-            // "type": 3,
-            // "api": "csp_PanSearch",
-            // "searchable": 1,
-            // "changeable": 0,
-            // "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
-        // },
-        // {
-            // "key": "csp_Yiso",
-            // "name": "😹易搜┃4K",
-            // "type": 3,
-            // "api": "csp_YiSo",
-            // "searchable": 1,
-            // "changeable": 0,
-            // "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
-        // },
-        // {
-            // "key": "csp_AliPanSou",
-            // "name": "😼盘搜┃4K",
-            // "type": 3,
-            // "api": "csp_PanSou",
-            // "searchable": 1,
-            // "changeable": 0,
-            // "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
-        // },
-        // {
-            // "key": "Upso",
-            // "name": "😸云搜┃4K",
-            // "type": 3,
-            // "api": "csp_UpYun",
-            // "searchable": 1,
-            // "changeable": 0,
-            // "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
-        // },
-        // {
-            // "key": "Zhaozy",
-            // "name": "😺找资源┃4K",
-            // "type": 3,
-            // "api": "csp_Zhaozy",
-            // "searchable": 1,
-            // "changeable": 0,
-            // "ext": "7cf268d1b9094c6f870f3a885bc8bc84$$$fanfan$$$qqq111"
-        // },
-        // {
-            // "key": "TuGou",
-            // "name": "😿土狗┃4K",
-            // "type": 3,
-            // "api": "csp_TuGou",
-            // "searchable": 1,
-            // "changeable": 0,
-            // "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
-        // },
+{
+            "key": "csp_WoGG",
+            "name": "👽玩偶┃4K",
+            "type": 3,
+            "api": "csp_WoGG",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
+        },
+        {
+            "key": "七夜",
+            "name": "🐺七夜┃4K",
+            "type": 3,
+            "api": "csp_Dovx",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
+        },
+        {
+            "key": "盤搜索",
+            "name": "🙀盘Se┃4K",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
+        },
+        {
+            "key": "csp_Yiso",
+            "name": "😹易搜┃4K",
+            "type": 3,
+            "api": "csp_YiSo",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
+        },
+        {
+            "key": "csp_AliPanSou",
+            "name": "😼盘搜┃4K",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
+        },
+        {
+            "key": "Upso",
+            "name": "😸云搜┃4K",
+            "type": 3,
+            "api": "csp_UpYun",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
+        },
+        {
+            "key": "Zhaozy",
+            "name": "😺找资源┃4K",
+            "type": 3,
+            "api": "csp_Zhaozy",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": "7cf268d1b9094c6f870f3a885bc8bc84$$$fanfan$$$qqq111"
+        },
+        {
+            "key": "TuGou",
+            "name": "😿土狗┃4K",
+            "type": 3,
+            "api": "csp_TuGou",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
+        },
         // {
             // "key": "XYQaL_4kHDR",
             // "name": "👩‍⚕️┃玩偶┃姐姐",
@@ -510,8 +510,30 @@
 // {"key":"csp_UpYun","name":"Up搜[jar]","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto"},
 // {"key":"csp_PanSearch","name":"盘Se[jar]","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto"},
 // {"key":"csp_七夜","name":"七夜[jar]","type":3,"api":"csp_Dovx","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto"},
-
-
+  // { "key":"Gitcafeyy",
+      // "name":"🔎🔎小纸条*香佬",
+      // "type":3,
+      // "api":"csp_Gitcafe",
+      // "playerType":1,
+      // "searchable":1,
+      // "quickSearch":1,
+      // "filterable":1,
+      // "ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
+       // //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      // "jar": "./jar/XYQ.jar"
+    // },
+    // { "key":"csp_Yisouyy",
+      // "name":"🔎🔎易搜索*香佬",
+      // "type":3,
+      // "api":"csp_Yisou",
+      // "playerType":1,
+      // "searchable":1,
+      // "quickSearch":1,
+      // "filterable":0,
+      // "ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
+   // //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      // "jar": "./jar/XYQ.jar"
+    // },
     {
       "key":"drpy_js_Alist",
       "name":"Alist网盘",
@@ -998,7 +1020,7 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/白白.js"
     },
-    {"key": "dr_LIBVIO","name":"LIBVIO","type": 3,"api": "./lib/drpy2.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "./lib/LIBVIO.js"},
+    {"key": "dr_LIBVIO","name":"LIBVIO","type": 3,"api": "./lib/drpy2.min.js","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "./lib/LIBVIO.js"},
 
     {
       "key": "双十",
@@ -1091,9 +1113,9 @@
         "动漫片"
       ]
     },
-{"key": "dr_奈飞","name":"奈飞┃影视","type":3,"api": "./lib/drpy2.min.js","searchable":2,"quickSearch":1,"filterable":0,"ext": "./lib/奈飞中文.js"},
+{"key": "dr_奈飞","name":"奈飞┃影视","type":3,"api": "./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":0,"ext": "./lib/奈飞中文.js"},
 {"key":"drpy_js_ddys","name": "低端影视┃官源","type": 3,"api": "./lib/drpymin.js","ext": "./lib/ddys.js"},
-{"key": "dr_91free","name":"91free┃影视","type": 3,"api": "./lib/drpy2.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "./lib/91free.js"},
+{"key": "dr_91free","name":"91free┃影视","type": 3,"api": "./lib/drpy2.min.js","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "./lib/91free.js"},
 {"key":"迷你库","name":"迷你库","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
 {"key":"drpy_js_大米星球","name":"大米星球[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/大米星球.js"},
 {"key":"drpy_js_子子影视","name":"子子影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/子子影视.js"},
