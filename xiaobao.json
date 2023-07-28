@@ -4,7 +4,7 @@
         {
             "name": "河南移动ipv6",
             "type": 0,
-             "url": "https://jihulab.com/songxiaobao/MyIPTV/-/raw/master/%E6%B2%B3%E5%8D%97PLTV%E7%A7%BB%E5%8A%A8CDN%E4%BF%AE%E6%94%B9%E7%89%88IPv6.txt",
+             "url": "./LIVE/河南PLTV移动CDN修改版IPv6.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
@@ -18,42 +18,43 @@
         {
             "name": "贵州移动",
             "type": 0,
-            "url": "https://jihulab.com/songxiaobao/MyIPTV/-/raw/master/%E8%B4%B5%E5%B7%9EPLTV%E7%A7%BB%E5%8A%A8CDN%E7%89%88.txt",
+            "url": "./LIVE/贵州PLTV移动CDN版.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
         {
             "name": "陕西移动",
             "type": 0,
-            "url":"https://jihulab.com/songxiaobao/MyIPTV/-/raw/master/%E9%99%95%E8%A5%BFPLTV%E7%A7%BB%E5%8A%A8CDN%E7%89%88.txt",
+            "url":"./LIVE/陕西PLTV移动CDN版.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
          {
             "name": "YanG•综合",
             "type": 0,
-            "url": "https://jihulab.com/songxiaobao/m3u/-/raw/9b49cfec90936bf6cc93cf1640a21a14881dc1db/Gather.m3u",
+            //"url": "https://jihulab.com/songxiaobao/m3u/-/raw/9b49cfec90936bf6cc93cf1640a21a14881dc1db/Gather.m3u",
+            "url": "https://agit.ai/dlee2008/YanG-1989/raw/branch/main/Gather.m3u", 
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
         {
             "name": "kk",
             "type": 0,
-            "url": "https://jihulab.com/songxiaobao/zx/-/raw/main/iptv/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/kk.txt",
+            "url": "https://gitee.com/xiaomingstudent2023/zx/raw/main/iptv/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/kk.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
         {
             "name": "ii",
             "type": 0,
-            "url": "https://jihulab.com/songxiaobao/zx/-/raw/main/iptv/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/l.txt",
+            "url": "https://gitee.com/xiaomingstudent2023/zx/raw/main/iptv/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/l.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
         {
             "name": "warehouse",
             "type": 0,
-            "url": "https://jihulab.com/songxiaobao/TVBox_warehouse/-/raw/main/live.txt",
+            "url": "https://agit.ai/cqpzq/TVBox_warehouse/raw/commit/76effdf933075b63ca7c3051a5587d9bdd9a2d2d/live.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
@@ -159,7 +160,7 @@
             "changeable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "api": "./js/lf_search1_min.js"
+            "api": "./js/lf_search2_min.js"
     },
     // ##爱看bot
     // {
@@ -188,8 +189,6 @@
     },
     {"key":"drpy_js_优酷","name":"优酷｜视频","type":3,"api":"./lib/drpy2.min.js","ext":"https://agit.ai/jm/gao/raw/branch/master/js/%e4%bc%98%e9%85%b7.js"},
     {"key":"drpy_js_百忙无果","name":"芒果｜视频","type":3,"api":"./lib/drpy2.min.js","ext":"./js/百忙无果.js"},
-    {"key": "csp_QQ","name": "企鹅4K","type": 3,"api": "csp_QQ","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0,"jar": "./lib/i4k.jar;md5;2e9570f68563046387b425c95801ef8f"},
-
     //{
       // "key": "官方资源",
       // "name": "360官方┃资源",
@@ -272,15 +271,15 @@
             "changeable": 0,
             "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
         },
-        {
-            "key": "七夜",
-            "name": "🐺七夜┃4K",
-            "type": 3,
-            "api": "csp_Dovx",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
-        },
+        // {
+            // "key": "七夜",
+            // "name": "🐺七夜┃4K",
+            // "type": 3,
+            // "api": "csp_Dovx",
+            // "searchable": 1,
+            // "changeable": 0,
+            // "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
+        // },
         {
             "key": "盤搜索",
             "name": "🙀盘Se┃4K",
@@ -326,15 +325,15 @@
             "changeable": 0,
             "ext": "7cf268d1b9094c6f870f3a885bc8bc84$$$fanfan$$$qqq111"
         },
-        {
-            "key": "TuGou",
-            "name": "😿土狗┃4K",
-            "type": 3,
-            "api": "csp_TuGou",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
-        },
+        // {
+            // "key": "TuGou",
+            // "name": "😿土狗┃4K",
+            // "type": 3,
+            // "api": "csp_TuGou",
+            // "searchable": 1,
+            // "changeable": 0,
+            // "ext": "7cf268d1b9094c6f870f3a885bc8bc84"
+        // },
         // {
             // "key": "XYQaL_4kHDR",
             // "name": "👩‍⚕️┃玩偶┃姐姐",
@@ -380,18 +379,18 @@
       //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
       "jar": "./jar/XYQ.jar"
     },
-    { "key":"csp_AliPSyy",
-      "name":"🔎喵狸搜*香佬",
-      "type":3,
-      "api":"csp_AliPS",
-      "playerType":1,
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":0,
-      "ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
-   //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
-      "jar": "./jar/XYQ.jar"
-    },
+    // { "key":"csp_AliPSyy",
+      // "name":"🔎喵狸搜*香佬",
+      // "type":3,
+      // "api":"csp_AliPS",
+      // "playerType":1,
+      // "searchable":1,
+      // "quickSearch":1,
+      // "filterable":0,
+      // "ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
+   // //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      // "jar": "./jar/XYQ.jar"
+    // },
     { "key":"csp_Yisouyy",
       "name":"🔎易搜索*香佬",
       "type":3,
@@ -404,18 +403,18 @@
    //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
       "jar": "./jar/XYQ.jar"
     },
-    { "key":"csp_Upyunsoyy",
-      "name":"🔎UP云搜*香佬",
-      "type":3,
-      "api":"csp_Upyunso",
-      "playerType":1,
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":0,
-      "ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
-   //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
-      "jar": "./jar/XYQ.jar"
-    },
+    // { "key":"csp_Upyunsoyy",
+      // "name":"🔎UP云搜*香佬",
+      // "type":3,
+      // "api":"csp_Upyunso",
+      // "playerType":1,
+      // "searchable":1,
+      // "quickSearch":1,
+      // "filterable":0,
+      // "ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
+   // //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      // "jar": "./jar/XYQ.jar"
+    // },
     { "key": "csp_XYQHikerAL_玩偶yy",
       "name":"🔎玩偶哥哥*香佬",
       "type":3,
@@ -453,18 +452,18 @@
       //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
       "jar": "./jar/XYQ.jar"
     },
-    { "key":"csp_AliPS",
-      "name":"📀喵狸搜*香佬",
-      "type":3,
-      "api":"csp_AliPS",
-      "playerType":1,
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":0,
-      "ext":"https://jihulab.com/blank7355005/hy/-/raw/main/tvbox/tok.txt",
-   //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
-      "jar": "./jar/XYQ.jar"
-    },
+    // { "key":"csp_AliPS",
+      // "name":"📀喵狸搜*香佬",
+      // "type":3,
+      // "api":"csp_AliPS",
+      // "playerType":1,
+      // "searchable":1,
+      // "quickSearch":1,
+      // "filterable":0,
+      // "ext":"https://jihulab.com/blank7355005/hy/-/raw/main/tvbox/tok.txt",
+   // //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      // "jar": "./jar/XYQ.jar"
+    // },
     { "key":"csp_Yisou",
       "name":"📀易搜索*香佬",
       "type":3,
@@ -477,18 +476,18 @@
    //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
       "jar": "./jar/XYQ.jar"
     },
-    { "key":"csp_Upyunso",
-      "name":"📀UP云搜*香佬",
-      "type":3,
-      "api":"csp_Upyunso",
-      "playerType":1,
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":0,
-      "ext":"https://jihulab.com/blank7355005/hy/-/raw/main/tvbox/tok.txt",
-   //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
-      "jar": "./jar/XYQ.jar"
-    },
+    // { "key":"csp_Upyunso",
+      // "name":"📀UP云搜*香佬",
+      // "type":3,
+      // "api":"csp_Upyunso",
+      // "playerType":1,
+      // "searchable":1,
+      // "quickSearch":1,
+      // "filterable":0,
+      // "ext":"https://jihulab.com/blank7355005/hy/-/raw/main/tvbox/tok.txt",
+   // //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      // "jar": "./jar/XYQ.jar"
+    // },
     { "key": "csp_XYQHikerAL_玩偶哥哥",
       "name":"📀玩偶哥哥*香佬",
       "type":3,
