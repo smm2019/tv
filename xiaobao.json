@@ -1,5 +1,5 @@
 {
-"spider": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/fanty.jar;md5;f024a5e507951d3c20514202aa6cf5fe",
+"spider": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/fanty.jar;md5;f024a5e507951d3c20514202aa6cf5fe",
 "lives":[
         {
             "name": "河南移动ipv6",
@@ -43,14 +43,14 @@
         {
             "name": "kk",
             "type": 0,
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/zx/main/iptv/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/kk.txt",
+            "url": "https://gitee.com/xiaomingstudent2023/zx/raw/main/iptv/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/kk.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
         {
             "name": "ii",
             "type": 0,
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/zx/main/iptv/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/l.txt",
+            "url": "https://gitee.com/xiaomingstudent2023/zx/raw/main/iptv/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/l.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
@@ -348,9 +348,9 @@
       "searchable":1,
       "quickSearch":1,
       "filterable":1,
-      //"ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
-       "ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
-      "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/XYQ.jar"
+      "ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
+       //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
     },
        { "key":"csp_Zhaozyyy",
       "name":"🔎找资源*香佬",
@@ -360,9 +360,9 @@
       "searchable":1,
       "quickSearch":1,
       "filterable":0,
-      //"ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
-      "ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
-      "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/XYQ.jar"
+      "ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
+      //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
     },
     // { "key":"csp_AliPSyy",
       // "name":"🔎喵狸搜*香佬",
@@ -384,9 +384,9 @@
       "searchable":1,
       "quickSearch":1,
       "filterable":0,
-      //"ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
-      "ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
-      "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/XYQ.jar"
+      "ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
+   //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
     },
     // { "key":"csp_Upyunsoyy",
       // "name":"🔎UP云搜*香佬",
@@ -398,7 +398,7 @@
       // "filterable":0,
       // "ext":"https://pan.shangui.cc/f/N01ACj/token.txt",
    // //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
-      // "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/XYQ.jar"
+      // "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
     // },
     // { "key": "csp_XYQHikerAL_玩偶yy",
       // "name":"🔎玩偶哥哥*香佬",
@@ -409,50 +409,38 @@
       // "quickSearch":1,
       // "filterable":1,
       // "ext":"./lib/玩偶哥哥.json",
-      // "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/XYQ.jar"
+      // "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
     // },
 
      //来源业余分享，外挂香雅倩Jar和外挂Token
-  // { "key":"Gitcafe",
-      // "name":"📀小纸条*香佬",
+  { "key":"Gitcafe",
+      "name":"📀小纸条*香佬",
+      "type":3,
+      "api":"csp_Gitcafe",
+      "playerType":1,
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"https://jihulab.com/blank7355005/hy/-/raw/main/tvbox/tok.txt",
+       //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
+    },
+    { "key":"csp_Zhaozy",
+      "name":"📀找资源*香佬",
+      "type":3,
+      "api":"csp_Zhaozy",
+      "playerType":1,
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":0,
+      "ext":"https://jihulab.com/blank7355005/hy/-/raw/main/tvbox/tok.txt",
+      //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
+    },
+    // { "key":"csp_AliPS",
+      // "name":"📀喵狸搜*香佬",
       // "type":3,
-      // "api":"csp_Gitcafe",
-      // "playerType":1,
-      // "searchable":1,
-      // "quickSearch":1,
-      // "filterable":1,
-      // "ext":"https://jihulab.com/blank7355005/hy/-/raw/main/tvbox/tok.txt",
-       // //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
-      // "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
-    // },
-    // { "key":"csp_Zhaozy",
-      // "name":"📀找资源*香佬",
-      // "type":3,
-      // "api":"csp_Zhaozy",
-      // "playerType":1,
-      // "searchable":1,
-      // "quickSearch":1,
-      // "filterable":0,
-      // "ext":"https://jihulab.com/blank7355005/hy/-/raw/main/tvbox/tok.txt",
-      // //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
-      // "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
-    // },
-    // // { "key":"csp_AliPS",
-      // // "name":"📀喵狸搜*香佬",
-      // // "type":3,
-      // // "api":"csp_AliPS",
-      // // "playerType":1,
-      // // "searchable":1,
-      // // "quickSearch":1,
-      // // "filterable":0,
-      // // "ext":"https://jihulab.com/blank7355005/hy/-/raw/main/tvbox/tok.txt",
-   // // //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
-      // // "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
-    // // },
-    // { "key":"csp_Yisou",
-      // "name":"📀易搜索*香佬",
-      // "type":3,
-      // "api":"csp_Yisou",
+      // "api":"csp_AliPS",
       // "playerType":1,
       // "searchable":1,
       // "quickSearch":1,
@@ -461,29 +449,41 @@
    // //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
       // "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
     // },
-    // // { "key":"csp_Upyunso",
-      // // "name":"📀UP云搜*香佬",
-      // // "type":3,
-      // // "api":"csp_Upyunso",
-      // // "playerType":1,
-      // // "searchable":1,
-      // // "quickSearch":1,
-      // // "filterable":0,
-      // // "ext":"https://jihulab.com/blank7355005/hy/-/raw/main/tvbox/tok.txt",
-   // // //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
-      // // "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
-    // // },
-    // // { "key": "csp_XYQHikerAL_玩偶哥哥",
-      // // "name":"📀玩偶哥哥*香佬",
-      // // "type":3,
-      // // "api":"csp_XYQHikerAL",
-      // // "playerType":1,
-      // // "searchable":1,
-      // // "quickSearch":1,
-      // // "filterable":1,
-      // // "ext":"./lib/玩偶哥哥.json",
-      // // "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
-    // // },
+    { "key":"csp_Yisou",
+      "name":"📀易搜索*香佬",
+      "type":3,
+      "api":"csp_Yisou",
+      "playerType":1,
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":0,
+      "ext":"https://jihulab.com/blank7355005/hy/-/raw/main/tvbox/tok.txt",
+   //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
+    },
+    // { "key":"csp_Upyunso",
+      // "name":"📀UP云搜*香佬",
+      // "type":3,
+      // "api":"csp_Upyunso",
+      // "playerType":1,
+      // "searchable":1,
+      // "quickSearch":1,
+      // "filterable":0,
+      // "ext":"https://jihulab.com/blank7355005/hy/-/raw/main/tvbox/tok.txt",
+   // //"ext":"http://127.0.0.1:9978/file/tvbox/token.txt",
+      // "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
+    // },
+    // { "key": "csp_XYQHikerAL_玩偶哥哥",
+      // "name":"📀玩偶哥哥*香佬",
+      // "type":3,
+      // "api":"csp_XYQHikerAL",
+      // "playerType":1,
+      // "searchable":1,
+      // "quickSearch":1,
+      // "filterable":1,
+      // "ext":"./lib/玩偶哥哥.json",
+      // "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
+    // },
  
     //饭太硬阿里
 // {"key":"csp_WoGG","name":"玩偶哥哥[jar]","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|fhd|auto$$$http://tvfan.xxooo.cf/"},
@@ -575,7 +575,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			 "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+			 "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
 			"ext": {
 				"二次截取": "class=\"content-body\"&&class=\"content-lift\"",
 				"数组": "<a&&</a>",
@@ -597,7 +597,7 @@
 			"type": 3,
 			"api": "csp_XBPQ",
 			"playerType": "1",
-		  "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+		  "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
 			"ext": {
 				"主页url": "http://www.dadagui.me/",
 				"副标题": "pic-text text-right\">&&</b>",
@@ -626,7 +626,7 @@
 			"playerType": 2,
 			"quickSearch": 1,
 			"searchable": 1,
-		  "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+		  "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
 			"ext": "https://hk-api-cf.yqk5659.com"
 		},
 	    {
@@ -635,7 +635,7 @@
 			"type": 3,
 			"api": "csp_XBPQ",
 			"playerType": "1",
-		  "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+		  "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
 			"ext": "./XBPQ/奇优.json"
 		},
 	    {
@@ -646,7 +646,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 0,
-			"jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+			"jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
 			"ext": "./XBPQ/云云.json"
 		},
 		{
@@ -656,7 +656,7 @@
 			"playerType": "1",
 			"changeable": 0,
 			"api": "csp_XBPQ",
-		    "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+		    "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
 			"ext": {
 				"主页url": "https://kankanju.cc",
 				"请求头": "Referer$https://kankanju.cc/#Cookie$filter_robot_cs=301#User-Agent$Mozilla/5.0 (iPad; CPU OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1",
@@ -680,7 +680,7 @@
 			"name": "虎虎┃BPQ",
 			"type": 3,
 			"api": "csp_XBPQ",
-		  "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+		  "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
 			"ext": "./XBPQ/虎虎.json"
 		},
 		{
@@ -688,7 +688,7 @@
 			"name": "利播┃BPQ",
 			"type": 3,
 			"api": "csp_XBPQ",
-		  "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+		  "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
 			"ext": "./XBPQ/利播.json"
 		},
 		
@@ -698,7 +698,7 @@
 			"type": 3,
 			"api": "csp_XBPQ",
 			"playerType": "1",
-		  "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+		  "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
 			"ext": {
 				"站名": "子子影视",
 				"主页url": "https://www.ziziys.com",
@@ -732,7 +732,7 @@
 			"type": 3,
 			"api": "csp_XBPQ",
 			"playerType": "1",
-		  "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+		  "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
 			"ext": {
 				"分类url": "https://www.freeok.vip/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;m",
 				"分类": "电影&剧集&动漫&综艺",
@@ -759,7 +759,7 @@
 			"quickSearch": 1,
 			"filterable": 0,
 			"api": "csp_XBPQ",
-		  "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+		  "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
 			"ext": {
 				"分类": "电影$1#电视剧$2#动漫$3#综艺$4",
 				"请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
@@ -790,7 +790,7 @@
 			"quickSearch": 1,
 			"filterable": 0,
 			"api": "csp_XBPQ",
-		  "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+		  "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
 			"ext": {
 				"主页url": "http://www.tvyb03.com/",
 				"请求头": "手机",
@@ -823,7 +823,7 @@
 			"name": "臭蛋┃BPQ",
 			"type": 3,
 			"api": "csp_XBPQ",
-		  "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+		  "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
 			"ext": {
 				"主页url": "https://cddys.vip/",
 				"分类": "电影$1#电视剧$2#综艺$3#动漫$4",
@@ -844,7 +844,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			  "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+			  "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
 			"ext": "http://ytcms.lfytyl.com/api.php/app/"
 		},
 	   {
@@ -893,7 +893,7 @@
 			"api": "https://kuaikan-api.com/api.php/provide/vod/?ac=list",
 			"searchable": 1,
 			"quickSearch": 1,
-			  "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+			  "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
 			"categories": [
 				"国产剧",
 				"韩国剧",
@@ -924,7 +924,7 @@
       "api": "csp_AppYsV2",
       "playerType": 1,
       "ext": "http://4k.953365.cn:8090/xgapp.php/v3/",
-       "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/XYQ.jar"
+       "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
     },
 {
             "key": "红牛资源",
@@ -934,7 +934,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/XYQ.jar",
+            "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar",
             "categories": [
                 "动作片",
                 "喜剧片",
@@ -967,7 +967,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/XYQ.jar",
+            "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar",
             "categories": [
                 "动作片",
                 "喜剧片",
@@ -989,7 +989,7 @@
                 "体育"
             ]
         },
-    {"key": "csp_XYQHiker_555影视","name":"555影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/555影视.json","jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/XYQ.jar"}, 
+    {"key": "csp_XYQHiker_555影视","name":"555影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/555影视.json","jar": "./jar/XYQ.jar"}, 
     {
       "key": "爱看bot",
       "name": "爱看┃BOT",
@@ -1046,7 +1046,7 @@
       "name": "BTT┃影视",
       "type": 3,
       "api": "csp_XBPQ",
-  "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+  "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
       "ext": "./lib/两个bt.json"
     },
     
@@ -1055,7 +1055,7 @@
       "name": "奇优┃影视",
       "type": 3,
       "api": "csp_XBPQ",
-  "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+  "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
       "ext": "./lib/奇优.json"
     },
 
@@ -1064,7 +1064,7 @@
       "name": "一龙┃影视",
       "type": 3,
       "api": "csp_XBPQ",
-  "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+  "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
       "ext": "./lib/一龙.json"
     },
     {
@@ -1072,7 +1072,7 @@
       "name": "Free┃影视",
       "type": 3,
       "api": "csp_XBPQ",
-  "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+  "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
       "ext": "./lib/freeok.json"
     },
     {
@@ -1080,7 +1080,7 @@
       "name": "TVB┃云播",
       "type": 3,
       "api": "csp_XBPQ",
-  "jar": "https://gh-proxy.com/https://github.com/smm2019/gao/raw/master/jar/xm1.jar",
+  "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/xm1.jar",
       "ext": "./lib/tvb.json"
     },
     {
