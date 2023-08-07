@@ -1,0 +1,31 @@
+{
+  
+"drives": [
+
+    {"name":"💧农业盘",
+    "server":"http://www.214728327.xyz:5201/",
+    "startPage" : "/",
+    "showAll" : false,
+    "search" : true
+    },
+    {"name":"🏝盘",
+    "server": "http://www.azad.asia:5244/",
+     "startPage" : "/",
+    "showAll" : false,
+    "search" : true
+    },
+    {"name":"💫网络收集","server":"http://123.60.188.109:5678"},
+    {"name":"🔮雨妮网盘","server":"https://clun.eu.org/"},
+    {"name":"💠ECVE小站","server": "https://pan.ecve.cn"},
+    {"name": "💠弱水分享","server": "http://shicheng.wang:555/"},
+    {"name": "小狗电影","server": "https://alist.ccome.site"},
+    {"name":"💧自建网盘","server":"http://www.214728327.xyz:5201/"},
+    {"name":"🕵1080P-电影","server":"http://www.jczyl.top:5244/大合集300T/电影/2023/"},
+    {"name":"👐小站雨妮影视","server":"https://pan.ecve.cn/其他资源不保证质量/bodoni9794-pikpak盘"},
+    {"name":"🐋神秘小站","server":"https://yun.ltt.zone"},
+    {"name":"🐋神秘七米蓝","server":"https://yun.ltt.zone/七米蓝的仓库/mov/电影"},
+    {"name":"👐‍小站米蓝影视","server":"https://pan.ecve.cn/副站/其他资源不保证质量/0005/七米蓝/mov/电影"},
+    {"name":"👐小站经典电影","server":"https://pan.ecve.cn/其他资源不保证质量/0005/电影"},
+    {"name":"🌼张三","server":"https://pan.ccaac.xyz"},
+    {"name":"🌼pengcheng","server":"https://pan.pengcheng.team"},
+    {"name":"🍁讯维","server":"https://pan.xwbeta.com"}]}
