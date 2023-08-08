@@ -2,17 +2,17 @@
     
     {
         "name" : "🕵️‍♀️毛利兰",
-        "server" : "http://43.249.207.226:5678",
-        "startPage" : "/",
-        "showAll" : false,
-        "search" : true
+        "server" : "http://43.249.207.226:5678"
+        // "startPage" : "/",
+        // "showAll" : false,
+        // "search" : firse
     },
     {
         "name" : " 👩‍🌾牙医",
-        "server" : "https://173.82.7.87/",
-        "startPage" : "/",
-        "showAll" : false,
-        "search" : true
+        "server" : "https://173.82.7.87/"
+        // "startPage" : "/",
+        // "showAll" : false,
+        // "search" : true
     },
         {
         "name" : " 👩‍🦱斗牛",

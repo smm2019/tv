@@ -3,10 +3,10 @@
 "drives": [
 
     {"name":"🐬正奕alist",
-    "server":"http://www.jczyl.top:5244/",
-    "startPage" : "/",
-    "showAll" : false,
-    "search" : true
+    "server":"http://www.jczyl.top:5244/"
+    // "startPage" : "/",
+    // "showAll" : false,
+    // "search" : true
     },
     {"name":"🅱PK站源","server": "https://lala-ofbip.run.goorm.site/"},
     {"name":"🌼张三","server":"https://pan.ccaac.xyz/"},
