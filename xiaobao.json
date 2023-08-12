@@ -1,5 +1,5 @@
 {
-"spider": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/fanty.jar;md5;f024a5e507951d3c20514202aa6cf5fe",
+"spider": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/fanty.jar;md5;18b8df1e0f7813098c1e70979a264aad",
 "lives":[
         {
             "name": "河南移动ipv6",
@@ -178,6 +178,13 @@
     {"key":"相声小品","name":"🅱️相声小品","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/Blixs.json"},
     {"key": "演唱会","name": "🅱️明星演唱","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/音乐演唱.json"},
     {"key": "戏 曲" ,"name": "🅱️国粹戏曲","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/Blixq.json"},
+##XYQB站学习
+     {"key":"csp_Bili","name":"📚哔哩综合","type": 3,"api": "csp_Bili","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"./json/bili.json","jar": "./jar/XYQ.jar"},
+     {"key":"csp_Bili幼儿","name":"📚哔哩幼儿","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./json/幼儿乐园.json","jar": "./jar/XYQ.jar"},
+     {"key":"csp_Bili少儿","name":"📚哔哩少儿","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/少儿教育.json","jar": "./jar/XYQ.jar"},
+     {"key":"csp_Bili小学","name":"📚哔哩小学","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/小学课堂.json","jar": "./jar/XYQ.jar"},
+     {"key":"csp_Bili初中","name":"📚哔哩初中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/初中课堂.json","jar": "./jar/XYQ.jar"},
+     {"key":"csp_Bili高中","name":"📚哔哩高中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/高中课堂.json","jar": "./jar/XYQ.jar"},
 
         {
             "key": "csp_KungFu404",
@@ -585,6 +592,60 @@
       "ext":"./js/alistxbpq.json"
       },
 ##优质在线源
+
+    //毛哥
+    {
+      "key": "csp_zxzj",
+      "name": "在线┃直连",
+      "type": 3,
+      "api": "csp_Zxzj",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.zxzj.pro/"
+    },
+{
+      "key": "阿里云盘网",
+      "name": "云网┃阿里",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://jihulab.com/yuzuonan/a/-/raw/master/XYQBiu/阿里云盘网.json",
+      "jar": "https://jihulab.com/yuzuonan/a/-/raw/master/bao/custom_spider.jar?inline=false"
+    },
+    {
+      "key": "XYQaL_4kHDR",
+      "name": "HDR┃4K",
+      "type": 3,
+      "playerType": 1,
+      "api": "csp_XYQHikerAL",
+      "jar": "https://jihulab.com/yuzuonan/a/-/raw/master/bao/custom_spider.jar?inline=false",
+      "ext": "https://bitbucket.org/xduo/json/raw/master/4khdr.json"
+    },
+    {
+      "key": "csp_飘花影院",
+      "name": "飘花┃别选线路1",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.gitmirror.com/yw88075/tvbox/main/XBPQ/飘花影院.json"
+    },
+    {
+      "key": "csp_Bdys",
+      "name": "哔嘀┃蓝光",
+      "type": 3,
+      "api": "csp_Bdys",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "https://jihulab.com/yuzuonan/a/-/raw/master/bao/custom_spider.jar?inline=false"
+    },
         {
             "key": "2K",
             "name": "⭕️自营|2K",
@@ -593,13 +654,18 @@
             "api": "./lib/drpy2.min.js",
             "ext": "./lib/V5.js"
         },
-        {
-			"key": "py_央视片库",
-			"name": "🌏央视片库",
-			"type": 3,
-			"api": "py_cctv",
-			"ext": "./lib/央视片库.py"
-		},
+        //茜宝
+    {
+      "key": "路人甲私人影院",
+      "name": "私人影院4k",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://154.204.178.161:67/api.php/app/"
+    },
+        
 	    {"key":"独播库","name":"🕌独播影库","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/独播.json"},
         {"key":"csp_Jianying","name":"✂简影","api":"csp_Jianying","type":3,"searchable":1,"quickSearch":1,"filterable":1,"jar":"https://jihulab.com/laoz/N3RD/-/raw/master/JN/N3RD/J/lem0805.jar;md5;082EA07F051619E193678113C81A95DB","ext":"kuau123@qq.com$$$aa123456"},
         {"key": "耐看点播",
@@ -647,23 +713,6 @@
       "playerType": 1,
       "api": "http://xn--yetu07f.xn--yetu07f.icu:66/api.php/provide/vod/?ac=list"
         },
-        {
-            "key": "看看剧",
-            "name": "👁看看影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://52bsj.vip:81/api/v3/file/get/163095/77kkys.txt?sign=eE-X8CUFe-Dg9JEmpZ5rh0LRG_GQIk6L003iWGUsuqg%3D%3A0"
-        },
-        {
-            "key": "荐片",
-            "name": "💘荐片秒播",
-            "type": 3,
-            "api": "https://cn.kstore.space/download/4679/man.js\n",
-            "ext": "http://52bsj.vip:81/api/v3/file/get/163093/78jianpian.js?sign=158m3dK5ONS0jcJiWC6IlTDZUYsXa4AAdKirBok_KxA%3D%3A0"
-        },
       {
             "key": "Free影视",
             "name": "❤Free影视",
@@ -685,7 +734,16 @@
             "ext": "http://cms.maoyingshi.cc/api.php/app/",
             "jar": "http://52bsj.vip:81/api/v3/file/get/164388/808.jar?sign=orjSIiT99xvGwuylTa0oPp30Vu5QPXS3n-9JlxNTGoI%3D%3A0;md5;07772cd9c257beeb69cb868e057b1492"
         },
-
+        
+        {
+            "key":"csp_woggcli",
+            "name":"俊哥玩偶.CLi",
+            "type":4,
+            "api":"http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=内置token",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1
+        },
        {
             "key": "woggphp",
             "name": "👽玩偶新T4",
@@ -710,6 +768,15 @@
             "quickSearch": 1,
             "filterable": 1
         },
+        {
+          "key": "三八影视",
+          "name": "❤三八4K.T4",
+          "type": 4,
+          "api": "https://public.t4tv.hz.cz/888",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1
+         },
         {
             "key": "ky",
             "name": "❤酷影蓝光|",
@@ -805,8 +872,7 @@
     {"key":"csp_Bttoo","name":"📚2BT(SP)","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_XYQH_98影院","name":"🚧98影院(XH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/tuji-2015/miao/main/TVBox/XYQH/98影院.json","jar":"https://ghproxy.com/https://raw.githubusercontent.com/tuji-2015/miao/main/TVBox/jar/XYQ.jar;md5;df0b8697608d18937ed8ed6113dadf37"},
 {"key":"drpy_js_七年影视","name":"📁七年影视[DRPY]","type":3,"api":"https://ghproxy.com/https://raw.githubusercontent.com/tuji-2015/DRPY/master/libs/drpy2.min.js","ext":"https://ghproxy.com/https://raw.githubusercontent.com/tuji-2015/miao/main/TVBox/drpyjs/七年影视.js"},
-   {"key":"py_cctv_full","name":"🃏央视栏目(PY)","type":3,"api":"py_cctv_full","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/tuji-2015/miao/main/TVBox/pys/py_cctv_full.py"},
-
+   
     {"key": "csp_XYQHiker_星辰影院","name":"星辰影院","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://git.acwing.com/zn777/tvlive/-/raw/main/%E6%98%9F%E8%BE%B0%E5%BD%B1%E9%99%A2.json","jar":"https://git.acwing.com/zn777/tvlive/-/raw/main/dyhz.jar"},
     {"key": "csp_XYQHiker_星辰四十","name":"星辰四十","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/4jie.json?inline=false","jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"},
 
@@ -1391,10 +1457,23 @@
  {"key": "csp_XYQHiker_歪片星球","name":"歪片星球","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://git.acwing.com/zn777/tvlive/-/raw/main/%E6%AD%AA%E7%89%87%E6%98%9F%E7%90%83.json","jar":"https://git.acwing.com/zn777/tvlive/-/raw/main/dyhz.jar"},
 {"key":"csp_XYQH_吼吼","name":"🚧吼吼影视(XH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/tuji-2015/miao/main/TVBox/XYQH/吼吼视频.json","jar":"https://ghproxy.com/https://raw.githubusercontent.com/tuji-2015/miao/main/TVBox/jar/XYQ.jar;md5;df0b8697608d18937ed8ed6113dadf37"},
   {"key": "csp_XYQBiu_骚火电影网","name": "骚火电影网(XYQ)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQBiu/骚火电影网.json"},
- 
-
+ {"key":"py_cctv_full","name":"🃏央视栏目(PY)","type":3,"api":"py_cctv_full","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/tuji-2015/miao/main/TVBox/pys/py_cctv_full.py"},
+{
+			"key": "py_央视片库",
+			"name": "🌏央视片库",
+			"type": 3,
+			"api": "py_cctv",
+			"ext": "./lib/央视片库.py"
+		},
  ##优质磁力
-    {"key":"drpy_js_荐片","name":"🧲荐片-手机专用","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/荐片.js"},
+    {"key":"drpy_js_荐片","name":"🧲荐片","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/荐片.js"},
+    {
+            "key": "荐片",
+            "name": "🧲荐片秒播",
+            "type": 3,
+            "api": "https://cn.kstore.space/download/4679/man.js\n",
+            "ext": "http://52bsj.vip:81/api/v3/file/get/163093/78jianpian.js?sign=158m3dK5ONS0jcJiWC6IlTDZUYsXa4AAdKirBok_KxA%3D%3A0"
+    },
 	// {
 			// "key": "荐片",
 			// "name": "🧲荐片┃磁力",
@@ -1457,7 +1536,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "jar": "./lib/xyq.jar"
+      "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"
     },
 ##动漫
 {"key": "csp_XYQHiker_異世界動漫","name":"異世界動漫(HM2)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/異世界動漫.json", "jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"},
@@ -1466,13 +1545,6 @@
 {"key":"drpy_js_AnFuns","name":"AnFuns[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/AnFuns.js"},
 {"key":"drpy_js_NT动漫","name":"NT动漫[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/NT动漫.js"},
 {"key":"drpy_js_NyaFun","name":"NyaFun[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/NyaFun.js"},
-##XYQB站学习
-     {"key":"csp_Bili","name":"📚哔哩综合","type": 3,"api": "csp_Bili","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"./json/bili.json","jar": "./jar/XYQ.jar"},
-     {"key":"csp_Bili幼儿","name":"📚哔哩幼儿","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./json/幼儿乐园.json","jar": "./jar/XYQ.jar"},
-     {"key":"csp_Bili少儿","name":"📚哔哩少儿","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/少儿教育.json","jar": "./jar/XYQ.jar"},
-     {"key":"csp_Bili小学","name":"📚哔哩小学","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/小学课堂.json","jar": "./jar/XYQ.jar"},
-     {"key":"csp_Bili初中","name":"📚哔哩初中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/初中课堂.json","jar": "./jar/XYQ.jar"},
-     {"key":"csp_Bili高中","name":"📚哔哩高中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/高中课堂.json","jar": "./jar/XYQ.jar"},
 
     
 {"key":"bb","name":"配置接口完全免费","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
