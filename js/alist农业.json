@@ -1,24 +1,24 @@
 {
   
 "drives": [
+    {"name":"🏝盘",
+    "server": "http://www.azad.asia:5244/",
+     "startPage" : "/",
+    "showAll" : false,
+    "search" : false
+    },
 
     {"name":"💧农业盘",
-    "server":"http://www.214728327.xyz:5201/"
-    // "startPage" : "/",
-    // "showAll" : false,
-    // "search" : true
-    },
-    {"name":"🏝盘",
-    "server": "http://www.azad.asia:5244/"
-     // "startPage" : "/",
-    // "showAll" : false,
-    // "search" : true
+    "server":"http://www.214728327.xyz:5201/",
+    "startPage" : "/",
+    "showAll" : false,
+    "search" : false
     },
     {"name":"💫网络收集",
     "server":"http://123.60.188.109:5678",
     "startPage" : "/",
     "showAll" : false,
-    "search" : true
+    "search" : false
     },
     {"name":"🔮雨妮网盘","server":"https://clun.eu.org/"},
     {"name":"💠ECVE小站","server": "https://pan.ecve.cn"},

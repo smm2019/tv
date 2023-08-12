@@ -2,39 +2,39 @@
     
     {
         "name" : "🕵️‍♀️毛利兰",
-        "server" : "http://43.249.207.226:5678"
-        // "startPage" : "/",
-        // "showAll" : false,
-        // "search" : firse
+        "server" : "http://43.249.207.226:5678",
+        "startPage" : "/",
+        "showAll" : false,
+        "search" : false
     },
     {
         "name" : " 👩‍🌾牙医",
-        "server" : "https://173.82.7.87/"
-        // "startPage" : "/",
-        // "showAll" : false,
-        // "search" : true
+        "server" : "https://173.82.7.87/",
+        "startPage" : "/",
+        "showAll" : false,
+        "search" : false
     },
         {
         "name" : " 👩‍🦱斗牛",
         "server" : "https://47.107.62.8/",
         "startPage" : "/",
         "showAll" : false,
-        "search" : true
+        "search" : false
     },
         {
         "name" : "🌊雅",
         "server" : "http://www.yyamm.fun:5678",
         "startPage" : "/",
         "showAll" : false,
-        "search" : true
+        "search" : false
     },
         
         {
         "name" : "☃️姬路白雪",
-        "server" : "https://pan.jlbx.xyz",
+        "server" : "http://pearl-wang.top:1061/",
         "startPage" : "/",
         "showAll" : false,
-        "search" : true
+        "search" : false
     },
         {
         "name" : "✨星梦",
