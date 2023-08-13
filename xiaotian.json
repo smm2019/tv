@@ -515,19 +515,8 @@
             "ext": "./lib/V5.js"
     },
         //茜宝
-    {
-      "key": "路人甲私人影院",
-      "name": "私人影院4k",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "http://154.204.178.161:67/api.php/app/"
-    },
-        
-    {"key":"csp_Jianying","name":"✂简影","api":"csp_Jianying","type":3,"searchable":1,"quickSearch":1,"filterable":1,"jar":"https://jihulab.com/laoz/N3RD/-/raw/master/JN/N3RD/J/lem0805.jar;md5;082EA07F051619E193678113C81A95DB","ext":"kuau123@qq.com$$$aa123456"},
-    {"key": "耐看点播",
+    
+  {"key": "耐看点播",
             "name": "🔺耐看自建",
             "type": 3,
             "api": "csp_XBPQ",
@@ -553,15 +542,7 @@
             "filterable": 1,
             "ext": "http://52bsj.vip:81/api/v3/file/get/164348/38free.txt?sign=_X3cX1FYZtr5n82X6HLP5kwZANZxL9az05hIHd_FsII%3D%3A0"
     },
-    {
-            "key":"csp_woggcli",
-            "name":"俊哥玩偶.CLi",
-            "type":4,
-            "api":"http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=内置token",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":1
-    },
+    
     {
       "key": "三八影视",
       "name": "❤三八4K.T4",
