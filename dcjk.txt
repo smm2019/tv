@@ -1,5 +1,6 @@
 { "urls": [ 
 { "url": "https://jihulab.com/songxiaobao/gao/-/raw/master/0826.json", "name": "饭太硬在线" },
+{"url":"https://gitee.com/xiaomingstudent2023/bmw/raw/master/xiaotian.json","name": "天天"},
 {"url":"http://我不是.肥猫.love:63/接口禁止贩卖", "name":"肥猫在线"},
 { "url": "http://xhww.fun:63/小米/DEMO.json", "name": "小米在线" },
 {"url":"https://pan.shangui.cc/f/v2Lsk/yyfx.json","name": "业余分享在线在线"},
