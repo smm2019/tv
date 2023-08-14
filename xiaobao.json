@@ -145,17 +145,12 @@
             "url":"./bili.m3u"}],
 "wallpaper":"https://jianbian.chuqiuyu.tk",
 "sites":[
-        {
-            "key": "豆豆",
-            "name": "豆瓣┃主页",
-            "type": 3,
-            "api": "http://xhww.fun:63/js/drpy1.min.js",
-            "ext": "http://smallmi.xiaohewanwan.love:63/drpy.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-     {"key":"drpy_js_豆瓣","name":"豆瓣搜索[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":0,"quickSearch":0,"changeable":0},
+//农作物
+    {"key":"js豆瓣","name":"🌈豆瓣聚合","type":3,"api":"https://gitee.com/lekanbox/ali/raw/master/js/lib/drpy2.min.js", "searchable": 0,"quickSearch": 0,"filterable":0,"ext":"https://gitee.com/lekanbox/ali/raw/master/js/douban.js"},
+
+//cally满
+        {"key":"js_豆瓣热播","name":"🔍豆瓣荐片","type":3,"api":"https://cn.kstore.space/download/4679/man.js", "searchable": 0,"quickSearch": 0,"filterable":0,"ext":"http://52bsj.vip:81/api/v3/file/get/163019/01douban.txt?sign=hd2rfaaFLqnu0bu19sejr2Iuimwu1jTiCjwFMjSqaKw%3D%3A0"},
+     //{"key":"drpy_js_豆瓣","name":"豆瓣搜索[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":0,"quickSearch":0,"changeable":0},
      // {
       // "key": "If_js_douban",
       // "name": "豆瓣推荐┃if_douban",
@@ -165,16 +160,16 @@
       // "quickSearch": 0,
       // "filterable": 1
     // },
-    {
-            "key": "lf_js_search",
-            "name": "搜索 | lf_search",
-            "type": 3,
-            "searchable": 0,
-            "changeable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "api": "./js/lf_search2_min.js"
-    },
+    // {
+            // "key": "lf_js_search",
+            // "name": "搜索 | lf_search",
+            // "type": 3,
+            // "searchable": 0,
+            // "changeable": 0,
+            // "quickSearch": 0,
+            // "filterable": 1,
+            // "api": "./js/lf_search2_min.js"
+    // },
       {
             "key": "lf_js_search3",
             "name": "搜索 | lf_search3",
@@ -239,8 +234,8 @@
       // "filterable": 1
     // },  
     #官方源
-   // {"key":"csp_SP33","name":"360官源","type":3,"api":"csp_SP33","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
-    {"key":"Qtv","name":"腾讯视频","type": 3,"api":"csp_Qtv","searchable": 1,"quickSearch": 1,"filterable":1,"changeable":1},
+   {"key":"csp_SP33","name":"360官源","type":3,"api":"csp_SP33","searchable":1,"quickSearch":1,"filterable":1,"changeable":1},
+    {"key":"Qtv","name":"腾讯视频","type": 3,"api":"csp_Qtv","searchable": 0,"quickSearch": 1,"filterable":1,"changeable":1},
     //{"key":"Itv","name":"爱奇艺视频","type":3,"api":"csp_Itv","quickSearch":1,"searchable":1,"filterable":1,"changeable":0},
     //{"key":"Mtv","name":"芒果视频","type":3,"api":"csp_Mtv","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
     {
@@ -258,14 +253,14 @@
       "name": "爱奇艺┃视频",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
       "changeable":1,
       "ext": "./lib/iqy.js"
     },
-    {"key":"drpy_js_优酷","name":"优酷｜视频","type":3,"searchable": 1,"quickSearch": 1,"filterable": 1, "changeable":1,"api":"./lib/drpy2.min.js","ext":"https://agit.ai/jm/gao/raw/branch/master/js/%e4%bc%98%e9%85%b7.js"},
-    {"key":"drpy_js_百忙无果","name":"芒果｜视频","type":3,"searchable": 1,"quickSearch": 1,"filterable": 1, "changeable":1,"api":"./lib/drpy2.min.js","ext":"./js/百忙无果.js"},
+    {"key":"drpy_js_优酷","name":"优酷｜视频","type":3,"searchable": 0,"quickSearch": 1,"filterable": 1, "changeable":1,"api":"./lib/drpy2.min.js","ext":"https://agit.ai/jm/gao/raw/branch/master/js/%e4%bc%98%e9%85%b7.js"},
+    {"key":"drpy_js_百忙无果","name":"芒果｜视频","type":3,"searchable": 0,"quickSearch": 1,"filterable": 1, "changeable":1,"api":"./lib/drpy2.min.js","ext":"./js/百忙无果.js"},
     //{"key": "csp_QQ","name": "企鹅4K","type": 3,"api": "csp_QQ","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0,"jar": "./lib/i4k.jar;md5;2e9570f68563046387b425c95801ef8f"},
 
     //{
@@ -633,93 +628,93 @@
       "ext":"./js/alistxbpq.json"
       },
 ##优质在线源
-{
+    {
       "key": "csp_xBPQ_奇优",
-      "name": "奇优影视",
+      "name": "🅱️奇优影视|T追剧",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/奇优影视.json",
-      "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+      "ext": "./lib/奇优影视.json",
+      "jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
     },
     {
       "key": "csp_乐猪",
-      "name": "乐猪影视",
+      "name": "🅱️乐猪影视|T追剧",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/乐猪影视.json",
-      "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+      "ext": "./lib/乐猪影视.json",
+      "jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
     },
     {
       "key": "csp_农民",
-      "name": "农民影视",
+      "name": "🅱️农民影视|T追剧",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/农民影视.json",
-      "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+      "ext": "./lib/农民影视.json",
+      "jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
     },
     {
       "key": "csp_花猫",
-      "name": "花猫影视",
+      "name": "🅱️花猫影视|T追剧",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/花猫影视.json",
-      "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+      "ext": "./lib/花猫影视.json",
+      "jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
     },
     {
       "key": "csp_低端",
-      "name": "低端影视",
+      "name": "🅱️低端影视|T追剧",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/低端影视.json",
-      "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+      "ext": "./lib/低端影视.json",
+      "jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
     },
     {
       "key": "csp_兔瓜",
-      "name": "兔瓜影视",
+      "name": "🅱️兔瓜影视|T追剧",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/兔兔瓜.json",
-      "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+      "ext": "./lib/兔兔瓜.json",
+    "jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
     },
     {
       "key": "Czspp",
-      "name": "厂长影视",
+      "name": "🅱️厂长影视|T追剧",
       "type": 3,
       "api": "csp_Czsapp",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://cz01.me/",
-      "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+      "jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
     },
     {
       "key": "如意",
-      "name": "如意蓝光",
+      "name": "🅱️如意蓝光T追剧",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
       "ext": "http://cms.maoyingshi.cc/api.php/app/",
-      "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar",
+      "jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar",
       "categories": [
         "电影",
         "电视剧",
@@ -729,59 +724,208 @@
     },
     {
       "key": "酷影",
-      "name": "酷影蓝光",
+      "name": "🅱️酷影蓝光|T追剧",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
       "ext": "http://cms.realdou.cn/api.php/app/",
-      "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+      "jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
     },
     {
       "key": "csp_徕米",
-      "name": "徕米影视",
+      "name": "🅱️徕米影视|T追剧",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/徕米影视.json",
-      "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+      "ext": "./lib/徕米影视.json",
+      "jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
     },
     {
       "key": "csp_101",
-      "name": "摇玲影视",
+      "name": "🅱️摇玲影视|T追剧",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/101影视.json",
-      "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+      "ext": "./lib/101影视.json",
+      "jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
     },
     {
       "key": "csp_789",
-      "name": "芭蕉影视",
+      "name": "🅱️芭蕉影视|T追剧",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/789影视.json",
-      "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+      "ext": "./lib/789影视.json",
+      "jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
     },
     {
       "key": "4k",
-      "name": "4khd磁力",
+      "name": "🅱️4khd磁力|T追剧",
       "type": 3,
       "api": "csp_XPathAli",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/4khdr磁力.json",
-      "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+      "ext": "./lib/4khdr磁力.json",
+       "jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
     },
+    // {
+      // "key": "csp_xBPQ_奇优",
+      // "name": "奇优影视",
+      // "type": 3,
+      // "api": "csp_XBPQ",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 1,
+      // "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/奇优影视.json",
+      // "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+    // },
+    // {
+      // "key": "csp_乐猪",
+      // "name": "乐猪影视",
+      // "type": 3,
+      // "api": "csp_XBPQ",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 1,
+      // "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/乐猪影视.json",
+      // "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+    // },
+    // {
+      // "key": "csp_农民",
+      // "name": "农民影视",
+      // "type": 3,
+      // "api": "csp_XBPQ",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 1,
+      // "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/农民影视.json",
+      // "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+    // },
+    // {
+      // "key": "csp_花猫",
+      // "name": "花猫影视",
+      // "type": 3,
+      // "api": "csp_XBPQ",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 1,
+      // "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/花猫影视.json",
+      // "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+    // },
+    // {
+      // "key": "csp_低端",
+      // "name": "低端影视",
+      // "type": 3,
+      // "api": "csp_XBPQ",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 1,
+      // "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/低端影视.json",
+      // "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+    // },
+    // {
+      // "key": "csp_兔瓜",
+      // "name": "兔瓜影视",
+      // "type": 3,
+      // "api": "csp_XBPQ",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 1,
+      // "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/兔兔瓜.json",
+      // "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+    // },
+    // {
+      // "key": "Czspp",
+      // "name": "厂长影视",
+      // "type": 3,
+      // "api": "csp_Czsapp",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 1,
+      // "ext": "https://cz01.me/",
+      // "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+    // },
+    // {
+      // "key": "如意",
+      // "name": "如意蓝光",
+      // "type": 3,
+      // "api": "csp_AppYsV2",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 0,
+      // "ext": "http://cms.maoyingshi.cc/api.php/app/",
+      // "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar",
+      // "categories": [
+        // "电影",
+        // "电视剧",
+        // "综艺",
+        // "动漫"
+      // ]
+    // },
+    // {
+      // "key": "酷影",
+      // "name": "酷影蓝光",
+      // "type": 3,
+      // "api": "csp_AppYsV2",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 0,
+      // "ext": "http://cms.realdou.cn/api.php/app/",
+      // "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+    // },
+    // {
+      // "key": "csp_徕米",
+      // "name": "徕米影视",
+      // "type": 3,
+      // "api": "csp_XBPQ",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 1,
+      // "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/徕米影视.json",
+      // "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+    // },
+    // {
+      // "key": "csp_101",
+      // "name": "摇玲影视",
+      // "type": 3,
+      // "api": "csp_XBPQ",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 1,
+      // "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/101影视.json",
+      // "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+    // },
+    // {
+      // "key": "csp_789",
+      // "name": "芭蕉影视",
+      // "type": 3,
+      // "api": "csp_XBPQ",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 1,
+      // "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/789影视.json",
+      // "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+    // },
+    // {
+      // "key": "4k",
+      // "name": "4khd磁力",
+      // "type": 3,
+      // "api": "csp_XPathAli",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 0,
+      // "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/4khdr磁力.json",
+      // "jar": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/HeChengChaXiu88.jar"
+    // },
     {"key": "csp_QBiu_白嫖者联盟","name":"白嫖者联盟Ⓗ","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/白嫖者联盟.json","jar": "https://gitee.com/xiaomingstudent2023/gao/raw/master/jar/XYQ.jar"},
     
     //毛哥
