@@ -206,16 +206,17 @@
             "filterable": 1,
             "api": "./js/lf_ikanbot4_min.js"
         },
-    {"key":"相声小品","name":"🅱️相声小品","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/Blixs.json"},
-    {"key": "演唱会","name": "🅱️明星演唱","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/音乐演唱.json"},
-    {"key": "戏 曲" ,"name": "🅱️国粹戏曲","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/Blixq.json"},
+    {"key":"相声小品","name":"相声小品","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/Blixs.json"},
+    {"key":"csp_Biliych","name":"明星演唱","type": 3,"api": "csp_Bili","viewType":1,"searchable":0,"quickSearch":0,"changeable":0,"ext":"http://饭太硬.top/tv/biliych.json"},
+    //{"key":"csp_Biliych","name":"明星演唱","type": 3,"api": "csp_Bili","viewType":1,"searchable":1,"quickSearch":0,"changeable":0,"ext":"http://饭太硬.top/tv/biliych.json"},
+    {"key": "戏 曲" ,"name": "国粹戏曲","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/Blixq.json"},
 ##XYQB站学习
-     {"key":"csp_Bili","name":"📚哔哩综合","type": 3,"api": "csp_Bili","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"./json/bili.json","jar": "./jar/XYQ.jar"},
-     {"key":"csp_Bili幼儿","name":"📚哔哩幼儿","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./json/幼儿乐园.json","jar": "./jar/XYQ.jar"},
-     {"key":"csp_Bili少儿","name":"📚哔哩少儿","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/少儿教育.json","jar": "./jar/XYQ.jar"},
-     {"key":"csp_Bili小学","name":"📚哔哩小学","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/小学课堂.json","jar": "./jar/XYQ.jar"},
-     {"key":"csp_Bili初中","name":"📚哔哩初中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/初中课堂.json","jar": "./jar/XYQ.jar"},
-     {"key":"csp_Bili高中","name":"📚哔哩高中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/高中课堂.json","jar": "./jar/XYQ.jar"},
+     {"key":"csp_Bili","name":"📚哔哩综合","type": 3,"api": "csp_Bili","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"./json/biliS.json"},
+     {"key":"csp_Bili幼儿","name":"📚哔哩幼儿","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./json/幼儿乐园S.json"},
+     {"key":"csp_Bili少儿","name":"📚哔哩少儿","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/少儿教育S.json"},
+     {"key":"csp_Bili小学","name":"📚哔哩小学","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/小学课堂S.json"},
+     {"key":"csp_Bili初中","name":"📚哔哩初中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/初中课堂S.json"},
+     {"key":"csp_Bili高中","name":"📚哔哩高中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/高中课堂S.json"},
 
         {
             "key": "csp_KungFu404",
@@ -247,7 +248,7 @@
       "name": "🐧┃PHP┃QQ企鹅┃test",
       "type": 1,
       "api": "http://tvbox.top/qq.php/provide/vod/",
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
       "changeable":1
