@@ -62,6 +62,55 @@
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
         {
+            "name": "leeqys",
+            "type": 0,
+            "url": "https://agit.ai/leeqys/xc/raw/branch/master/bc.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "bauw电信",
+            "type": 0,
+            "url": "https://agit.ai/bauw/01/raw/branch/master/05.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "120588",
+            "type": 0,
+            "url": "https://agit.ai/120588596/222/raw/branch/main/1.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "cx",
+            "type": 0,
+            "url": "https://agit.ai/cx/l/raw/branch/master/2.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "cacifer",
+            "type": 0,
+            "url": "https://agit.ai/cacifer/xyz/raw/branch/master/live.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "laozou",
+            "type": 0,
+            "url": "https://agit.ai/laozou/mtv/raw/branch/master/iptv0815.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "catlive",
+            "type": 0,
+            "url": "http://home.jundie.top:81/Cat/tv/live.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
             "name": "莱妮丝",
             "type": 0,
             "url": "http://xn--ihqu10cn4c.xn--z7x900a.love:63/TV/tvzb.txt",
@@ -217,6 +266,16 @@
      {"key":"csp_Bili初中","name":"📚哔哩初中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/初中课堂S.json"},
      {"key":"csp_Bili高中","name":"📚哔哩高中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/高中课堂S.json"},
 
+        // {
+            // "key": "csp_KungFu404",
+            // "name": "💖阿里tok设置",
+            // "type": 3,
+            // "api": "csp_KungFu404",
+            // "searchable": 1,
+            // "filterable": 0,
+            // "changeable": 0,
+            // "jar": "./lib/qiandao.jar?sign=CaDYCNJmpdTtX6sj59VE30NdmMBK91O0Wd4lFNdYgfQ=:0"
+        // },
         {
             "key": "csp_KungFu404",
             "name": "💖阿里tok设置",
@@ -225,7 +284,7 @@
             "searchable": 1,
             "filterable": 0,
             "changeable": 0,
-            "jar": "./lib/qiandao.jar?sign=CaDYCNJmpdTtX6sj59VE30NdmMBK91O0Wd4lFNdYgfQ=:0"
+            "jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/%E9%98%BF%E9%87%8C%E8%AE%BE%E7%BD%AE.txt"
         },
         {
           "key": "push_agent",
