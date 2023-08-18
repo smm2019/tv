@@ -359,7 +359,8 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/py_bilibili4.py"
+      //"ext": "./lib/py_bilibili4.py"
+      "ext": "https://jihulab.com/laoz/ali_allinone/-/raw/main/py/py_bilibili4.py?ref_type=heads"
     },
     {
       "key": "py_bili3",
@@ -370,7 +371,8 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/py_bilibili3.py"
+     // "ext": "./lib/py_bilibili3.py"
+      "ext": "https://jihulab.com/laoz/ali_allinone/-/raw/main/py/py_bilivd_individual.py?ref_type=heads"
     },
     {
       "key": "py_Nvtuan",
@@ -381,7 +383,8 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/nvtuan.py"
+     // "ext": "./lib/nvtuan.py"
+      "ext": "https://jihulab.com/laoz/ali_allinone/-/raw/main/py/nvtuan.py?ref_type=heads"
     },
     
     // {
