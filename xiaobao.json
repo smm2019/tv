@@ -360,7 +360,7 @@
       "quickSearch": 0,
       "filterable": 1,
       //"ext": "./lib/py_bilibili4.py"
-      "ext": "https://jihulab.com/laoz/ali_allinone/-/raw/main/py/py_bilibili4.py?ref_type=heads"
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/tv/master/lib/py_bilibili4.py"
     },
     {
       "key": "py_bili3",
@@ -372,7 +372,7 @@
       "quickSearch": 0,
       "filterable": 1,
      // "ext": "./lib/py_bilibili3.py"
-      "ext": "https://jihulab.com/laoz/ali_allinone/-/raw/main/py/py_bilivd_individual.py?ref_type=heads"
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/tv/master/lib/py_bilibili3.py"
     },
     {
       "key": "py_Nvtuan",
@@ -384,7 +384,7 @@
       "quickSearch": 0,
       "filterable": 1,
      // "ext": "./lib/nvtuan.py"
-      "ext": "https://jihulab.com/laoz/ali_allinone/-/raw/main/py/nvtuan.py?ref_type=heads"
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/tv/master/lib/nvtuan.py"
     },
     
     // {
