@@ -299,16 +299,16 @@
             "filterable": 1,
             "api": "./js/lf_ikanbot5min.js"
         },
-    {"key":"相声小品","name":"相声小品","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/Blixs.json"},
-    {"key":"csp_Biliych","name":"明星演唱","type": 3,"api": "csp_Bili","viewType":1,"searchable":0,"quickSearch":0,"changeable":0,"ext":"./lib/biliych.json"},
+    {"key":"相声小品","name":"相声小品","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/Blixs.json", "jar": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/jar/XYQ.jar"},
+   // {"key":"csp_Biliych","name":"明星演唱","type": 3,"api": "csp_Bili","viewType":1,"searchable":0,"quickSearch":0,"changeable":0,"ext":"./lib/biliych.json", "jar": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/jar/XYQ.jar"},
     //{"key":"csp_Biliych","name":"明星演唱","type": 3,"api": "csp_Bili","viewType":1,"searchable":1,"quickSearch":0,"changeable":0,"ext":"http://饭太硬.top/tv/biliych.json"},
-    {"key": "戏 曲" ,"name": "国粹戏曲","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/Blixq.json"},
+    {"key": "戏 曲" ,"name": "国粹戏曲","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/Blixq.json", "jar": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/jar/XYQ.jar"},
 ##XYQB站学习
-     {"key":"csp_Bili幼儿","name":"📚哔哩幼儿","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./json/幼儿乐园S.json"},
-     {"key":"csp_Bili少儿","name":"📚哔哩少儿","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/少儿教育S.json"},
-     {"key":"csp_Bili小学","name":"📚哔哩小学","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/小学课堂S.json"},
-     {"key":"csp_Bili初中","name":"📚哔哩初中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/初中课堂S.json"},
-     {"key":"csp_Bili高中","name":"📚哔哩高中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/高中课堂S.json"},
+     {"key":"csp_Bili幼儿","name":"📚哔哩幼儿","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./json/幼儿乐园S.json", "jar": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/jar/XYQ.jar"},
+     {"key":"csp_Bili少儿","name":"📚哔哩少儿","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/少儿教育S.json", "jar": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/jar/XYQ.jar"},
+     {"key":"csp_Bili小学","name":"📚哔哩小学","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/小学课堂S.json", "jar": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/jar/XYQ.jar"},
+     {"key":"csp_Bili初中","name":"📚哔哩初中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/初中课堂S.json", "jar": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/jar/XYQ.jar"},
+     {"key":"csp_Bili高中","name":"📚哔哩高中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./json/高中课堂S.json", "jar": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/jar/XYQ.jar"},
    // {"key":"drpy_js_我的哔哩gh","name":"哔哩合集js备用","type":3,"api":"./lib/drpy2.min.js","viewType": 1,"searchable": 1,"quickSearch": 0,"filterable": 1,"changeable":0,"ext":"https://jihulab.com/songxiaobao/gao/-/raw/master/js/%E6%88%91%E7%9A%84%E5%93%94%E5%93%A9.js?ref_type=heads"},
      {
       "key": "哔哩",
@@ -429,7 +429,7 @@
       "api": "py_bilii",
       "searchable": 1,
       "quickSearch": 0,
-      "filterable": 1,
+      "filterable": 0,
      // "ext": "./lib/py_bilibili4.py"
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/tv/master/lib/py_bilibili4.py"
     },
@@ -866,6 +866,23 @@
        "jar": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/jar/XBPQ2.jar"
     },
     //https://jihulab.com/dwei1/dwei/-/raw/main/Dwei.json
+
+    {
+      "key": "csp_world",
+      "name": "World(SP)",
+      "type": 3,
+      "api": "csp_NongMing",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "电视剧",
+        "电影",
+        "动漫",
+        "综艺"
+      ],
+     "jar":"https://jihulab.com/dwei1/dwei/-/raw/47e64bdc2e51530b384816f7b92e6ce580c38ab0/jar/Dwei0825.jar"
+    },
     {
       "key": "csp_xp_kdy666zt",
       "name": "合集(XPM)",
@@ -874,7 +891,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://pastebin.com/raw/S3asnNcM"
+      "ext": "https://pastebin.com/raw/S3asnNcM",
+      "jar":"https://jihulab.com/dwei1/dwei/-/raw/47e64bdc2e51530b384816f7b92e6ce580c38ab0/jar/Dwei0825.jar"
     },
     {
       "key": "csp_xp_7xdy",
@@ -884,7 +902,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://pastebin.com/raw/c01qV2BT"
+      "ext": "https://pastebin.com/raw/c01qV2BT",
+      "jar":"https://jihulab.com/dwei1/dwei/-/raw/47e64bdc2e51530b384816f7b92e6ce580c38ab0/jar/Dwei0825.jar"
     },
     {
       "key": "csp_xp_BT",
@@ -894,7 +913,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/bttwoo.json"
+      "ext": "./lib/bttwoo.json",
+      "jar":"https://jihulab.com/dwei1/dwei/-/raw/47e64bdc2e51530b384816f7b92e6ce580c38ab0/jar/Dwei0825.jar"
     },
     {
       "key": "csp_xp_HDmoli",
@@ -904,7 +924,19 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/HDmoli.json"
+      "ext": "./lib/HDmoli.json",
+      "jar":"https://jihulab.com/dwei1/dwei/-/raw/47e64bdc2e51530b384816f7b92e6ce580c38ab0/jar/Dwei0825.jar"
+    },
+    {
+      "key": "csp_xp_imjw",
+      "name": "美剧(XPM)",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://pastebin.com/raw/MU8fh6px",
+         "jar":"https://jihulab.com/dwei1/dwei/-/raw/47e64bdc2e51530b384816f7b92e6ce580c38ab0/jar/Dwei0825.jar"
     },
     
     //荷城
@@ -1053,7 +1085,8 @@
         "playerType": 1,
         "api": "./lib/drpy2.min.js",
         "ext": "./lib/V5.js"
-        },    
+    },    
+    
    {"key":"csp_Jianying","name":"✂简影","api":"csp_Jianying","type":3,"searchable":1,"quickSearch":1,"filterable":1,"jar":"https://jihulab.com/laoz/N3RD/-/raw/master/JN/N3RD/J/lem0805.jar;md5;082EA07F051619E193678113C81A95DB","ext":"kuau123@qq.com$$$aa123456"},
    {"key":"csp_Cokemv","name":"可口可乐","type":3,"api":"csp_Cokemv","searchable":1,"quickSearch":2,"filterable":1},
   {
@@ -1066,16 +1099,8 @@
             "filterable": 1,
             "ext": "http://52bsj.vip:81/api/v3/file/get/164348/38free.txt?sign=_X3cX1FYZtr5n82X6HLP5kwZANZxL9az05hIHd_FsII%3D%3A0"
         },
-        {
-            "key": "LIBVIO",
-            "name": "LibVio",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://52bsj.vip:81/api/v3/file/get/163065/49LIBVIO.txt?sign=6i7v62KDXbA4j6OcVHxh_kg8Sn-YHAyeRYoWvPzML9M%3D%3A0"
-        },
+        //{"key":"csp_Lib","name":"🙀┃LIBVIO┃8K","type": 3,"api": "csp_Libvio","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.libvio.fun/"},
+        {"key":"csp_Lib","name":"🥇LibVio","type":3,"api":"csp_Libvio","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.libvio.fun/","jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
         {
             "key": "csp_aote",
             "name": "奥特┃直连",
