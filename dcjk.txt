@@ -10,6 +10,7 @@
 {"url": "https://jihulab.com/laoz/ali_allinone/-/raw/main/test.json","name": "laoz" },
 {"url": "https://gh-proxy.com/https://raw.githubusercontent.com/tuji-2015/miao/21caab4b45e8b2b7603ba18b153c972a83f3b18d/TVBox/tvbox.json","name": "tuji2015" },
 {"url": "https://ghproxy.com/https://raw.githubusercontent.com/xinyi1984/xytv/master/json/xy.json","name": "xinyi1984" },
+{"url": "https://agit.ai/xyg2333/Box/raw/branch/master/tv.json","name": "xyg2333" },
 { "url": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/XYQ.json", "name": "香雅情HTC在线" },
 { "url": "https://cf.weixine.net/ysc.json", "name": "运输车CF加速在线" },
 {"url":"https://weixine.net/ysc.json","name": "运输车线在线"},
