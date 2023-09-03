@@ -1232,10 +1232,30 @@
         "api": "./lib/drpy2.min.js",
         "ext": "./lib/V5.js"
     },    
-    
+    {"key":"csp_dd","name":"🌞旦旦云播","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/蛋蛋剧.js"},
+    {
+            "key": "陌陌",
+            "name": "🌺陌上花开",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "http://guan.yy365.vip/api.php/app/"
+    },
+    {
+      "key":"csp_mr",
+      "name":"🍑明日方舟",
+      "type":3,
+      "api":"csp_AppMr",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1
+    },
    {"key":"csp_Jianying","name":"✂简影","api":"csp_Jianying","type":3,"searchable":1,"quickSearch":1,"filterable":1,"jar":"https://jihulab.com/laoz/N3RD/-/raw/master/JN/N3RD/J/lem0805.jar;md5;082EA07F051619E193678113C81A95DB","ext":"kuau123@qq.com$$$aa123456"},
-   {"key":"csp_Cokemv","name":"可口可乐","type":3,"api":"csp_Cokemv","searchable":1,"quickSearch":2,"filterable":1},
-  {
+   {"key":"可乐影视","name":"🥤可口可乐","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cokemv.org/xgapp.php/v3/"},
+    	
+   {
             "key": "Free影视",
             "name": "Free影视",
             "type": 3,
