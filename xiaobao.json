@@ -398,7 +398,7 @@
       "changeable": 0,
       "ext": {
         "type": "4K#电影#电视剧#MV#体育#帕梅拉#太极拳#广场舞#演唱会#白噪音#考公考证#平面设计教学#软件教程#Windows",
-        "cookie": "./lib/cookie.txt"
+        "cookie": "./cookie.txt"
       },
       "jar": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/jar/fm.nogo.jar"
     },
@@ -1663,17 +1663,11 @@
       "timeout": 30,
       "jar": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/jar/fm.nogo.jar"
     },
-    {
-      "key": "drpy_js_4khdr",
-      "name": "🧲磁力熊[js]",
-      "type": 3,
-      "api": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/lib/drpy2.min.js",
-      "ext": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/js/cilixiong.js",
-      "quickSearch": 1,
-      "changeable": 1,
-      "timeout": 30,
-      "jar": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/jar/fm.nogo.jar"
-    },
+
+    {"key":"drpy_js_ddys","name":"低端影视[js]","type":3,"api":"https://gitee.com/xiaomingstudent2023/yyg/raw/master/lib/drpy2.min.js","ext":"https://gitee.com/xiaomingstudent2023/yyg/raw/master/js/ddys.js", "quickSearch":1, "changeable":1, "timeout":30,"jar": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/jar/fm.nogo.jar"},
+    {"key":"drpy_js_libvio","name":"libvio[js]","type":3,"api":"https://gitee.com/xiaomingstudent2023/yyg/raw/master/lib/drpy2.min.js","ext":"https://gitee.com/xiaomingstudent2023/yyg/raw/master/js/libvio.js", "quickSearch":1, "changeable":1, "timeout":30,"jar": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/jar/fm.nogo.jar"},
+    {"key":"drpy_js_tzfile","name":"团长影视[js]","type":3,"api":"https://gitee.com/xiaomingstudent2023/yyg/raw/master/lib/drpy2.min.js","ext":"https://gitee.com/xiaomingstudent2023/yyg/raw/master/js/tzfile.js", "quickSearch":1, "changeable":1, "timeout":30,"jar": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/jar/fm.nogo.jar"},
+
 
     {"key": "push_agent","name": "🛴手机┃推送","type": 3,"api": "csp_Push","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "http://127.0.0.1:9978/file/tvfan/pgts.json","jar": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/jar/fm.nogo.jar"},
 	
