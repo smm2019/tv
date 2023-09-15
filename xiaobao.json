@@ -398,7 +398,7 @@
       "changeable": 0,
       "ext": {
         "type": "4K#电影#电视剧#MV#体育#帕梅拉#太极拳#广场舞#演唱会#白噪音#考公考证#平面设计教学#软件教程#Windows",
-        "cookie":"http://127.0.0.1:9978/file/tvbox/cookie.txt",
+        "cookie":"buvid3=6B69BD0E-FB7A-044C-4DBA-D490AB74687E82585infoc; b_lsid=245CB33C_18A93DC028C; _uuid=B35711E3-893B-9B39-74A2-FA1014E1046C5983976infoc; buvid4=B2321F35-6A53-BD25-2476-A0BCA0EF966E84178-123091421-gflVLjzcm9R1R+ou1M7YyQ%3D%3D; buvid_fp=0ed9280219420d29bfb5d97c408b7315; b_nut=100; SESSDATA=01ba0999%2C1710249818%2C5104a%2A92CjAljqkIL3RzSo78kmAysXbgXR6-1d7TmOsNseSWXbsC64cldTzf8PlXFZk383tnBPgSVjFkVHhRMTQ4U2U1NTN0ZFZ3Z2hrQm95VURpc1U5NjNrUUVJRjhYWjM3MDRJdFA1QVQ0OU5oc0V2bnpteVpJSFE2b2F4RmRtX1pHa3hxQUU5WDZOemNRIIEC; bili_jct=d7759460ac538cc648c834ab12f06c7a; DedeUserID=104094566; DedeUserID__ckMd5=3d61cebe14d4430b; sid=g1vwy051",
       },
       "jar": "https://gitee.com/xiaomingstudent2023/yyg/raw/master/jar/fm.nogo.jar"
     },
