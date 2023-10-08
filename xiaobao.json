@@ -309,11 +309,13 @@
 "wallpaper":"https://jianbian.chuqiuyu.tk",
 "sites":[
 //农作物
-    {"key":"js豆瓣","name":"豆瓣推荐1","type":3,"api":"https://gitee.com/lekanbox/ali/raw/master/js/lib/drpy2.min.js", "searchable": 0,"quickSearch": 0,"filterable":0,"ext":"https://gitee.com/lekanbox/ali/raw/master/js/douban.js"},
+{"key":"农作物豆瓣","name":"豆瓣推荐1","type":3,"api":"https://jihulab.com/songxiaobao/TVBox-1/-/raw/main/JS/drpy.min.js","ext":"https://jihulab.com/songxiaobao/TVBox-1/-/raw/main/JS/豆瓣.js","searchable":0,"quickSearch":0,"filterable":0},
+
+   // {"key":"js豆瓣","name":"豆瓣推荐1","type":3,"api":"https://gitee.com/lekanbox/ali/raw/master/js/lib/drpy2.min.js", "searchable": 0,"quickSearch": 0,"filterable":0,"ext":"https://gitee.com/lekanbox/ali/raw/master/js/douban.js"},
     //老子阿里
 //{"key":"t4_搜片","name":"📡搜片(T4)","type": 4,"api": "https://t4.secan.icu/vod?sites=all&timeout=7","searchable": 1,"quickSearch": 1,"filterable": 1},
 //唐唐
-{"key": "豆瓣","name":"豆瓣推荐2","type":3,"api":"https://agit.ai/alanchaotang/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":2,"quickSearch":1,"filterable":0,"ext":"https://agit.ai/alanchaotang/if/raw/branch/main/js/豆瓣.js"},
+{"key": "唐唐豆瓣","name":"豆瓣推荐2","type":3,"api":"https://agit.ai/alanchaotang/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":2,"quickSearch":1,"filterable":0,"ext":"https://agit.ai/alanchaotang/if/raw/branch/main/js/豆瓣.js"},
 //cally满
        // {"key":"js_豆瓣热播","name":"🔍豆瓣荐片","type":3,"api":"https://cn.kstore.space/download/4679/man.js", "searchable": 0,"quickSearch": 0,"filterable":0,"ext":"http://52bsj.vip:81/api/v3/file/get/163019/01douban.txt?sign=hd2rfaaFLqnu0bu19sejr2Iuimwu1jTiCjwFMjSqaKw%3D%3A0"},
        
@@ -401,18 +403,6 @@
         "cookie": "http://127.0.0.1:9978/file/tvbox/cookie.txt"  
           },
        "jar":"https://jihulab.com/songxiaobao/gao/-/raw/master/jar/fm.nogo.jar"
-    },
-    {
-      "key": "bili_open",
-      "name": "🅱️|哔哩弹幕",
-      "type": 3,
-      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/bili_open.js",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "categories": "沙雕动画#沙雕穿越#沙雕",
-        "cookie": ""
-              }
     },
         // {
             // "key": "csp_KungFu404",
