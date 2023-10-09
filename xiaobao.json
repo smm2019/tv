@@ -459,8 +459,10 @@
     // },  
     #官方源
    {"key":"csp_SP33","name":"360官源","type":3,"api":"csp_SP33","searchable":1,"quickSearch":1,"filterable":1,"changeable":1},
-    {"key":"Qtv","name":"腾讯视频","type": 3,"api":"csp_Qtv","searchable": 0,"quickSearch": 1,"filterable":1,"changeable":1},
-    //{"key":"Itv","name":"爱奇艺视频","type":3,"api":"csp_Itv","quickSearch":1,"searchable":1,"filterable":1,"changeable":0},
+   
+    //https://agit.ai/tjyu110/tvbox/raw/branch/master/tjyu/json/%E5%BD%B1%E8%A7%86.json
+    {"key":"腾讯","name":"腾讯(官)","type":3,"api":"http://weixine.link:33/js/lib/drpy2.min.js","ext":"http://weixine.link:33/js/tengxun.js","searchable": 0},
+        //{"key":"Itv","name":"爱奇艺视频","type":3,"api":"csp_Itv","quickSearch":1,"searchable":1,"filterable":1,"changeable":0},
     //{"key":"Mtv","name":"芒果视频","type":3,"api":"csp_Mtv","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
 
     {
