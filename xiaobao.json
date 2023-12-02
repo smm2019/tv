@@ -1,5 +1,5 @@
 {
-"spider": "./jar/fmpg.jar;md5;05b26353652641362ff4f22bb75085d7",
+"spider": "./jar/fmpg.jar;md5;11be97a6cb52c128f32873d817b9feed",
 "lives":[
         {
             "name": "河南移动ipv6",
@@ -313,9 +313,18 @@
             "filterable": 0,
             "api": "./js/lf_search3_min.js"
         },     
+        {
+			"key": "豆瓣",
+			"name": "豆瓣",
+			"type": 3,
+			"api": "csp_Douban",
+			"searchable": 0,
+			"changeable": 1,
+			"ext": "./lib/douban.json"
+		},
 
 //饭太硬
-{"key":"豆豆","name":"豆瓣推荐饭","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
+//{"key":"豆豆","name":"豆瓣推荐饭","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 //{"key":"豆瓣","name":"豆瓣推荐PG","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/json/douban.json","jar":"./jar/fmpg.jar"},
 {"key":"Local","name":"本地","type":3,"api":"csp_Local"},
 //农作物
