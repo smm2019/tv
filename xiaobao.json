@@ -366,7 +366,7 @@
           // },
        // "jar":"./jar/fm.nogo.jar"
     // },
-    {"key":"csp_Bili","name":"哔哩弹幕","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"style":{"type":"rect","ratio":1.555},"filterable":1,"changeable":0,"ext":{"json":"./json/chuqiuyu1.json","cookie": "http://127.0.0.1:9978/file/tvbox/cookie.txt"}, "jar":"./jar/fmpg.jar"},
+    {"key":"csp_Bili","name":"哔哩弹幕","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"style":{"type":"rect","ratio":1.555},"filterable":1,"changeable":0,"ext":{"json":"./json/chuqiuyu1.json","cookie": "http://127.0.0.1:9978/file/tvbox/cookie.txt"}},
      {
       "key": "py_bili4",
       "name": "B站V4",
@@ -384,7 +384,7 @@
    //{"key":"360_spider","name":"🐞360影视","type":3,"api":"csp_SP360","filterable":1,"quickSearch":1,"searchable":1,"jar":"./jar/XYQ.jar"},
 
    //{"key":"csp_SP2345","name":"2345┃SP","type":3,"api":"csp_SP2345","searchable":1,"quickSearch":1,"filterable":1,  "jar":"./jar/fmpg.jar"},
-   {"key":"csp_SP33","name":"360官源","type":3,"api":"csp_SP33","searchable":1,"quickSearch":1,"filterable":1,"changeable":1},
+   //{"key":"csp_SP33","name":"360官源","type":3,"api":"csp_SP33","searchable":1,"quickSearch":1,"filterable":1,"changeable":1},
     {
       "key": "py_cctv_集合毛哥",
       "name": "央视┃集合",
@@ -606,13 +606,13 @@
 
 
   //gty-pg
-  	{"key":"Wogg","name":"🔎玩偶PG","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://wogg.xyz/$$$null$$$1","jar":"./jar/fmpg.jar"},
-	{"key":"Hdhive","name":"🔎影巢PG","type":3,"api":"csp_Hdhive","quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1","jar":"./jar/fmpg.jar"},
-    {"key":"校长影视","name":"🔎校长PG","type":3,"api":"csp_XiaoZhang", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1","jar":"./jar/fmpg.jar"},
-	{"key":"团长资源","name":"🔎团长PG","type":3,"api":"csp_TZFile", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1","jar":"./jar/fmpg.jar"},
-	{"key":"Wobg","name":"🔎表哥PG","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://wobge.run.goorm.io$$$1","jar":"./jar/fmpg.jar"},
-    {"key":"小紙條", "name": "🔎小紙條PG", "type": 3, "api": "csp_XiaoZhiTiao", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1" , "timeout":30,"jar":"./jar/fmpg.jar"},
-    {"key":"Dovx", "name": "🔎DovxPG", "type": 3, "api": "csp_Dovx", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1","jar":"./jar/fmpg.jar"},
+  	{"key":"Wogg","name":"🔎玩偶PG","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://wogg.xyz/$$$null$$$1"},
+	{"key":"Hdhive","name":"🔎影巢PG","type":3,"api":"csp_Hdhive","quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
+    {"key":"校长影视","name":"🔎校长PG","type":3,"api":"csp_XiaoZhang", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
+	{"key":"团长资源","name":"🔎团长PG","type":3,"api":"csp_TZFile", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
+	{"key":"Wobg","name":"🔎表哥PG","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://wobge.run.goorm.io$$$1"},
+    {"key":"小紙條", "name": "🔎小紙條PG", "type": 3, "api": "csp_XiaoZhiTiao", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1" , "timeout":30},
+    {"key":"Dovx", "name": "🔎DovxPG", "type": 3, "api": "csp_Dovx", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
 	{"key":"易搜","name":"🔎易搜PG","type":3,"api":"csp_YiSo","ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294"},
 	
     {
@@ -625,8 +625,8 @@
        "ext": "./lib/aipanso.js",
        "quickSearch": 1,
       "changeable": 1,
-      "timeout": 30,
-        "jar":"./jar/fmpg.jar"
+      "timeout": 30
+      
     },
     {
       "key": "drpy_js_趣盘搜",
@@ -638,8 +638,8 @@
        "ext": "./lib/funletu.js",
       "quickSearch": 1,
       "changeable": 1,
-      "timeout": 30,
-      "jar":"./jar/fmpg.jar"
+      "timeout": 30
+    
     },
     
     // {
@@ -679,26 +679,7 @@
       "changeable":0,
       "ext":"./js/alist农业.json"
       },
-     {
-      "key": "csp_XiaoYa_宇宙",
-      "name": "👨‍💻小雅☆宇宙",
-      "type": 3,
-      "api": "csp_XiaoYa",
-      "jar": "./jar/spring.jar",
-      "ext": "eyJhcGlLZXkiOiJiMzBlYTE0ZS1iMzQxLTQ5MWItOTJlOS1mMjI3NGNlNDU0ZWMiLCJhcGkiOiJodHRwOi8vMTAxLjIwMC4xODQuMjUyOjQ1NjcifQ==",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "热门4K",
-        "原画4K",
-        "国剧4K",
-        "港剧4K",
-        "韩剧4K",
-        "综艺4K",
-        "动漫4K"
-      ]
-    },
+
     
 ##优质在线源
 //https://agit.ai/1018610504/wdck/raw/branch/master/tvbox.json
@@ -797,9 +778,9 @@
       }
     },
     {"key":"蚂蚁","name":"蚂蚁┃直连","type":3,"api":"csp_MYYS","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://rzys.xyz"},
-    {"key":"布蕾","name":"布蕾","type":3,"api":"csp_Appto","playerType":2,"ext":"TD1LDW9ISFJ6OEaGJ+2Dh7Xw1B/333vkFq53LyNSHT5yduXETpSmQR6/5Pb9fTrndDPrH+xexEIbqCF6iFBJy43ULB0RgLYFZ59QRN5xeF/yJ/gAR7y+6cWRXnZjxTnzVVGMEeOmEi7DDYzTzUIzuVaX73AVTOUEXPBOOzlaThnNTG0R6H1jGgABfEugKqWFP2xBH8mMv0dNosvIs3tm1lQeerDyFJTZOljiCGExPfiJv5Y7y4wncbw134sSgQtFC3+C4d5z58vxJDPG0wuSD57kJtrg1HW7lnODmd1QO7fLUt2MNny5hZru58+Vz6DXqBF6eyhvkusKmufd/iMn13JDd7zeFOPgJB16ZEvKno4ulqsBBpj2eFmcGne6Ib+uuy3VyU9EnMpGbObGewvwBNAUanAI2lV0iM5oDkhZ+L6yqxZL2X7AV4cavmHF8qnP4iLEq9uuD7Ghz1MnE1ljAGqYdAyFBXUShSeOBBn2iIXvSsnc/kwffxzgIxcGV4LVnrrZ9yUT6MiKiwVBsuU213PWSAQ4TVoSuqohtjvs0vSayeq/ZRfFhmB+KdXe8tzHaMC15Bn8a7s0v83MZoZ38Urdk7jyhadCYlZZ1rL++uEMZIQ0oaRgJHhhBf1CIxJShuw9qR/gDKmyAep1mqWf7on9N2koYjgrhS/5iV3vEEQ6vNF80QI5ZuNLBysfC3DPTO7NuOUSPEPOVfRenK2+zbwyZO0H7LtTbzshIPs8Q63hrxx4V6PxiFKFHQyovaIP3M+925z9EiD993KaapXuE3gMzuOvAA/9N65rlUacYt1oC4EKXbVGdy1Rjn3oycmAb4LpUCD45rXTyqoABKLFhzFKhWsNVSK4qBn5DctT1Lwxemir+rh2T1CfI1SGG+01HdY4iDJLcJB08iQG0y5WjQCpCrPX7fhxwykmGiugORQV0XGH7e4YZJ3RMTVnh9EnHBSZ5SVcT21E9P6wr/Q2Sg9PFIvP4rwhIZSKuhzI0BaTY1jRDXgE5ViaujDeHKzetFTooXJA7vzH3gMWOK3IhYqW6A3JayBzoBLosMvmpJT0iesyz5j0Agr5hA33FHU7JAC6y9TPJS0HGuqwz178zvJ4RSFN4QzwPTR8Sk340fG8GqPSpJ0mNj/jlOu1ZLRCBfOyigN0xnfUfeJednvTiL97dC6YunCvPEBgwVJ34G/fnANkTgjYB52EKDXPSQEj7QxiH2y/UdTAPNzqSkkxySVP4dVqCtAhfGQ5F6aQd3y1Jg1j10nVx9qV7hJkLS7K8OVfCLRMo1jmohYhZFkRWV0brCAq6XK7xraEYejGNJCW1DHfdLYM0cbY2nce8Zr0v230XPwql+zobc0XGXNl2SA==$$$null$$$","jar":"./jar/fmpg.jar"},
-    {"key":"视觉","name":"视觉","type":3,"api":"csp_Appto","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":"jrytgWz8W3BsIGIs/QktiAoZ7DtDplwV9Pg7bF8WHnTF5F2klyA77RixFCdoINLj8nCqhlMNuwB1Pb2inNFkZjh8RyGN7ZiOnqpb+aNKTWc/Jck9cfN+SNPCNjjnciGaRqH02Q0iKQBwU/zWOS96pWBxD9lY0qzeNbz4IrokjL7REfCrRVCcOVrXRuY+Pqa4W64no+kOxEzgiXo2D2z1M5rewxwQD0hMFq8psl+TndXgy3T02vKjjNzGT6U7IqR2O1BPEj7GbFWtGZHeYsMp9/hvlhKj6zpekdc/TuxTAQ5+zLGSoL5rrwLOlEr+OSpeT8C6bDxI9wvvmIoFMLMmgHEo2weV2KgP6r6MONUo7B7UlSWSydzHsXYKjcM0Z0kk5GO6eCn2/H3nDnhccyOtL101S4JRTPAsF4FStqYRibK/I1jwUd8+tUxUKtHRqb2tSD5g0HzcKjZGSCvw/drZKG2dEtOEFhb8f6b3f+UH6f8oGOPrw5n/sUmWoMtNV6qO0uXgisoIBGcesdlXaZd7ZmFwecyipGGkUh2L+uHKTpGBYXpwYZweuESOdeaemVcEiPWs0uvWxi3fQHvhYyVOORJxrVWwwkxAOUGbQCCXxeghANz9NPwK6ff6siV0+p2486wXV55TX8rR8UakzQ1f7/5PaFp5FnjQEzwmkPF/zzE4=$$$null$$$","jar":"./jar/fmpg.jar"},
-    {"key":"闪电","name":"闪电","type":3,"api":"csp_Appto","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":"CLtudXE7ZxI/TCPiQMQmMshGSUocT6UcxqWxVG55EmgNtsC77N0yoGmgAB4dRXcuk3wFhrQE2va6VMz+bX7Bzs49hozj8DUds+GasTAft5FjoA7q1iAYlroFk/a9jJi5fXqSkhgg/ABPUW69+xLddSennVB8dptQmxW2aW/qCVRo0ZBt4MFrB/Et8lyUz2q6v5ZYMYf50RIrLw1zlrp2IFRpIbLyOCneZch0SEcSbRZXhl6BI1t8toRlhNE5rJ30MJ53N5JT3uJVSkQcwAiQpqR9zf7F5CXormERc3eScixBj9cV6KKSOsGXN3U+Q+T0MyLyhVZJlJxxegD4DRu08M5FZ9eu6l8s1kDDfZ9/dXECXvT47u9b/k8PB3PhbwJrnFvEIh4liSEpXXOAjbKbMIqQ2aby7YdyQG+KoTmyujKYa+zOVeR4UjjqjHRmODTDjEepspEtFsDzcoTRIyLCUCeCILIvTSJyKyIIHNOMe1G833xzZnAPYLdeu+x8Yb48whqMLmrWQTZhsJKe9O7Mb92u1raxpZLvaaqTjH+xAweKFtEQ9bjj2oUdxZ5R2BJFTzCTHv5RaS7xlqiBAmb6DMDgZfIOmHNymT74lfSN0kP0BGNB5CDpnQhaqW76Sz3G+kVwciqqPnUs8SXOYk/yY2Z2MQ5O11jFYhWLSorVcJxQ9oaYoYHHlDPsI9RrmFq6LS2Cy879ZSVi/IKNEKg0D1AKeOInGTITUas9cUTKooLf/Ji17OM1XLDQwqTAubBa0ExqU0Djjeikb6xkwRxRFf70ROiqZvUugZXNr2bGVX9eYb34moQ/K658mqeNADhxrY/W9NarFeaxET7h1GxQVbs0H2ak0PRH9WeArDda84HhAl3AIybJfNBaai8w943AO4+0wYQVijELtJht5kI4tvRg+MZayjSyE4Fn/K/vDLsAwDB02bg7c1dEo5Q6ERaY3W1zqMt7s4t9tKvwLCIiGicwoBTwgLIyqW5kXvAnnL74UYmgJuwsPwOW3GLUkg/L9RdWuNnFM+fEeM8U1XllZ7+FNIf8dB8PX5EDZ7q1I0uifcOhdNKxEQbQ8OUY7ufsyerzN/MjJTUZKuOFNwvlAI+pryxUbUKSh9Hwjh7MkVCCvUbM38+mzpqIHdcXFOoaBd/NLNPKFq2J5Ao4+Deu46v+9TVFg2xjkI51jEuezDCPjGKBuGXgmX1LzcoF3yW84HV4qDWWr7a42FTVDdhZqkmnK/SlCDroHNz/SO2DjyuZgnIXaS8P+078cZ8AbqgIiz+ZVeJVVPsl5NI9De2h1r3RgSfxvClrjjKiaeoOGj3luPfQj0GxsRhASoccUEl2MShvPpxE88i1cQuwmW10IrA==$$$null$$$","jar":"./jar/fmpg.jar"},
+    {"key":"布蕾","name":"布蕾","type":3,"api":"csp_Appto","playerType":2,"ext":"TD1LDW9ISFJ6OEaGJ+2Dh7Xw1B/333vkFq53LyNSHT5yduXETpSmQR6/5Pb9fTrndDPrH+xexEIbqCF6iFBJy43ULB0RgLYFZ59QRN5xeF/yJ/gAR7y+6cWRXnZjxTnzVVGMEeOmEi7DDYzTzUIzuVaX73AVTOUEXPBOOzlaThnNTG0R6H1jGgABfEugKqWFP2xBH8mMv0dNosvIs3tm1lQeerDyFJTZOljiCGExPfiJv5Y7y4wncbw134sSgQtFC3+C4d5z58vxJDPG0wuSD57kJtrg1HW7lnODmd1QO7fLUt2MNny5hZru58+Vz6DXqBF6eyhvkusKmufd/iMn13JDd7zeFOPgJB16ZEvKno4ulqsBBpj2eFmcGne6Ib+uuy3VyU9EnMpGbObGewvwBNAUanAI2lV0iM5oDkhZ+L6yqxZL2X7AV4cavmHF8qnP4iLEq9uuD7Ghz1MnE1ljAGqYdAyFBXUShSeOBBn2iIXvSsnc/kwffxzgIxcGV4LVnrrZ9yUT6MiKiwVBsuU213PWSAQ4TVoSuqohtjvs0vSayeq/ZRfFhmB+KdXe8tzHaMC15Bn8a7s0v83MZoZ38Urdk7jyhadCYlZZ1rL++uEMZIQ0oaRgJHhhBf1CIxJShuw9qR/gDKmyAep1mqWf7on9N2koYjgrhS/5iV3vEEQ6vNF80QI5ZuNLBysfC3DPTO7NuOUSPEPOVfRenK2+zbwyZO0H7LtTbzshIPs8Q63hrxx4V6PxiFKFHQyovaIP3M+925z9EiD993KaapXuE3gMzuOvAA/9N65rlUacYt1oC4EKXbVGdy1Rjn3oycmAb4LpUCD45rXTyqoABKLFhzFKhWsNVSK4qBn5DctT1Lwxemir+rh2T1CfI1SGG+01HdY4iDJLcJB08iQG0y5WjQCpCrPX7fhxwykmGiugORQV0XGH7e4YZJ3RMTVnh9EnHBSZ5SVcT21E9P6wr/Q2Sg9PFIvP4rwhIZSKuhzI0BaTY1jRDXgE5ViaujDeHKzetFTooXJA7vzH3gMWOK3IhYqW6A3JayBzoBLosMvmpJT0iesyz5j0Agr5hA33FHU7JAC6y9TPJS0HGuqwz178zvJ4RSFN4QzwPTR8Sk340fG8GqPSpJ0mNj/jlOu1ZLRCBfOyigN0xnfUfeJednvTiL97dC6YunCvPEBgwVJ34G/fnANkTgjYB52EKDXPSQEj7QxiH2y/UdTAPNzqSkkxySVP4dVqCtAhfGQ5F6aQd3y1Jg1j10nVx9qV7hJkLS7K8OVfCLRMo1jmohYhZFkRWV0brCAq6XK7xraEYejGNJCW1DHfdLYM0cbY2nce8Zr0v230XPwql+zobc0XGXNl2SA==$$$null$$$"},
+    {"key":"视觉","name":"视觉","type":3,"api":"csp_Appto","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":"jrytgWz8W3BsIGIs/QktiAoZ7DtDplwV9Pg7bF8WHnTF5F2klyA77RixFCdoINLj8nCqhlMNuwB1Pb2inNFkZjh8RyGN7ZiOnqpb+aNKTWc/Jck9cfN+SNPCNjjnciGaRqH02Q0iKQBwU/zWOS96pWBxD9lY0qzeNbz4IrokjL7REfCrRVCcOVrXRuY+Pqa4W64no+kOxEzgiXo2D2z1M5rewxwQD0hMFq8psl+TndXgy3T02vKjjNzGT6U7IqR2O1BPEj7GbFWtGZHeYsMp9/hvlhKj6zpekdc/TuxTAQ5+zLGSoL5rrwLOlEr+OSpeT8C6bDxI9wvvmIoFMLMmgHEo2weV2KgP6r6MONUo7B7UlSWSydzHsXYKjcM0Z0kk5GO6eCn2/H3nDnhccyOtL101S4JRTPAsF4FStqYRibK/I1jwUd8+tUxUKtHRqb2tSD5g0HzcKjZGSCvw/drZKG2dEtOEFhb8f6b3f+UH6f8oGOPrw5n/sUmWoMtNV6qO0uXgisoIBGcesdlXaZd7ZmFwecyipGGkUh2L+uHKTpGBYXpwYZweuESOdeaemVcEiPWs0uvWxi3fQHvhYyVOORJxrVWwwkxAOUGbQCCXxeghANz9NPwK6ff6siV0+p2486wXV55TX8rR8UakzQ1f7/5PaFp5FnjQEzwmkPF/zzE4=$$$null$$$"},
+    {"key":"闪电","name":"闪电","type":3,"api":"csp_Appto","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":"CLtudXE7ZxI/TCPiQMQmMshGSUocT6UcxqWxVG55EmgNtsC77N0yoGmgAB4dRXcuk3wFhrQE2va6VMz+bX7Bzs49hozj8DUds+GasTAft5FjoA7q1iAYlroFk/a9jJi5fXqSkhgg/ABPUW69+xLddSennVB8dptQmxW2aW/qCVRo0ZBt4MFrB/Et8lyUz2q6v5ZYMYf50RIrLw1zlrp2IFRpIbLyOCneZch0SEcSbRZXhl6BI1t8toRlhNE5rJ30MJ53N5JT3uJVSkQcwAiQpqR9zf7F5CXormERc3eScixBj9cV6KKSOsGXN3U+Q+T0MyLyhVZJlJxxegD4DRu08M5FZ9eu6l8s1kDDfZ9/dXECXvT47u9b/k8PB3PhbwJrnFvEIh4liSEpXXOAjbKbMIqQ2aby7YdyQG+KoTmyujKYa+zOVeR4UjjqjHRmODTDjEepspEtFsDzcoTRIyLCUCeCILIvTSJyKyIIHNOMe1G833xzZnAPYLdeu+x8Yb48whqMLmrWQTZhsJKe9O7Mb92u1raxpZLvaaqTjH+xAweKFtEQ9bjj2oUdxZ5R2BJFTzCTHv5RaS7xlqiBAmb6DMDgZfIOmHNymT74lfSN0kP0BGNB5CDpnQhaqW76Sz3G+kVwciqqPnUs8SXOYk/yY2Z2MQ5O11jFYhWLSorVcJxQ9oaYoYHHlDPsI9RrmFq6LS2Cy879ZSVi/IKNEKg0D1AKeOInGTITUas9cUTKooLf/Ji17OM1XLDQwqTAubBa0ExqU0Djjeikb6xkwRxRFf70ROiqZvUugZXNr2bGVX9eYb34moQ/K658mqeNADhxrY/W9NarFeaxET7h1GxQVbs0H2ak0PRH9WeArDda84HhAl3AIybJfNBaai8w943AO4+0wYQVijELtJht5kI4tvRg+MZayjSyE4Fn/K/vDLsAwDB02bg7c1dEo5Q6ERaY3W1zqMt7s4t9tKvwLCIiGicwoBTwgLIyqW5kXvAnnL74UYmgJuwsPwOW3GLUkg/L9RdWuNnFM+fEeM8U1XllZ7+FNIf8dB8PX5EDZ7q1I0uifcOhdNKxEQbQ8OUY7ufsyerzN/MjJTUZKuOFNwvlAI+pryxUbUKSh9Hwjh7MkVCCvUbM38+mzpqIHdcXFOoaBd/NLNPKFq2J5Ao4+Deu46v+9TVFg2xjkI51jEuezDCPjGKBuGXgmX1LzcoF3yW84HV4qDWWr7a42FTVDdhZqkmnK/SlCDroHNz/SO2DjyuZgnIXaS8P+078cZ8AbqgIiz+ZVeJVVPsl5NI9De2h1r3RgSfxvClrjjKiaeoOGj3luPfQj0GxsRhASoccUEl2MShvPpxE88i1cQuwmW10IrA==$$$null$$$"},
     {
       "key": "嘿嘿",
       "name": "嘿嘿┃App",
@@ -1173,9 +1154,7 @@
             "changeable": 1
         },
     {"key":"csp_Bttoo","name":"2BT(SP)","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"filterable":1},
-    {"key":"csp_XYQH_98影院","name":"98影院(XH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/tuji-2015/miao/main/TVBox/XYQH/98影院.json","jar":"https://ghproxy.com/https://raw.githubusercontent.com/tuji-2015/miao/main/TVBox/jar/XYQ.jar;md5;df0b8697608d18937ed8ed6113dadf37"},
-    {"key":"drpy_js_七年影视","name":"七年影视[DRPY]","type":3,"api":"https://ghproxy.com/https://raw.githubusercontent.com/tuji-2015/DRPY/master/libs/drpy2.min.js","ext":"https://ghproxy.com/https://raw.githubusercontent.com/tuji-2015/miao/main/TVBox/drpyjs/七年影视.js"},
-   
+  
       // {
       // "key": "南瓜",
       // "name": "南瓜电影",
@@ -1429,131 +1408,130 @@
  ##优质磁力PG
     //{"key":"drpy_js_荐片","name":"🧲荐片","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/荐片.js"},
     //{"key":"drpy_js_ddys","name":"低端影视[js]","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js","ext":"https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/ddys.js", "quickSearch":1, "changeable":1, "timeout":30, "jar":"./jar/fmpg.jar"},
-     {"key":"drpy_js_ddys","name":"低端影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/ddys.js", "quickSearch":1, "changeable":1, "timeout":30, "jar":"./jar/fmpg.jar"},
+     {"key":"drpy_js_ddys","name":"低端影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/ddys.js", "quickSearch":1, "changeable":1, "timeout":30},
    
      //{"key":"drpy_js_libvio","name":"libvio[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/libvio.js", "quickSearch":1, "changeable":1, "timeout":30, "jar":"./jar/fmpg.jar"},
     // {"key":"drpy_js_tzfile","name":"团长影视[js]","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js","ext":"https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/tzfile.js", "quickSearch":1, "changeable":1, "timeout":30, "jar":"./jar/fmpg.jar"},
-    {"key":"NanGua","name":"南瓜","type":3,"api":"csp_NanGua","searchable":1,"changeable":1,"ext":"null$$$1","jar":"./jar/fmpg.jar"},
+    {"key":"NanGua","name":"南瓜","type":3,"api":"csp_NanGua","searchable":1,"changeable":1,"ext":"null$$$1"},
 
     
-    {
-      "key": "drpy_js_4khdr",
-      "name": "🧲4KHDR[js]",
-      "type": 3,
-     // "api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
-       "api":"./lib/drpy2.min.js",
-      //"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/4khdr.js",
-        "ext":"./lib/4khdr.js",
-      "quickSearch": 1,
-      "changeable": 1,
-      "timeout": 30,
-       "jar":"./jar/fmpg.jar"
-    },
-    {
-      "key": "drpy_js_KKPANS",
-      "name": "🧲KK网盘[js]",
-      "type": 3,
-     // "api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
-        "api":"./lib/drpy2.min.js",
-      //"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/kkpans.js",
-       "ext":"./lib/kkpans.js",
-      "quickSearch": 1,
-      "changeable": 1,
-      "timeout": 30,
-       "jar":"./jar/fmpg.jar"
-    },
     // {
-        // "key":"drpy_js_校长影视",
-        // "name":"校长影视[js]",
-        // "type":3,
-        // "api":"https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
+      // "key": "drpy_js_4khdr",
+      // "name": "🧲4KHDR[js]",
+      // "type": 3,
+     // // "api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
+       // "api":"./lib/drpy2.min.js",
+      // //"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/4khdr.js",
+        // "ext":"./lib/4khdr.js",
+      // "quickSearch": 1,
+      // "changeable": 1,
+      // "timeout": 30
+     
+    // },
+    // {
+      // "key": "drpy_js_KKPANS",
+      // "name": "🧲KK网盘[js]",
+      // "type": 3,
+     // // "api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
         // "api":"./lib/drpy2.min.js",
-        // "ext":"https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/xzys.js", 
-        //"ext":"./lib/xzys.js",
-         // "quickSearch":1, 
-        // "changeable":1, 
-        // "timeout":30,
-         // "jar":"./jar/fmpg.jar"
-    // }, 
-    {
-      "key": "drpy_js_mp4us",
-      "name": "🧲Mp4电影[js]",
-      "type": 3,
-     // "api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
-       "api":"./lib/drpy2.min.js",
-      //"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/mp4us.js",
-      "ext":"./lib/mp4us.js",
-       "quickSearch": 1,
-      "changeable": 1,
-      "timeout": 30,
-       "jar":"./jar/fmpg.jar"
-    },
-    {
-      "key": "drpy_js_jiyingw",
-      "name": "🧲极影网[js]",
-      "type": 3,
-      //"api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
-      "api":"./lib/drpy2.min.js",
-      //"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/jiyingw.js",
-         "ext":"./lib/jiyingw.js",
-      "quickSearch": 1,
-      "changeable": 1,
-      "timeout": 30,
-       "jar":"./jar/fmpg.jar"
-    },
-    {
-      "key": "drpy_js_dygang",
-      "name": "🧲电影港[js]",
-      "type": 3,
-      //"api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
-      "api":"./lib/drpy2.min.js",
-       //"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/dygang.js",
-       "ext":"./lib/dygang.js",
-       "quickSearch": 1,
-      "changeable": 1,
-      "timeout": 30,
-        "jar":"./jar/fmpg.jar"
-    },
-    {
-      "key": "drpy_js_kuba",
-      "name": "🧲酷吧电影[js]",
-      "type": 3,
-     // "api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
-       "api":"./lib/drpy2.min.js",
-      // "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/kuba.js",
-       "ext":"./lib/kuba.js",
-      "quickSearch": 1,
-      "changeable": 1,
-      "timeout": 30,
-       "jar":"./jar/fmpg.jar"
-    },
-    {
-      "key": "drpy_js_meijumi",
-      "name": "🧲美剧迷[js]",
-      "type": 3,
-      //"api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
-      "api":"./lib/drpy2.min.js",
-       //"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/meijumi.js",
-       "ext":"./lib/meijumi.js",
-      "quickSearch": 1,
-      "changeable": 1,
-      "timeout": 30,
-       "jar":"./jar/fmpg.jar"
-    },
-    {
-      "key": "drpy_js_xb6v",
-      "name": "🧲新6V[js]",
-      "type": 3,
-      //"api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
-      "api":"./lib/drpy2.min.js",
-       //"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/xb6v.js",
-       "ext":"./lib/xb6v.js",
-       "quickSearch": 1,
-      "changeable": 1,
-      "timeout": 30,
-       "jar":"./jar/fmpg.jar"
-    },
-    {"key":"樱花","name":"樱花PG","type":3,"api":"csp_Appto","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":"qebgGqODxKrWujD2TaoZoyh6aeYntZLsTaZW8MQvVNORiHLLi/o/cEEEXkSs1vfHEuiURxMTr9zL2Kwbffz2pDvLCamrK1tuxIcczsaI7cfsAh5gcgyzOOdZUszoU45ZgS9Bi4HZ3RDHZAWEqP0JyTaH32oDxgO9nx/xhe1xyVRyj9y5gkfPVt2AP94I8/DwDI9CEstcPzGfRNHYxlCuGMtnMvVwzonmkNDyOw+N5xr2ZI3P8O1cj04mCEAE6/d2tGSU/o+EOyWVLWWw0R3hoduHvjAtuMbBt6WNCcsL51zWceiTcsl34acqd9Pya3lA52ZFRojME/R4zdTzMbvwrOEF3Up0eB58//+NM6k4tW+cBNAHDGgO8t7hcfSG/TnJLQ7Gigrn899dGbFeQMCEQf0zxMxfgYBDkADs0aza9N2QIXChgEDVFDvw0vE2m6b+bJfswmbrhNEIM//95XpMv68HEP3jCTwFEehattwHjyYE4fJoH3OtPO++pDiZltaxdizfFD6WmTO+v4qub1QfpUEXWHzG6nqDA9MioigiTRdRAb4PEMioBCJS5/gel+PGRja1cR1NtBjl4RKpSPstwrmczG8qKQrn2Zjwkz8f4OdnEBKRLaWzb/hVDAQgqRfUyohEdnQyocaYsnB5lJoMSp93QCzwAuHYueyMh2fNpcemWGfs58wrZr5VFSBaQDYv/HjsNntoPaCDpoQIV9DJKiqQsiYMblsz/Mdbnlfd1vI5X69TVPvItzh26zXjgpFBKsiFDOtvd3bNe92XnTH3jiDgBQbqoL6jUbvhNQapqRUZxovWk30UQ0YTQnqODkorKdrEB1IeNhKt0epurJG/G7A6DQ6/6lZ7pAwlYVlfXzFgZOGNb1Hs52j2F+sGvgWY00BAH1eHtpHPPdckL25JMKai3QDQUAVBxAI8njCmcNUPfl9kDZe62QMNJwaZKD9eaOjNrdVsKjah9gkiWL8BnDxJeGErZyrvKhyqg0fwNvyn8wEfeUlwRzfDysrvjdBz3","jar":"./jar/fmpg.jar"},
+      // //"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/kkpans.js",
+       // "ext":"./lib/kkpans.js",
+      // "quickSearch": 1,
+      // "changeable": 1,
+      // "timeout": 30
+      
+    // },
+    // // {
+        // // "key":"drpy_js_校长影视",
+        // // "name":"校长影视[js]",
+        // // "type":3,
+        // // "api":"https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
+        // // "api":"./lib/drpy2.min.js",
+        // // "ext":"https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/xzys.js", 
+        // //"ext":"./lib/xzys.js",
+         // // "quickSearch":1, 
+        // // "changeable":1, 
+        // // "timeout":30,
+         // // "jar":"./jar/fmpg.jar"
+    // // }, 
+    // {
+      // "key": "drpy_js_mp4us",
+      // "name": "🧲Mp4电影[js]",
+      // "type": 3,
+     // // "api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
+       // "api":"./lib/drpy2.min.js",
+      // //"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/mp4us.js",
+      // "ext":"./lib/mp4us.js",
+       // "quickSearch": 1,
+      // "changeable": 1,
+      // "timeout": 30
+     
+    // },
+    // {
+      // "key": "drpy_js_jiyingw",
+      // "name": "🧲极影网[js]",
+      // "type": 3,
+      // //"api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
+      // "api":"./lib/drpy2.min.js",
+      // //"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/jiyingw.js",
+         // "ext":"./lib/jiyingw.js",
+      // "quickSearch": 1,
+      // "changeable": 1,
+      // "timeout": 30
+     
+    // },
+    // {
+      // "key": "drpy_js_dygang",
+      // "name": "🧲电影港[js]",
+      // "type": 3,
+      // //"api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
+      // "api":"./lib/drpy2.min.js",
+       // //"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/dygang.js",
+       // "ext":"./lib/dygang.js",
+       // "quickSearch": 1,
+      // "changeable": 1,
+      // "timeout": 30
+      
+    // },
+    // {
+      // "key": "drpy_js_kuba",
+      // "name": "🧲酷吧电影[js]",
+      // "type": 3,
+     // // "api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
+       // "api":"./lib/drpy2.min.js",
+      // // "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/kuba.js",
+       // "ext":"./lib/kuba.js",
+      // "quickSearch": 1,
+      // "changeable": 1,
+      // "timeout": 30
+     
+    // },
+    // {
+      // "key": "drpy_js_meijumi",
+      // "name": "🧲美剧迷[js]",
+      // "type": 3,
+      // //"api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
+      // "api":"./lib/drpy2.min.js",
+       // //"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/meijumi.js",
+       // "ext":"./lib/meijumi.js",
+      // "quickSearch": 1,
+      // "changeable": 1,
+      // "timeout": 30
+     
+    // },
+    // {
+      // "key": "drpy_js_xb6v",
+      // "name": "🧲新6V[js]",
+      // "type": 3,
+      // //"api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
+      // "api":"./lib/drpy2.min.js",
+       // //"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/xb6v.js",
+       // "ext":"./lib/xb6v.js",
+       // "quickSearch": 1,
+      // "changeable": 1,
+      // "timeout": 30
+    // },
+    {"key":"樱花","name":"樱花PG","type":3,"api":"csp_Appto","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":"qebgGqODxKrWujD2TaoZoyh6aeYntZLsTaZW8MQvVNORiHLLi/o/cEEEXkSs1vfHEuiURxMTr9zL2Kwbffz2pDvLCamrK1tuxIcczsaI7cfsAh5gcgyzOOdZUszoU45ZgS9Bi4HZ3RDHZAWEqP0JyTaH32oDxgO9nx/xhe1xyVRyj9y5gkfPVt2AP94I8/DwDI9CEstcPzGfRNHYxlCuGMtnMvVwzonmkNDyOw+N5xr2ZI3P8O1cj04mCEAE6/d2tGSU/o+EOyWVLWWw0R3hoduHvjAtuMbBt6WNCcsL51zWceiTcsl34acqd9Pya3lA52ZFRojME/R4zdTzMbvwrOEF3Up0eB58//+NM6k4tW+cBNAHDGgO8t7hcfSG/TnJLQ7Gigrn899dGbFeQMCEQf0zxMxfgYBDkADs0aza9N2QIXChgEDVFDvw0vE2m6b+bJfswmbrhNEIM//95XpMv68HEP3jCTwFEehattwHjyYE4fJoH3OtPO++pDiZltaxdizfFD6WmTO+v4qub1QfpUEXWHzG6nqDA9MioigiTRdRAb4PEMioBCJS5/gel+PGRja1cR1NtBjl4RKpSPstwrmczG8qKQrn2Zjwkz8f4OdnEBKRLaWzb/hVDAQgqRfUyohEdnQyocaYsnB5lJoMSp93QCzwAuHYueyMh2fNpcemWGfs58wrZr5VFSBaQDYv/HjsNntoPaCDpoQIV9DJKiqQsiYMblsz/Mdbnlfd1vI5X69TVPvItzh26zXjgpFBKsiFDOtvd3bNe92XnTH3jiDgBQbqoL6jUbvhNQapqRUZxovWk30UQ0YTQnqODkorKdrEB1IeNhKt0epurJG/G7A6DQ6/6lZ7pAwlYVlfXzFgZOGNb1Hs52j2F+sGvgWY00BAH1eHtpHPPdckL25JMKai3QDQUAVBxAI8njCmcNUPfl9kDZe62QMNJwaZKD9eaOjNrdVsKjah9gkiWL8BnDxJeGErZyrvKhyqg0fwNvyn8wEfeUlwRzfDysrvjdBz3"},
 	{
 			"key": "索尼",
 			"name": "索尼 ",
@@ -1567,7 +1545,7 @@
 
     {"key": "push_agent","name": "🛴手机┃推送","type": 3,"api": "csp_Push","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "http://127.0.0.1:9978/file/tvfan/pgts.json","jar":"./jar/fmpg.jar"},
 	//{"key":"应用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/market.json","style":{"type":"rect","ratio":1},"jar":"./jar/fmpg.jar"},
-	{"key":"应用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"./lib/market.json","style":{"type":"rect","ratio":1},"jar":"./jar/fmpg.jar"},
+	{"key":"应用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"./lib/market.json","style":{"type":"rect","ratio":1}},
 
 ##动漫
 
