@@ -1,0 +1,61 @@
+[
+    
+
+     
+    {
+        "name": "ii",
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/zx/main/iptv/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/l.txt"
+    },
+    {
+        "name": "gather",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/smm2019/YanG-1989-m3u/main/Gather.m3u"
+    },
+    {
+        "name": "Ray0直播",
+        "url": "https://xhdwc.tk/tvlive.txt"
+    },
+    {
+        "name":"范明明IPV6",
+        "url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u"
+    },
+    {
+        "name": "kk",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/smm2019/zx/main/iptv/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/kk.txt"
+    },
+         {
+          "name": "直播ipv6",
+          "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xinyi1984/xytv/master/txt/live.txt"
+
+        },
+        {
+          "name": "直播",
+          
+          "url": "http://home.jundie.top:81/ray/tvlive.txt"
+          
+        },
+        {
+          "name": "whpsky-chinatv",
+
+          "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/whpsky/iptv/main/chinatv.m3u"
+          
+        },
+        {
+          "name": " YueChan IPv6",
+
+          "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u"
+
+        },
+        {
+          "name": "APTV IPv6",
+          
+          "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u"
+
+        },
+        {
+          "name": "ZHG IPv6",
+      
+          "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhanghongguang/zhanghongguang.github.io/main/IPV6_IPTV.m3u"
+
+        }
+        
+]
