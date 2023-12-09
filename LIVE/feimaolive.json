@@ -1,23 +1,20 @@
 [
     
 
-     
-    {
-        "name": "ii",
-        "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/zx/main/iptv/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/l.txt"
+     {
+        "name":"范明明IPV6",
+        "url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u"
     },
+
     {
         "name": "gather",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/smm2019/YanG-1989-m3u/main/Gather.m3u"
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/YanG-1989-m3u/main/Gather.m3u"
     },
     {
         "name": "Ray0直播",
         "url": "https://xhdwc.tk/tvlive.txt"
     },
-    {
-        "name":"范明明IPV6",
-        "url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u"
-    },
+    
     {
         "name": "kk",
         "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/smm2019/zx/main/iptv/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/kk.txt"
@@ -54,8 +51,12 @@
         {
           "name": "ZHG IPv6",
       
-          "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhanghongguang/zhanghongguang.github.io/main/IPV6_IPTV.m3u"
+          "url": "./zhanghg.txt"
 
-        }
+        },
+            {
+        "name": "ii",
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/zx/main/iptv/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/l.txt"
+    }
         
 ]
