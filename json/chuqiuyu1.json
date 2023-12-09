@@ -1,5 +1,6 @@
 {
 "class":[
+{"type_name":"演唱会","type_id":"演唱会4K"},
 {"type_name":"帕梅拉","type_id":"帕梅拉"},
 {"type_name":"太极拳","type_id":"太极拳"},
 {"type_name":"实用教程","type_id":"实用教程"},
@@ -9,7 +10,6 @@
 {"type_name":"音乐","type_id":"音乐"},
 {"type_name":"歌曲","type_id":"歌曲"},
 {"type_name":"MV","type_id":"MV4K"},
-{"type_name":"演唱会","type_id":"演唱会4K"},
 {"type_name":"白噪音","type_id":"白噪音4K"},
 {"type_name":"知名UP主","type_id":"知名UP主"},
 {"type_name":"说案","type_id":"说案"},
