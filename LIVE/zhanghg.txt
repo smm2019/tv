@@ -103,6 +103,78 @@ http://[2409:8087:2001:20:2800:0:df6e:eb13]/ott.mobaibox.com/PLTV/4/224/32212282
 http://[2409:8087:2001:20:2800:0:df6e:eb11]/ott.mobaibox.com/PLTV/4/224/3221227506/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.nettvpro.live/uploads/allimg/20/1-200614200Q30-L.jpg" group-title="4K",纯享4K
 http://[2409:8087:2001:20:2800:0:df6e:eb25]/ott.mobaibox.com/PLTV/4/224/3221228472/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南乡村 4M1080
+http://[2409:8087:4402:20:1:1216:401:37]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226443/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南乡村 4M1080
+http://[2409:8087:4402:20:1:1216:401:2e]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226576/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南公共 4M1080
+http://[2409:8087:4402:20:1:1216:401:2a]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226566/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南公共 4M1080
+http://[2409:8087:4400:20:1:70f:1011:16]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226441/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南功夫 4M1080
+http://[2409:8087:4402:20:1:1216:401:10]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226440/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南功夫 4M1080
+http://[2409:8087:4402:20:1:1216:401:40]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226692/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南国际 4M1080
+http://[2409:8087:4400:20:1:70f:1011:16]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226434/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南国际 4M1080
+http://[2409:8087:4400:20:1:a0f:12:3c]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226588/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南戏曲 4M1080
+http://[2409:8087:4400:20:1:a0f:12:e]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226438/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南戏曲 4M1080
+http://[2409:8087:4402:20:1:1216:401:39]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226561/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南文博 4M1080
+http://[2409:8087:4402:20:1:1216:401:37]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226447/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南文博 4M1080
+http://[2409:8087:4400:20:1:a0f:12:35]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226638/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南新闻 4M1080
+http://[2409:8087:4402:20:1:1216:401:3b]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226544/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南新闻 4M1080
+http://[2409:8087:4400:20:1:a0f:12:e]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226439/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南民生 4M1080
+http://[2409:8087:4402:20:1:1216:401:14]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226433/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南民生 4M1080
+http://[2409:8087:4402:20:1:1216:401:45]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226685/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南法治 4M1080
+http://[2409:8087:4400:20:1:a0f:12:e]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226435/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南法治 4M1080
+http://[2409:8087:4400:20:1:a0f:12:35]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226724/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南电视剧 4M1080
+http://[2409:8087:4400:20:1:a0f:12:e]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226437/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南电视剧 4M1080
+http://[2409:8087:4402:20:1:1216:401:39]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226521/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南睛彩中原 4M1080
+http://[2409:8087:4402:20:1:1216:401:14]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226445/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南睛彩中原 4M1080
+http://[2409:8087:4400:20:1:a0f:12:23]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226589/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南移动戏曲 4M1080
+http://[2409:8087:4402:20:1:1216:401:14]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226436/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南移动戏曲 4M1080
+http://[2409:8087:4400:20:1:a0f:12:33]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226628/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南移动电视 4M1080
+http://[2409:8087:4402:20:1:1216:401:2d]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226871/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南都市 4M1080
+http://[2409:8087:4400:20:1:a0f:12:e]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226430/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",河南都市 4M1080
+http://[2409:8087:4402:20:1:1216:401:3e]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226649/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",健康中原 4M1080
+http://[2409:8087:4402:20:1:1216:401:2f]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227110/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",郑州商都 4M1080
+http://[2409:8087:4402:20:1:1216:401:17]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226402/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",郑州商都 4M1080
+http://[2409:8087:4402:20:1:1216:401:30]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226650/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",郑州文体旅游 4M1080
+http://[2409:8087:4402:20:1:1216:401:17]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226407/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",郑州文体旅游 4M1080
+http://[2409:8087:4402:20:1:1216:401:44]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226627/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",郑州新闻综合 4M1080
+http://[2409:8087:4402:20:1:1216:401:17]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226404/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",郑州新闻综合 4M1080
+http://[2409:8087:4400:20:1:a0f:12:2a]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226618/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",郑州都市生活 2M1080
+http://[2409:8087:4402:20:1:1216:401:13]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226400/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="河南",郑州都市生活 2M1080
+http://[2409:8087:4402:20:1:1216:401:39]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226708/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="江苏地方",赣榆综合
 http://[2409:8087:2001:20:2800:0:df6e:eb03]:80/ott.mobaibox.com/PLTV/4/224/3221228317/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="江苏地方",宝应生活
