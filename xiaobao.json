@@ -4,8 +4,8 @@
         {
             "name": "河南移动ipv6",
             "type": 0,
-            //"url": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/MyIPTV/master/%E6%B2%B3%E5%8D%97PLTV%E7%A7%BB%E5%8A%A8CDN%E4%BF%AE%E6%94%B9%E7%89%88IPv6.txt",
-             "url": "./LIVE/河南PLTV移动CDN修改版IPv6.txt",
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/MyIPTV/master/%E6%B2%B3%E5%8D%97PLTV%E7%A7%BB%E5%8A%A8CDN%E4%BF%AE%E6%94%B9%E7%89%88IPv6.txt",
+             //"url": "./LIVE/河南PLTV移动CDN修改版IPv6.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
@@ -13,16 +13,16 @@
         {
             "name": "贵州移动",
             "type": 0,
-            //"url": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/MyIPTV/master/%E8%B4%B5%E5%B7%9EPLTV%E7%A7%BB%E5%8A%A8CDN%E7%89%88.txt",
-            "url": "./LIVE/贵州PLTV移动CDN版.txt",
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/MyIPTV/master/%E8%B4%B5%E5%B7%9EPLTV%E7%A7%BB%E5%8A%A8CDN%E7%89%88.txt",
+           // "url": "./LIVE/贵州PLTV移动CDN版.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
         {
             "name": "陕西移动",
             "type": 0,
-            //"url": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/MyIPTV/master/%E9%99%95%E8%A5%BFPLTV%E7%A7%BB%E5%8A%A8CDN%E7%89%88.txt",
-            "url":"./LIVE/陕西PLTV移动CDN版.txt",
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/MyIPTV/master/%E9%99%95%E8%A5%BFPLTV%E7%A7%BB%E5%8A%A8CDN%E7%89%88.txt",
+          //  "url":"./LIVE/陕西PLTV移动CDN版.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
@@ -31,21 +31,21 @@
             "type": 0,
             "playtype":1,
             //"url": "https://jihulab.com/songxiaobao/m3u/-/raw/9b49cfec90936bf6cc93cf1640a21a14881dc1db/Gather.m3u",
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/YanG-1989-m3u/main/Gather.m3u",
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/YanG-1989-m3u/main/Gather.m3u",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
         {
             "name": "kk",
             "type": 0,
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/zx/main/iptv/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/kk.txt",
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/zx/main/iptv/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/kk.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
         {
             "name": "ii",
             "type": 0,
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/zx/main/iptv/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/l.txt",
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/zx/main/iptv/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/l.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
@@ -1121,7 +1121,7 @@
 
 
 
-    {"key": "push_agent","name": "🛴手机┃推送","type": 3,"api": "csp_Push","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "http://127.0.0.1:9978/file/tvfan/pgts.json","jar":"./jar/fmpg.jar"},
+    {"key": "push_agent","name": "🛴手机┃推送","type": 3,"api": "csp_Push","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "http://127.0.0.1:9978/file/tvfan/pgts.json"},
 	//{"key":"应用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/market.json","style":{"type":"rect","ratio":1},"jar":"./jar/fmpg.jar"},
 	{"key":"应用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"./lib/market.json","style":{"type":"rect","ratio":1}},
 
