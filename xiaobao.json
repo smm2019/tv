@@ -2,6 +2,13 @@
 "spider": "./jar/fmpg.jar;md5;b3189d8b2877b948f8c8303d11e671bc",
 "lives":[
         {
+          "name": "ZHG IPv6",
+          "type": 0,
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt"
+           "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+           "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
             "name": "河南移动ipv6",
             "type": 0,
             "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/MyIPTV/master/%E6%B2%B3%E5%8D%97PLTV%E7%A7%BB%E5%8A%A8CDN%E4%BF%AE%E6%94%B9%E7%89%88IPv6.txt",
