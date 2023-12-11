@@ -566,16 +566,19 @@
       // "changeable":0,
       // "ext":"./js/alistxy.json"
       // },
-     {
-      "key": "Alist",
-      "name": "Alist网盘2",
-      "type": 3,
-      "api": "./lib/alist.min.js",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./lib/alist2.json;200;video"
-    },
+     // {
+      // "key": "Alist",
+      // "name": "Alist网盘2",
+      // "type": 3,
+      // "api": "./lib/alist.min.js",
+      // "searchable": 0,
+      // "quickSearch": 1,
+      // "filterable": 0,
+      // "ext": "./lib/alist2.json;200;video"
+    // },
+    // {"key":"drpy_js_Alist1","name":"Alist[js]1","type":3,"api":"./lib/alist.min.js","changeable":0,"ext":"./lib/alistxy.json", "jar": "./jar/fan.txt"},
+
+    {"key":"drpy_js_Alist2","name":"Alist[js]2","type":3,"api":"./lib/alist.min.js","changeable":0,"ext":"./lib/alist2.json", "jar": "./jar/fan.txt"},
     {
       "key": "csp_Alistxy",
       "name": "Alist网盘3",
