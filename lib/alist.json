@@ -3,7 +3,7 @@
         "name" : "🙋丫仙女",
         "server" : "http://60.204.156.46:5678/",
         "startPage" : "/",
-        "showAll" : true,
+        "showAll" : false,
         "search" : true
     },
     
