@@ -380,17 +380,29 @@
  
  
     ##直播
-      {
-      "key": "Yj1211",
-      "name": "直播┃聚合",
+    {
+      "key": "dr_JustLive",
+      "name": "FourInOne┃直播",
+      "style": {
+        "type": "rect",
+        "ratio": 1.755
+      },
       "type": 3,
-      "api": "csp_Yj1211",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "jar":"./jar/fan.txt"
-      
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/JustLive.js"
     },
+      // {
+      // "key": "Yj1211",
+      // "name": "直播┃聚合",
+      // "type": 3,
+      // "api": "csp_Yj1211",
+      // "searchable": 0,
+      // "quickSearch": 0,
+      // "filterable": 0,
+      // "jar":"./jar/fan.txt"
+      
+    // },
     //https://agit.ai/1018610504/ycabao/src/branch/master/XC.json
     //https://notabug.org/chuqiuyu/gao
     
@@ -629,7 +641,33 @@
     {"key":"csp_Bttoo","name":"2个bt","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"changeable":1 ,"jar":"./jar/fan.txt"},
  //  {"key":"csp_Auete","name":"🐼┃Auete┃影视","type": 3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/fan.txt"},
         {"key": "csp_XYQBiu_石榴电影","name":"石榴电影","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/石榴电影.json", "jar":"./jar/XYQ.jar"},
-    
+    {
+      "key": "caiji_龙龙工场",
+      "name": "🐉龙龙☆采集",
+      "type": 1,
+      "api": "http://110.42.99.99:3976/api.php/provide/vod/at/json/",
+      "playUrl": "json:http://yh.xn--yi7aa.top:3977/home/api?type=ys&uid=25818&key=adeilmtBFGMNQRU178&url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "飞云",
+      "name": "⛅飞云┃切片",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/fy.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "js_v2-jrly",
+      "name": "📯嘉靓┃切片",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/嘉靓.js"
+    },
      {
       "key": "csp_xBPQ_疯狗",
       "name": "疯狗影视",
@@ -962,7 +1000,17 @@
       // "ext": "./lib/南瓜.js"
     // },
 
-
+    //小暴脾气
+        {
+			"key": "赞赞",
+			"name": "赞赞┃切片",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"ext": "./lib/zanzan.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0
+		},
     {
       "key": "耐看",
       "name": "耐看┃点播",
