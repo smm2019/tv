@@ -1,0 +1,18 @@
+[
+        {
+        "name" : "🙋丫仙女",
+        "server" : "http://60.204.156.46:5678/",
+        "startPage" : "/",
+        "showAll" : true,
+        "search" : true
+    },
+    
+        
+        {
+        "name" : "✨星梦",
+        "server" : "https://pan.bashroot.top",
+        "startPage" : "/",
+        "showAll" : false,
+        "search" : false
+    }
+    ]
