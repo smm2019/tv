@@ -1,5 +1,5 @@
 {
-"spider": "./jar/fmpg.nogo.jar;md5;3472f6d77c3ec2b2655db41563106e25",
+"spider": "./jar/pg.nogo.jar;md5;d3d68f7132bf7536c37a9cea6240d1f1",
 "lives":[
         {
           "name": "ZHG IPv6",
@@ -345,7 +345,7 @@
     #官方源
    //{"key":"360_spider","name":"🐞360影视","type":3,"api":"csp_SP360","filterable":1,"quickSearch":1,"searchable":1,"jar":"./jar/XYQ.jar"},
 
-   {"key":"csp_SP33","name":"360官源","type":3,"api":"csp_SP33","searchable":1,"quickSearch":1,"filterable":1,"changeable":1 ,"jar":"./jar/fan.txt"},
+ //  {"key":"csp_SP33","name":"360官源","type":3,"api":"csp_SP33","searchable":1,"quickSearch":1,"filterable":1,"changeable":1 ,"jar":"./jar/fan.txt"},
     
      //https://agit.ai/laozou/laoZitest/raw/branch/main/tvbox.json
  
@@ -614,7 +614,7 @@
 ##优质在线源
 //https://agit.ai/1018610504/wdck/raw/branch/master/tvbox.json
    // {"key":"Czsapp","name":"📔厂长┃直连","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://www.czz9.com/"},
-    {"key":"csp_Bttoo","name":"2个bt","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"changeable":1 ,"jar":"./jar/fan.txt"},
+   // {"key":"csp_Bttoo","name":"2个bt","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"changeable":1 ,"jar":"./jar/fan.txt"},
  //  {"key":"csp_Auete","name":"🐼┃Auete┃影视","type": 3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/fan.txt"},
         {"key": "csp_XYQBiu_石榴电影","name":"石榴电影","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/石榴电影.json", "jar":"./jar/XYQ.jar"},
     
@@ -637,12 +637,12 @@
       "ext": "./lib/saohuo.js"
     },
     {
-      "key": "小胡子",
+      "key": "小胡",
       "name": "小胡子",
       "type": 1,
       "playerType": 1,
-      "api": "http://d.xzam.cn/api.php/provide/vod/"
-      //"jar": "https://agit.ai/1018610504/wdck/raw/branch/master/jar/xiaohu.jar"
+      "api": "http://c.小胡.icu/api.php/provide/vod/"
+      //"jar": "http://xiaohu.xzam.cn/jar/1.jar"
     },
           {
       "key": "csp_好戏",
