@@ -379,6 +379,19 @@
 			// },
 			// "ext":"./pgts.json"
 		// },
+		{
+			"key": "网盘及彈幕配置",
+			"name": "网盘及彈幕配置",
+			"type": 3,
+			"api": "csp_Config",
+			"searchable": 0,
+			"changeable": 0,
+			"style": {
+				"type": "rect",
+				"ratio": 1
+			},
+			"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"
+		},
         {
             "key": "csp_KungFu404",
             "name": "💖阿里tok设置",
