@@ -1,5 +1,5 @@
 {
-"spider": "./jar/pg.jar;md5;6633b55ad0494d70281c024fbd5f0b30",
+"spider": "./jar/pg.jar;md5;ac32a1b3aed750c3689aa908c981a4fa",
 "lives":[
         {
           "name": "ZHG IPv6",
@@ -10,6 +10,7 @@
            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
            "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
+        {"name":"央视频嗅探","ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0","type":0,"timeout": 40,"url":"./LIVE/ysp.m3u","boot":false},
         {
             "name": "河南移动ipv6",
             "type": 0,
@@ -416,8 +417,8 @@
     
     ##阿里网盘搜索
      {
-			"key": "獲取阿里云盤Token",
-			"name": "獲取阿里云盤Token",
+			"key": "网盘及彈幕配置",
+			"name": "网盘及彈幕配置",
 			"type": 3,
 			"api": "csp_Config",
 			"searchable": 0,
@@ -562,7 +563,9 @@
 	{"key":"YunPanOne","name":"🔎云盘资源","type":3,"api":"csp_YunPanOne","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
 	//{"key":"Funletu","name":"趣盘搜|夸克","type":3,"api":"csp_Funletu","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json"},
 	{"key":"QuarkPanso","name":"🔎夸克盘搜","type":3,"api":"csp_QuarkPanso","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
-
+    {"key":"Panta","name":"🔎盘Ta网盘","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://www.91panta.cn/$$$null$$$1"},
+    {"key":"Pan99","name":"🔎盘99网盘","type":3,"api":"csp_Pan99","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://pan99.xyz$$$null$$$1"},
+	
     {
       "key": "drpy_js_愛盤搜",
       "name": "🔎k爱盘搜PG[js]",
@@ -645,7 +648,8 @@
       "changeable":0,
       "ext":"./js/alist农业.json"
       },
-
+    {"key":"PikPakShare","name":"PikPak分享","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$http://127.0.0.1:9978/file/tvfan/pikpakclass.json$$$http://127.0.0.1:9978/file/tvfan/pikpakclass.json.txt"},
+	
     
 ##优质在线源
 //https://agit.ai/1018610504/wdck/raw/branch/master/tvbox.json
@@ -654,16 +658,7 @@
  //  {"key":"csp_Auete","name":"🐼┃Auete┃影视","type": 3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/fan.txt"},
         {"key": "csp_XYQBiu_石榴电影","name":"石榴电影","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/石榴电影.json", "jar":"./jar/XYQ.jar"},
     //{"key": "在线之家","name": "📗在线直连4k","type": 3,"api": "csp_Zxzj","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.zxzj.pro/","jar":"./jar/panda.jar"},
-    {
-      "key": "飞云",
-      "name": "⛅飞云┃切片",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/fy.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
+
     {
       "key": "js_v2-jrly",
       "name": "📯嘉靓┃切片",
@@ -766,43 +761,7 @@
       "ext": "https://jihulab.com/qiaoji/open/-/raw/main/sili",
        "jar":"./jar/fix1209.jar"
     },
-        {
-      "key": "侠客",
-      "name": "侠客┃App",
-      "type": 3,
-      "api": "csp_qiao",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playerType": 2,
-      "filterable": 1,
-      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/heihei",
-         "jar":"./jar/fix1209.jar"
-     
-    },
-    {
-      "key": "超神",
-      "name": "超神┃App",
-      "type": 3,
-      "api": "csp_qiao",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playerType": 2,
-      "filterable": 1,
-      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/chaoshen",
-            "jar":"./jar/fix1209.jar"
-    },
-    {
-      "key": "云云",
-      "name": "云云┃App",
-      "type": 3,
-      "api": "csp_qiao",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playerType": 2,
-      "filterable": 1,
-      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/laohu",
-           "jar":"./jar/fix1209.jar"
-    },
+        
         //荷城
     {
       "key": "csp_圣城",

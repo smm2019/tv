@@ -1,5 +1,5 @@
 {
-"spider": "./jar/pg.nogo.jar;md5;d3d68f7132bf7536c37a9cea6240d1f1",
+"spider": "./jar/pg.jar;md5;ac32a1b3aed750c3689aa908c981a4fa",
 "lives":[
         {
           "name": "ZHG IPv6",
@@ -509,6 +509,12 @@
     // {"key":"小紙條", "name": "🔎小紙條PG", "type": 3, "api": "csp_XiaoZhiTiao", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1" , "timeout":30},
     // // {"key":"Dovx", "name": "🔎DovxPG", "type": 3, "api": "csp_Dovx", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
 	// {"key":"易搜","name":"🔎易搜PG","type":3,"api":"csp_YiSo","ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294"},
+    {"key":"YunSo","name":"🔎小云搜索","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
+	{"key":"YunPanOne","name":"🔎云盘资源","type":3,"api":"csp_YunPanOne","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
+	//{"key":"Funletu","name":"趣盘搜|夸克","type":3,"api":"csp_Funletu","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json"},
+	{"key":"QuarkPanso","name":"🔎夸克盘搜","type":3,"api":"csp_QuarkPanso","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
+    {"key":"Panta","name":"🔎盘Ta网盘","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://www.91panta.cn/$$$null$$$1"},
+    {"key":"Pan99","name":"🔎盘99网盘","type":3,"api":"csp_Pan99","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://pan99.xyz$$$null$$$1"},
 	
      {
       "key": "drpy_js_愛盤搜",
@@ -712,43 +718,6 @@
       "playerType": 2,
       "ext": "https://jihulab.com/qiaoji/open/-/raw/main/sili",
        "jar":"./jar/fix1209.jar"
-    },
-        {
-      "key": "侠客",
-      "name": "侠客┃App",
-      "type": 3,
-      "api": "csp_qiao",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playerType": 2,
-      "filterable": 1,
-      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/heihei",
-         "jar":"./jar/fix1209.jar"
-     
-    },
-    {
-      "key": "超神",
-      "name": "超神┃App",
-      "type": 3,
-      "api": "csp_qiao",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playerType": 2,
-      "filterable": 1,
-      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/chaoshen",
-            "jar":"./jar/fix1209.jar"
-    },
-    {
-      "key": "云云",
-      "name": "云云┃App",
-      "type": 3,
-      "api": "csp_qiao",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playerType": 2,
-      "filterable": 1,
-      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/laohu",
-           "jar":"./jar/fix1209.jar"
     },
         //荷城
     {
