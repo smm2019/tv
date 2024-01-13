@@ -7,6 +7,20 @@
 
     },
     {
+          "name": "虎牙一起看",
+           "url": "https://live.freetv.top/huyayqk.m3u?url=https://lunbo.freetv.top"
+        },
+    {
+          "name": "斗鱼一起看",
+        "url": "https://live.freetv.top/douyuyqk.m3u?url=https://lunbo.freetv.top"
+        
+    },
+        {
+          "name": "yy轮播",
+          "url": "https://live.freetv.top/yylunbo.m3u?url=https://lunbo.freetv.top"
+        
+        },
+    {
         "name": "gather",
         "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/YanG-1989-m3u/main/Gather.m3u"
     },

@@ -1,0 +1,66 @@
+#EXTM3U
+#EXTINF:-1 group-title="河南频道",河南都市
+video://https://www.hndyjyfw.gov.cn/livePlay.html?u=14
+#EXTINF:-1 group-title="河南频道",河南民生
+video://https://www.hndyjyfw.gov.cn/livePlay.html?u=16
+#EXTINF:-1 group-title="河南频道",河南梨园
+video://https://www.hndyjyfw.gov.cn/livePlay.html?u=17
+#EXTINF:-1 group-title="河南频道",河南卫视
+video://http://www.guangbomi.com/tv/henan/weishi.html
+#EXTINF:-1 group-title="河南频道",河南武术
+video://http://www.guangbomi.com/tv/henan/hnwssj.html
+#EXTINF:-1 group-title="河南频道",河南梨园
+video://https://www.hndyjyfw.gov.cn/livePlay.html?u=17
+#EXTINF:-1 group-title="河南频道",河南文物
+video://http://www.guangbomi.com/tv/henan/hnwb.html
+#EXTINF:-1 group-title="河南频道",河南移动戏曲
+video://http://www.guangbomi.com/tv/henan/hnxq.html
+#EXTINF:-1 group-title="河南频道",河南梨园
+video://http://www.guangbomi.com/tv/henan/hnly.html
+#EXTINF:-1 group-title="河南频道",河南法制
+video://http://www.guangbomi.com/tv/henan/hnfz.html
+#EXTINF:-1 group-title="河南频道",河南电视剧
+video://http://www.guangbomi.com/tv/henan/hndsj.html
+#EXTINF:-1 group-title="河南频道",河南乡村
+video://http://www.guangbomi.com/tv/henan/hnnc.html
+#EXTINF:-1 group-title="河南频道",河南新闻
+video://http://www.guangbomi.com/tv/henan/hnxw.html
+#EXTINF:-1 group-title="河南频道",河南民生
+video://http://www.guangbomi.com/tv/henan/hnms.html
+#EXTINF:-1 group-title="河南频道",河南都市
+video://http://www.guangbomi.com/tv/henan/hnds.html
+#EXTINF:-1 group-title="央视频道",CCTV1综合
+video://https://www.hndyjyfw.gov.cn/livePlay.html?u=1
+#EXTINF:-1 group-title="央视频道",CCTV2财经频道
+video://http://www.guangbomi.com/tv/zy/cctv2
+#EXTINF:-1 group-title="央视频道",CCTV3综艺频道
+video://https://www.hndyjyfw.gov.cn/livePlay.html?u=2
+#EXTINF:-1 group-title="央视频道",CCTV4中文国际
+video://http://www.guangbomi.com/tv/zy/cctv4
+#EXTINF:-1 group-title="央视频道",CCTV5体育频道
+video://https://www.hndyjyfw.gov.cn/livePlay.html?u=3
+#EXTINF:-1 group-title="央视频道",CCTV6电影频道
+video://https://www.hndyjyfw.gov.cn/livePlay.html?u=4
+#EXTINF:-1 group-title="央视频道",CCTV7国防军事
+video://https://www.hndyjyfw.gov.cn/livePlay.html?u=5
+#EXTINF:-1 group-title="央视频道",CCTV8电视剧
+video://http://www.guangbomi.com/tv/zy/cctv8
+#EXTINF:-1 group-title="央视频道",CCTV9记录
+video://https://www.hndyjyfw.gov.cn/livePlay.html?u=6
+#EXTINF:-1 group-title="央视频道",CCTV10科教
+video://https://www.hndyjyfw.gov.cn/livePlay.html?u=7
+#EXTINF:-1 group-title="央视频道",CCTV11戏曲
+video://https://www.hndyjyfw.gov.cn/livePlay.html?u=8
+#EXTINF:-1 group-title="央视频道",CCTV12社会与法
+video://https://www.hndyjyfw.gov.cn/livePlay.html?u=9
+#EXTINF:-1 group-title="央视频道",CCTV13新闻
+video://https://www.hndyjyfw.gov.cn/livePlay.html?u=10
+#EXTINF:-1 group-title="央视频道",CCTV14少儿
+video://https://www.hndyjyfw.gov.cn/livePlay.html?u=11
+#EXTINF:-1 group-title="央视频道",CCTV15音乐
+video://http://www.guangbomi.com/tv/zy/cctv15
+#EXTINF:-1 group-title="央视频道",CCTV16奥林匹克
+video://http://www.guangbomi.com/tv/zy/cctv16
+#EXTINF:-1 group-title="央视频道",CCTV17农村
+video://http://www.guangbomi.com/tv/zy/cctv17
+
