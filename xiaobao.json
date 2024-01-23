@@ -1,5 +1,5 @@
 {
-"spider": "./jar/pg.jar;md5;09e941c7eaedf03e7c43058f62315f76",
+"spider": "./jar/pg.jar;md5;3a4e885aa60dfdcc08099bef67796876",
 "lives":[
         {
           "name": "ZHG IPv6",
@@ -451,11 +451,11 @@
           // },
        // "jar":"./jar/fm.nogo.jar"
     // },
-    {"key":"csp_Bili","name":"哔哩弹幕","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"style":{"type":"rect","ratio":1.555},"filterable":1,"changeable":0,"ext":{"json":"./json/chuqiuyu1.json","cookie": "http://127.0.0.1:9978/file/tvbox/cookie.txt"}},
+    {"key":"csp_Bili","name":"哔哩弹幕","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"style":{"type":"rect","ratio":1.555},"filterable":1,"changeable":0,"ext":{"json":"https://github.vzss.link/https://raw.githubusercontent.com/smm2019/tv/master/json/chuqiuyu1.json","cookie": "http://127.0.0.1:9978/file/tvbox/cookie.txt"}},
 
     {
       "key": "py_huya",
-      "name": "🐯虎牙┃[PY]",
+      "name": "虎牙直播",
       "type": 3,
       "api": "./py/huya.py",
       "searchable": 0,
@@ -464,10 +464,10 @@
       "jar": "./jar/fan1023.txt;md5;8F8F0F3CB3D1C025746FFB35B22748A5"
     },
          	    
-     {"key":"py_m1905_FM","name":"M1905┃FM专用","type": 3,"api": "./py/m1905.py","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": ""},
+     {"key":"py_m1905_FM","name":"1905电影","type": 3,"api": "./py/m1905.py","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": ""},
      //{"key":"py_Bilibili","name":"哔哩|影视","type":3,"api":"./py/py_bilibili1222.py","searchable":1,"changeable":1,"ext":""},
 
-   {"key":"py_Bilibili2","name":"哔哩|影视2","type":3,"api":"./py/py_bilibili1213.py","searchable":1,"changeable":1,"ext":""},
+   {"key":"py_Bilibili2","name":"哔哩影视","type":3,"api":"./py/py_bilibili1213.py","searchable":1,"changeable":1,"ext":""},
 
 
      //https://agit.ai/laozou/laoZitest/raw/branch/main/tvbox.json
@@ -644,19 +644,20 @@
 
   //gty-pg
   	{"key":"Wogg","name":"🔎玩偶PG","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://wogg.xyz/$$$null$$$1"},
-	// {"key":"Hdhive","name":"🔎影巢PG","type":3,"api":"csp_Hdhive","quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
-     {"key":"校长影视","name":"🔎校长PG","type":3,"api":"csp_XiaoZhang", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
+	{"key":"影视车","name":"🔎影视车网盘","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},
+    {"key":"校长影视","name":"🔎校长PG","type":3,"api":"csp_XiaoZhang", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
 	{"key":"团长资源","name":"🔎团长PG","type":3,"api":"csp_TZFile", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
 	// {"key":"Wobg","name":"🔎表哥PG","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://wobge.run.goorm.io$$$1"},
     {"key":"小紙條", "name": "🔎小紙條PG", "type": 3, "api": "csp_XiaoZhiTiao", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1" , "timeout":30},
     // {"key":"Dovx", "name": "🔎DovxPG", "type": 3, "api": "csp_Dovx", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
-	{"key":"易搜","name":"🔎易搜PG","type":3,"api":"csp_YiSo","ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294"},
+	//{"key":"易搜","name":"🔎易搜PG","type":3,"api":"csp_YiSo","ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294"},
 	{"key":"YunSo","name":"🔎小云搜索","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
 	{"key":"YunPanOne","name":"🔎云盘资源","type":3,"api":"csp_YunPanOne","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
-	//{"key":"Funletu","name":"趣盘搜|夸克","type":3,"api":"csp_Funletu","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json"},
-	{"key":"QuarkPanso","name":"🔎夸克盘搜","type":3,"api":"csp_QuarkPanso","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
-    {"key":"Panta","name":"🔎盘Ta网盘","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://www.91panta.cn/$$$null$$$1"},
+    {"key":"QuarkPanso","name":"🔎夸克盘搜","type":3,"api":"csp_QuarkPanso","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
+    {"key":"Panta","name":"🔎盘Ta网盘","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://www.91panta.cn/$$$null"},
     {"key":"Pan99","name":"🔎盘99网盘","type":3,"api":"csp_Pan99","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://pan99.xyz$$$null$$$1"},
+	{"key":"Funletu","name":"🔎趣盘搜夸克","type":3,"api":"csp_Funletu","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
+    {"key":"混合盘","name":"🔎混合盘网盘","type":3,"api":"csp_HunHePan","timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
 	
     {
       "key": "drpy_js_愛盤搜",
@@ -671,19 +672,19 @@
       "timeout": 30
       
     },
-    {
-      "key": "drpy_js_趣盘搜",
-      "name": "🔎k趣盘搜PG[js]",
-      "type": 3,
-      //"api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
-       "api": "./lib/drpy2.min.js",
-     // "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/funletu.js",
-       "ext": "./lib/funletu.js",
-      "quickSearch": 1,
-      "changeable": 1,
-      "timeout": 30
+    // {
+      // "key": "drpy_js_趣盘搜",
+      // "name": "🔎k趣盘搜PG[js]",
+      // "type": 3,
+      // //"api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
+       // "api": "./lib/drpy2.min.js",
+     // // "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/funletu.js",
+       // "ext": "./lib/funletu.js",
+      // "quickSearch": 1,
+      // "changeable": 1,
+      // "timeout": 30
     
-    },
+    // },
     
     
     //https://mirror.ghproxy.com/raw.githubusercontent.com/okcaptain/okjar/rm/ok.json
@@ -754,7 +755,10 @@
       "ext":"./js/alist农业.json"
       },
     {"key":"PikPakShare","name":"PikPak分享","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$http://127.0.0.1:9978/file/tvfan/pikpakclass.json$$$http://127.0.0.1:9978/file/tvfan/pikpakclass.json.txt"},
-	
+	{"key":"AliShare","name":"阿里云盘分享","type":3,"api":"csp_AliShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$./lib/alishare.txt"},
+	{"key":"ThunderShare","name":"迅雷云盘分享","type":3,"api":"csp_ThunderShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$./lib/thundershare.txt"},
+	{"key":"QuarkShare","name":"夸克云盘分享","type":3,"api":"csp_QuarkShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$./lib/quarkshare.txt"},
+
     
 ##优质在线源
 //https://agit.ai/1018610504/wdck/raw/branch/master/tvbox.json
