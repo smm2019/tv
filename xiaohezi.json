@@ -603,21 +603,21 @@
 
 
   // //gty-pg
-  	// {"key":"Wogg","name":"🔎玩偶PG","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://wogg.xyz/$$$null$$$1"},
-	// // {"key":"Hdhive","name":"🔎影巢PG","type":3,"api":"csp_Hdhive","quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
-    // // {"key":"校长影视","name":"🔎校长PG","type":3,"api":"csp_XiaoZhang", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
-	// // {"key":"团长资源","name":"🔎团长PG","type":3,"api":"csp_TZFile", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
-	// // {"key":"Wobg","name":"🔎表哥PG","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://wobge.run.goorm.io$$$1"},
-    // {"key":"小紙條", "name": "🔎小紙條PG", "type": 3, "api": "csp_XiaoZhiTiao", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1" , "timeout":30},
-    // // {"key":"Dovx", "name": "🔎DovxPG", "type": 3, "api": "csp_Dovx", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
-	// {"key":"易搜","name":"🔎易搜PG","type":3,"api":"csp_YiSo","ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294"},
-    {"key":"YunSo","name":"🔎小云搜索","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
+    {"key":"Wogg","name":"🔎玩偶PG","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://wogg.xyz/$$$null$$$1"},
+	{"key":"影视车","name":"🔎影视车网盘","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},
+    {"key":"校长影视","name":"🔎校长PG","type":3,"api":"csp_XiaoZhang", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
+	{"key":"团长资源","name":"🔎团长PG","type":3,"api":"csp_TZFile", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
+	// {"key":"Wobg","name":"🔎表哥PG","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://wobge.run.goorm.io$$$1"},
+    {"key":"小紙條", "name": "🔎小紙條PG", "type": 3, "api": "csp_XiaoZhiTiao", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1" , "timeout":30},
+    // {"key":"Dovx", "name": "🔎DovxPG", "type": 3, "api": "csp_Dovx", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
+	//{"key":"易搜","name":"🔎易搜PG","type":3,"api":"csp_YiSo","ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294"},
+	{"key":"YunSo","name":"🔎小云搜索","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
 	{"key":"YunPanOne","name":"🔎云盘资源","type":3,"api":"csp_YunPanOne","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
-	//{"key":"Funletu","name":"趣盘搜|夸克","type":3,"api":"csp_Funletu","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json"},
-	{"key":"QuarkPanso","name":"🔎夸克盘搜","type":3,"api":"csp_QuarkPanso","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
-    {"key":"Panta","name":"🔎盘Ta网盘","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://www.91panta.cn/$$$null$$$1"},
+    {"key":"QuarkPanso","name":"🔎夸克盘搜","type":3,"api":"csp_QuarkPanso","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
+    {"key":"Panta","name":"🔎盘Ta网盘","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://www.91panta.cn/$$$null"},
     {"key":"Pan99","name":"🔎盘99网盘","type":3,"api":"csp_Pan99","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://pan99.xyz$$$null$$$1"},
-	
+	{"key":"Funletu","name":"🔎趣盘搜夸克","type":3,"api":"csp_Funletu","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
+    {"key":"混合盘","name":"🔎混合盘网盘","type":3,"api":"csp_HunHePan","timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
      {
       "key": "drpy_js_愛盤搜",
       "name": "🔎k爱盘搜PG[js]",
@@ -631,42 +631,30 @@
       "timeout": 30
       
     },
-    {
-      "key": "drpy_js_趣盘搜",
-      "name": "🔎k趣盘搜PG[js]",
-      "type": 3,
-      //"api": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js",
-       "api": "./lib/drpy2.min.js",
-     // "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/funletu.js",
-       "ext": "./lib/funletu.js",
-      "quickSearch": 1,
-      "changeable": 1,
-      "timeout": 30
-    
-    },
+
     
     
-    //https://mirror.ghproxy.com/raw.githubusercontent.com/okcaptain/okjar/rm/ok.json
-      {"key":"配置中心","name":"配置ok","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.43},
-    "jar":"./jar/ok.png"
-   },
-     // {"key":"玩偶弹幕版","name":"玩偶ok","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext": {
-      // "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
-      // "danmu" : false
-    // },
-     // "jar":"./jar/ok.png"
-    // },
-     {"key":"玩偶弹幕","name":"弹幕｜玩偶","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"filterable":1,"ext":{"token":"http://127.0.0.1:9978/file/tvbox/tok.txt","danmu":true},"jar":"./jar/ok.png"},
+    // //https://mirror.ghproxy.com/raw.githubusercontent.com/okcaptain/okjar/rm/ok.json
+      // {"key":"配置中心","name":"配置ok","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.43},
+    // "jar":"./jar/ok.png"
+   // },
+     // // {"key":"玩偶弹幕版","name":"玩偶ok","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext": {
+      // // "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
+      // // "danmu" : false
+    // // },
+     // // "jar":"./jar/ok.png"
+    // // },
+     // {"key":"玩偶弹幕","name":"弹幕｜玩偶","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"filterable":1,"ext":{"token":"http://127.0.0.1:9978/file/tvbox/tok.txt","danmu":true},"jar":"./jar/ok.png"},
   
-    {"key":"csp_QuPanSou","name":"趣盘搜┃搜索","type":3,"api":"csp_QuPanSou","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"http://127.0.0.1:9978/file/tvbox/quark.txt", "danmu": true},
-    "jar":"./jar/ok.png"
-    },
-    {"key":"纸条搜索ok","name":"纸条ok","type":3,"api":"csp_XiaoZhiTiao","searchable":1,"filterable":1,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/tvbox/tok.txt", "danmu": false},
-    "jar":"./jar/ok.png"
-    },
-    {"key":"易搜索","name":"易搜ok","type":3,"api":"csp_YiSo","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/tvbox/tok.txt", "danmu": false, "cookie": "JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704;satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2"},
-    "jar":"./jar/ok.png"
-    },
+    // {"key":"csp_QuPanSou","name":"趣盘搜┃搜索","type":3,"api":"csp_QuPanSou","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"http://127.0.0.1:9978/file/tvbox/quark.txt", "danmu": true},
+    // "jar":"./jar/ok.png"
+    // },
+    // {"key":"纸条搜索ok","name":"纸条ok","type":3,"api":"csp_XiaoZhiTiao","searchable":1,"filterable":1,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/tvbox/tok.txt", "danmu": false},
+    // "jar":"./jar/ok.png"
+    // },
+    // {"key":"易搜索","name":"易搜ok","type":3,"api":"csp_YiSo","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/tvbox/tok.txt", "danmu": false, "cookie": "JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704;satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2"},
+    // "jar":"./jar/ok.png"
+    // },
     // {
       // "key":"drpy_js_Alist",
       // "name":"Alist网盘1",
