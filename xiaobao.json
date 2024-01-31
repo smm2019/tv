@@ -69,6 +69,76 @@
 
         {"name":"央视频嗅探","ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0","type":0,"timeout": 40,"url":"./LIVE/ysp.m3u","boot":false},
         {
+            "name": "appletv",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/hououinkami/AppleTV/main/Source/Gather.m3u",
+             //"url": "./LIVE/河南PLTV移动CDN修改版IPv6.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        
+        {
+            "name": "ghtgc",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/GhTGc/GhTGc.github.io/6935957f71e7efd9e229659063f832a9eac8e77d/zbdhj.txt",
+             //"url": "./LIVE/河南PLTV移动CDN修改版IPv6.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        
+        
+        {
+            "name": "jingyu8993",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/jingyu8993/jingyu8993/11837aaa4666ba541078a424fc12bbb7068f9f60/%E7%94%B5%E5%BD%B1%E9%A2%91%E9%81%93.txt",
+             //"url": "./LIVE/河南PLTV移动CDN修改版IPv6.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        
+        {
+            "name": "jingyu8993",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/jingyu8993/jingyu8993/11837aaa4666ba541078a424fc12bbb7068f9f60/%E5%B8%B8%E7%9C%8B%E7%BB%BC%E8%89%BA.txt",
+           // "url": "./LIVE/贵州PLTV移动CDN版.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "jy8993",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/jingyu8993/jingyu8993/11837aaa4666ba541078a424fc12bbb7068f9f60/%E5%A4%AE%E8%A7%86%E5%8D%AB%E8%A7%86.txt",
+          //  "url":"./LIVE/陕西PLTV移动CDN版.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "tvbox",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/helcddd/tvbox/8a66ab07dc3c65e7a5441ad061bedfea6c1b34f7/tv.txt",
+             //"url": "./LIVE/河南PLTV移动CDN修改版IPv6.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        
+        {
+            "name": "liwei342698",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/liwei342698/ip/50677e34b1532d5ec6975dc181fc20c4ea26caba/ip1",
+             //"url": "./LIVE/河南PLTV移动CDN修改版IPv6.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        
+        {
+            "name": "IPTVindex",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/tansuotv/IPTVindex/8f5c7b049e1f1f027cf8aaa3863782371a132db3/tv/tv.txt",
+             //"url": "./LIVE/河南PLTV移动CDN修改版IPv6.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
             "name": "河南移动ipv6",
             "type": 0,
             "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/MyIPTV/master/%E6%B2%B3%E5%8D%97PLTV%E7%A7%BB%E5%8A%A8CDN%E4%BF%AE%E6%94%B9%E7%89%88IPv6.txt",
@@ -416,7 +486,7 @@
         "api": "./lib/live2vod.js",
         "ext": "./LIVE/feimaolive.json"
     },
-//{"key":"豆豆","name":"豆瓣推荐饭","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0, "jar":"./jar/fan.txt"},
+    {"key":"豆豆","name":"豆瓣推荐饭","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0, "jar":"./jar/fan.txt"},
 
       // {
             // "key": "lf_js_search3",
@@ -428,15 +498,15 @@
             // "filterable": 0,
             // "api": "./js/lf_search3_min.js"
         // },     
-        {
-			"key": "豆瓣",
-			"name": "豆瓣",
-			"type": 3,
-			"api": "csp_Douban",
-			"searchable": 0,
-			"changeable": 1,
-			"ext": "./lib/douban.json"
-		},
+        // {
+			// "key": "豆瓣",
+			// "name": "豆瓣",
+			// "type": 3,
+			// "api": "csp_Douban",
+			// "searchable": 0,
+			// "changeable": 1,
+			// "ext": "./lib/douban.json"
+		// },
 
 //饭太硬
 //{"key":"豆豆","name":"豆瓣推荐饭","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
