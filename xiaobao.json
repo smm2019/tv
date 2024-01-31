@@ -610,7 +610,8 @@
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
-            "jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/%E9%98%BF%E9%87%8C%E8%AE%BE%E7%BD%AE.txt"
+            "jar": "./jar/阿里设置.txt"
+            //"jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/%E9%98%BF%E9%87%8C%E8%AE%BE%E7%BD%AE.txt"
         },
 
    
