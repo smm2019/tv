@@ -748,9 +748,9 @@
       "ext":"./js/alist农业.json"
       },
     {"key":"PikPakShare","name":"PikPak分享","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$http://127.0.0.1:9978/file/tvfan/pikpakclass.json$$$http://127.0.0.1:9978/file/tvfan/pikpakclass.json.txt"},
-	{"key":"AliShare","name":"阿里云盘分享","type":3,"api":"csp_AliShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$./lib/alishare.txt"},
-	{"key":"ThunderShare","name":"迅雷云盘分享","type":3,"api":"csp_ThunderShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$./lib/thundershare.txt"},
-	{"key":"QuarkShare","name":"夸克云盘分享","type":3,"api":"csp_QuarkShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$./lib/quarkshare.txt"},
+	// {"key":"AliShare","name":"阿里云盘分享","type":3,"api":"csp_AliShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$./lib/alishare.txt"},
+	// {"key":"ThunderShare","name":"迅雷云盘分享","type":3,"api":"csp_ThunderShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$./lib/thundershare.txt"},
+	// {"key":"QuarkShare","name":"夸克云盘分享","type":3,"api":"csp_QuarkShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$./lib/quarkshare.txt"},
 
     
 ##优质在线源
