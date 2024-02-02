@@ -1,7 +1,7 @@
 {
 "spider": "./jar/pg.jar;md5;ea41cde832b0f713e255ba3c88b40bbc",
 "lives":[
-        {
+                {
           "name": "ZHG IPv6",
           "type": 0,
          "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt",
@@ -17,6 +17,16 @@
 
         },
         {
+          "name": "虎牙",
+          "type": 0,
+        // "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt",
+           "url": "./LIVE/huyayqk.m3u",
+        
+           "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+          "logo":"https://epg.112114.xyz/logo/{name}.png"
+             
+        },
+        {
           "name": "测试嗅探",
           "type": 0,
         // "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt",
@@ -26,31 +36,31 @@
           "logo":"https://epg.112114.xyz/logo/{name}.png"
              
         },
-{
-          "name": "河南",
+        {
+          "name": "daiweichun",
           "type": 0,
         // "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt",
-           "url": "./LIVE/河南.m3u",
+           "url": "https://ghproxy.net/https://raw.githubusercontent.com/13174771/daiweichun/c284c5871e8457728ad4f888dd8bf449eb89da2e/TV.txt",
         
            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
           "logo":"https://epg.112114.xyz/logo/{name}.png"
              
         },
          {
-          "name": "河北",
+          "name": "tv2785",
           "type": 0,
         // "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt",
-           "url": "./LIVE/河北.m3u",
+           "url": "https://ghproxy.net/https://raw.githubusercontent.com/lmtf0379/TV2785/548d47ec892abe5f96f001434a053f3de0716d29/10010",
         
            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
           "logo":"https://epg.112114.xyz/logo/{name}.png"
              
         },
         {
-          "name": "四川",
+          "name": "zytv",
           "type": 0,
         // "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt",
-           "url": "./LIVE/四川.m3u",
+           "url": "https://agit.ai/wuheng42/wh/raw/commit/a45342155af20e89f336b93e5206abfee04d8a21/zytv",
         
            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
           "logo":"https://epg.112114.xyz/logo/{name}.png"
@@ -58,6 +68,76 @@
         },
 
         {"name":"央视频嗅探","ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0","type":0,"timeout": 40,"url":"./LIVE/ysp.m3u","boot":false},
+        {
+            "name": "appletv",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/hououinkami/AppleTV/main/Source/Gather.m3u",
+             //"url": "./LIVE/河南PLTV移动CDN修改版IPv6.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        
+        {
+            "name": "ghtgc",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/GhTGc/GhTGc.github.io/6935957f71e7efd9e229659063f832a9eac8e77d/zbdhj.txt",
+             //"url": "./LIVE/河南PLTV移动CDN修改版IPv6.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        
+        
+        {
+            "name": "jingyu8993",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/jingyu8993/jingyu8993/11837aaa4666ba541078a424fc12bbb7068f9f60/%E7%94%B5%E5%BD%B1%E9%A2%91%E9%81%93.txt",
+             //"url": "./LIVE/河南PLTV移动CDN修改版IPv6.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        
+        {
+            "name": "jingyu8993",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/jingyu8993/jingyu8993/11837aaa4666ba541078a424fc12bbb7068f9f60/%E5%B8%B8%E7%9C%8B%E7%BB%BC%E8%89%BA.txt",
+           // "url": "./LIVE/贵州PLTV移动CDN版.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "jy8993",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/jingyu8993/jingyu8993/11837aaa4666ba541078a424fc12bbb7068f9f60/%E5%A4%AE%E8%A7%86%E5%8D%AB%E8%A7%86.txt",
+          //  "url":"./LIVE/陕西PLTV移动CDN版.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "tvbox",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/helcddd/tvbox/8a66ab07dc3c65e7a5441ad061bedfea6c1b34f7/tv.txt",
+             //"url": "./LIVE/河南PLTV移动CDN修改版IPv6.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        
+        {
+            "name": "liwei342698",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/liwei342698/ip/50677e34b1532d5ec6975dc181fc20c4ea26caba/ip1",
+             //"url": "./LIVE/河南PLTV移动CDN修改版IPv6.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        
+        {
+            "name": "IPTVindex",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/tansuotv/IPTVindex/8f5c7b049e1f1f027cf8aaa3863782371a132db3/tv/tv.txt",
+             //"url": "./LIVE/河南PLTV移动CDN修改版IPv6.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
         {
             "name": "河南移动ipv6",
             "type": 0,
@@ -404,6 +484,7 @@
         "type": 3,
         "searchable": 0,
         "api": "./lib/live2vod.js",
+         "changeable":0,
         "ext": "./LIVE/feimaolive.json"
     },
     {"key":"豆豆","name":"豆瓣推荐饭","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0, "jar":"./jar/fan.txt"},
