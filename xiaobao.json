@@ -1,7 +1,8 @@
 {
 "spider": "./jar/pg.jar;md5;a8afc9246f72050bfd00a523a275725d",
 "lives":[
-        {
+           {
+        
           "name": "ZHG IPv6",
           "type": 0,
          "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt",
@@ -10,8 +11,8 @@
           //"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
           //"logo":"https://epg.112114.xyz/logo/{name}.png"
           
-          "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-          "logo":"https://epg.112114.xyz/logo/{name}.png"
+           "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+              "logo": "http://epg.51zmt.top:8000/{logo}"
 		  //备用"logo": "https://github.jiexi.de/https://raw.githubusercontent.com/fenxp/live/main/tv/{name}.png"
 		 
 
@@ -539,6 +540,7 @@
       "key": "py_huya",
       "name": "虎牙直播",
       "type": 3,
+      "style":{"type":"rect","ratio":1.555},
       "api": "./py/huya.py",
       "searchable": 0,
       "quickSearch": 0,
