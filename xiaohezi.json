@@ -531,12 +531,12 @@
  
  
     ##直播
-     
+  
     //https://agit.ai/1018610504/ycabao/src/branch/master/XC.json
     //https://notabug.org/chuqiuyu/gao
     
-    {"key":"csp_Bili","name":"哔哩弹幕","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"style":{"type":"rect","ratio":1.555},"filterable":1,"changeable":0,"ext":{"json":"https://github.vzss.link/https://raw.githubusercontent.com/smm2019/tv/master/json/chuqiuyu1.json","cookie": "http://127.0.0.1:9978/file/tvbox/cookie.txt"}},
-    {"key":"py_Bilibili2","name":"哔哩哔哩","type":3,"api":"./py/py_bilibili1213.py","searchable":1,"changeable":1,"ext":""},
+    {"key":"csp_Bili","name":"哔哩弹幕","playerType":2,"type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"style":{"type":"rect","ratio":1.555},"filterable":1,"changeable":0,"ext":{"json":"https://github.vzss.link/https://raw.githubusercontent.com/smm2019/tv/master/json/chuqiuyu1.json","cookie": "http://127.0.0.1:9978/file/tvbox/cookie.txt"}},
+    {"key":"py_Bilibili2","name":"哔哩哔哩","playerType":2,"type":3,"api":"./py/py_bilibili1213.py","searchable":1,"changeable":1,"ext":""},
 
     {
       "key": "py_huya",
