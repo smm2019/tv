@@ -22,12 +22,12 @@ class Spider(Spider):
     defaultConfig = {
         'currentVersion': "20231213_1",
         #【建议通过扫码确认】设置Cookie，在双引号内填写
-        'raw_cookie_line': "buvid3=6B69BD0E-FB7A-044C-4DBA-D490AB74687E82585infoc; _uuid=B35711E3-893B-9B39-74A2-FA1014E1046C5983976infoc; buvid4=B2321F35-6A53-BD25-2476-A0BCA0EF966E84178-123091421-gflVLjzcm9R1R+ou1M7YyQ%3D%3D; buvid_fp=0ed9280219420d29bfb5d97c408b7315; b_nut=100; DedeUserID=104094566; DedeUserID__ckMd5=3d61cebe14d4430b; b_lsid=69F51108A_18BF18C4133; SESSDATA=e09db373%2C1716116657%2Ce2964%2Ab2CjAk2ah7jl1LE5n2he5idKfuOOxpt7cxJIXl2Kz2cK6qAGfCTmXqy00huPdCJsY49SUSVi1MYVZOSi1mVjdJUEFpSm1NeHpVS19BRndzbnhUc3BsNlZPNDZsc2NFX0M0X3R3dy1JTksxMlA4cGExZlR5bXZLUllwYmlJeXFxbnhuV2M1VHhFeWtRIIEC; bili_jct=3e163fe4aa443b3e2bff84d5cf3089ae; sid=7t5wdea9",
-         #'raw_cookie_line': "",
+        # 'raw_cookie_line': "buvid3=6B69BD0E-FB7A-044C-4DBA-D490AB74687E82585infoc; _uuid=B35711E3-893B-9B39-74A2-FA1014E1046C5983976infoc; buvid4=B2321F35-6A53-BD25-2476-A0BCA0EF966E84178-123091421-gflVLjzcm9R1R+ou1M7YyQ%3D%3D; buvid_fp=0ed9280219420d29bfb5d97c408b7315; b_nut=100; DedeUserID=104094566; DedeUserID__ckMd5=3d61cebe14d4430b; b_lsid=69F51108A_18BF18C4133; SESSDATA=e09db373%2C1716116657%2Ce2964%2Ab2CjAk2ah7jl1LE5n2he5idKfuOOxpt7cxJIXl2Kz2cK6qAGfCTmXqy00huPdCJsY49SUSVi1MYVZOSi1mVjdJUEFpSm1NeHpVS19BRndzbnhUc3BsNlZPNDZsc2NFX0M0X3R3dy1JTksxMlA4cGExZlR5bXZLUllwYmlJeXFxbnhuV2M1VHhFeWtRIIEC; bili_jct=3e163fe4aa443b3e2bff84d5cf3089ae; sid=7t5wdea9",
+         'raw_cookie_line': "",
         #如果主cookie没有vip，可以设置第二cookie，仅用于播放会员番剧，所有的操作、记录还是在主cookie，不会同步到第二cookie
         'raw_cookie_vip': "",
         #主页默认显示3图
-        'maxHomeVideoContent': '3',
+        'maxHomeVideoContent': '6',
         #收藏标签默认显示追番1，追剧2，默认收藏夹0
         'favMode': '0',
         #部分视频列表分页，限制每次加载数量
