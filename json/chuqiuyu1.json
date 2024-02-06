@@ -1,10 +1,13 @@
 {
 "class":[
+{"type_name":"儿童","type_id":"儿童"},
+{"type_name":"相声小品","type_id":"相声小品"},
+{"type_name":"戏曲","type_id":"戏曲"},
+{"type_name":"热门","type_id":"热门"},
 {"type_name":"演唱会","type_id":"演唱会4K"},
 {"type_name":"帕梅拉","type_id":"帕梅拉"},
 {"type_name":"太极拳","type_id":"太极拳"},
 {"type_name":"实用教程","type_id":"实用教程"},
-{"type_name":"儿童","type_id":"儿童"},
 {"type_name":"健身","type_id":"健身"},
 {"type_name":"舞蹈","type_id":"舞蹈"},
 {"type_name":"音乐","type_id":"音乐"},
@@ -27,10 +30,7 @@
 {"type_name":"搞笑","type_id":"搞笑"},
 {"type_name":"球星","type_id":"球星"},
 {"type_name":"动物世界","type_id":"动物世界超清"},
-{"type_name":"相声小品","type_id":"相声小品"},
-{"type_name":"戏曲","type_id":"戏曲"},
 {"type_name":"小姐姐","type_id":"小姐姐4K"},
-{"type_name":"热门","type_id":"热门"},
 {"type_name":"旅行探险","type_id":"旅行探险"}
 ],
 "filters":{
