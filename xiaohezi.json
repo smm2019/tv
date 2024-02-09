@@ -1,5 +1,5 @@
 {
-"spider": "./jar/pg.jar;md5;a4641d44614be4500b314841116b55a4",
+"spider": "./jar/pg.jar;md5;75857d67f11eee54879323bd780ee1e5",
 "lives":[
                 {
           "name": "ZHG IPv6",
@@ -487,7 +487,22 @@
          "changeable":0,
         "ext": "./LIVE/feimaolive.json"
     },
+    {
+			"key": "网盘及彈幕配置",
+			"name": "网盘及彈幕配置",
+			"type": 3,
+			"api": "csp_Config",
+			"searchable": 0,
+			"changeable": 0,
+			"style": {
+				"type": "rect",
+				"ratio": 1
+			},
+			"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"
+		},
     {"key":"豆豆","name":"豆瓣推荐饭","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0, "jar":"./jar/fan.txt"},
+   //真心真语
+   { "key": "阿里云集合","name": "真心阿里集合", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/阿里集合.json;http://127.0.0.1:9978/file/tvbox/tok.txt","jar":"./jar/真心真语.jar"},
 
       // {
             // "key": "lf_js_search3",
@@ -537,7 +552,7 @@
     
     {"key":"csp_Bili","name":"哔哩弹幕","playerType":2,"type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"style":{"type":"rect","ratio":1.555},"filterable":1,"changeable":0,"ext":{"json":"./json/chuqiuyu1.json","cookie": "http://127.0.0.1:9978/file/tvbox/cookie.txt"}},
     // {"key":"py_Bilibili2","name":"哔哩哔哩","playerType":2,"type":3,"api":"./py/py_bilibili1213.py","searchable":1,"changeable":1,"ext":""},
-    {"key":"py_bilibilimd","name":"B站番剧","playerType":2,"type":3,"api":"./py/py_bilibilimd.py","searchable":1,"quickSearch":1,"filterable":1, "ext": {"json": "http://127.0.0.1:9978/file/tvbox/bili.json"}},
+    {"key":"py_bilibilimd","name":"哔哩番剧","playerType":2,"type":3,"api":"./py/py_bilibilimd.py","searchable":1,"quickSearch":1,"filterable":1, "ext": {"json": "http://127.0.0.1:9978/file/tvbox/bili.json"}},
     {
             "key": "py_live",
             "name": "一起看",
@@ -579,19 +594,7 @@
 			// },
 			// "ext":"./pgts.json"
 		// },
-		{
-			"key": "网盘及彈幕配置",
-			"name": "网盘及彈幕配置",
-			"type": 3,
-			"api": "csp_Config",
-			"searchable": 0,
-			"changeable": 0,
-			"style": {
-				"type": "rect",
-				"ratio": 1
-			},
-			"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"
-		},
+		
         {
             "key": "csp_KungFu404",
             "name": "💖阿里tok设置",
@@ -603,8 +606,6 @@
             "jar": "./jar/阿里设置.txt"
             //"jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/%E9%98%BF%E9%87%8C%E8%AE%BE%E7%BD%AE.txt"
         },
-   //真心真语
-   { "key": "阿里云集合","name": "真心阿里集合", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/阿里集合.json;http://127.0.0.1:9978/file/tvbox/tok.txt","jar":"./jar/真心真语.jar"},
 
     //来源业余分享，外挂香雅倩Jar和外挂Token
         {"key":"Gitcafe","name":"📀小纸条(搜索)","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/XYQ.jar"},
@@ -720,8 +721,9 @@
       "name": "小胡子",
       "type": 1,
       "playerType": 1,
-      "api": "http://c.小胡.icu/api.php/provide/vod/"
-      //"jar": "http://xiaohu.xzam.cn/jar/1.jar"
+      "api": "http://xh1.xn--yetu07f.icu/api.php/provide/vod/"
+     // "api": "http://c.小胡.icu/api.php/provide/vod/"
+     //"jar": "http://xiaohu.xzam.cn/jar/1.jar"
     },
           {
       "key": "csp_好戏",
@@ -857,6 +859,9 @@
 {"key":"初见自用","name":"初见自用","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"./lib/初见自用.json","jar": "./jar/1.jar"},
 //{"key":"开心影视","name":"🎦开心影视","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://rihou.vip:55/lib/开心影视.json","jar": "https://jihulab.com/xiaohutx/meisha/-/raw/main/1.jar"},
 {"key":"开心影视","name":"开心影视","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/开心影视.json","jar": "./jar/1.jar"},
+{"key":"追忆","name":"追忆影视","type":3,"viewType": 1,"api":"./lib/drpy2.min.js","ext":"./lib/追忆.js", "jar":"./jar/fan.txt"},
+ // {"key":"77","name":"柒柒影视","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"changeable":1, "jar":"./jar/fan.txt"},
+ {"key": "巧技五","name": "星星影视","type": 3,"api": "csp_qiao2","searchable": 1,"quickSearch": 1,"playerType": 2,"filterable": 1,"ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji5","jar":"./jar/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac"},
 
  //优质磁力PG
     //{"key":"drpy_js_荐片","name":"🧲荐片","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/荐片.js"},
@@ -867,14 +872,7 @@
     // {"key":"drpy_js_tzfile","name":"团长影视[js]","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js","ext":"https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/tzfile.js", "quickSearch":1, "changeable":1, "timeout":30, "jar":"./jar/fmpg.jar"},
     {"key":"NanGua","name":"南瓜","type":3,"api":"csp_NanGua","searchable":1,"changeable":1,"ext":"null$$$1"},
     {"key":"樱花","name":"樱花PG","type":3,"api":"csp_Appto","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":"qebgGqODxKrWujD2TaoZoyh6aeYntZLsTaZW8MQvVNORiHLLi/o/cEEEXkSs1vfHEuiURxMTr9zL2Kwbffz2pDvLCamrK1tuxIcczsaI7cfsAh5gcgyzOOdZUszoU45ZgS9Bi4HZ3RDHZAWEqP0JyTaH32oDxgO9nx/xhe1xyVRyj9y5gkfPVt2AP94I8/DwDI9CEstcPzGfRNHYxlCuGMtnMvVwzonmkNDyOw+N5xr2ZI3P8O1cj04mCEAE6/d2tGSU/o+EOyWVLWWw0R3hoduHvjAtuMbBt6WNCcsL51zWceiTcsl34acqd9Pya3lA52ZFRojME/R4zdTzMbvwrOEF3Up0eB58//+NM6k4tW+cBNAHDGgO8t7hcfSG/TnJLQ7Gigrn899dGbFeQMCEQf0zxMxfgYBDkADs0aza9N2QIXChgEDVFDvw0vE2m6b+bJfswmbrhNEIM//95XpMv68HEP3jCTwFEehattwHjyYE4fJoH3OtPO++pDiZltaxdizfFD6WmTO+v4qub1QfpUEXWHzG6nqDA9MioigiTRdRAb4PEMioBCJS5/gel+PGRja1cR1NtBjl4RKpSPstwrmczG8qKQrn2Zjwkz8f4OdnEBKRLaWzb/hVDAQgqRfUyohEdnQyocaYsnB5lJoMSp93QCzwAuHYueyMh2fNpcemWGfs58wrZr5VFSBaQDYv/HjsNntoPaCDpoQIV9DJKiqQsiYMblsz/Mdbnlfd1vI5X69TVPvItzh26zXjgpFBKsiFDOtvd3bNe92XnTH3jiDgBQbqoL6jUbvhNQapqRUZxovWk30UQ0YTQnqODkorKdrEB1IeNhKt0epurJG/G7A6DQ6/6lZ7pAwlYVlfXzFgZOGNb1Hs52j2F+sGvgWY00BAH1eHtpHPPdckL25JMKai3QDQUAVBxAI8njCmcNUPfl9kDZe62QMNJwaZKD9eaOjNrdVsKjah9gkiWL8BnDxJeGErZyrvKhyqg0fwNvyn8wEfeUlwRzfDysrvjdBz3"},
-	{
-			"key": "索尼",
-			"name": "索尼 ",
-			"type": 1,
-			"api": "https://suoniapi.com/api.php/provide/vod",
-			"searchable": 1,
-			"changeable": 1
-		},
+
 
 
 

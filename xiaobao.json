@@ -1,5 +1,5 @@
 {
-"spider": "./jar/pg.jar;md5;a4641d44614be4500b314841116b55a4",
+"spider": "./jar/pg.jar;md5;75857d67f11eee54879323bd780ee1e5",
 "lives":[
            {
         
@@ -62,6 +62,46 @@
           "type": 0,
         // "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt",
            "url": "https://agit.ai/wuheng42/wh/raw/commit/a45342155af20e89f336b93e5206abfee04d8a21/zytv",
+        
+           "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+          "logo":"https://epg.112114.xyz/logo/{name}.png"
+             
+        },
+        {
+          "name": "llxxcc2025",
+          "type": 0,
+        // "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt",
+           "url": "https://github.vzss.link/https://github.com/llxxcc2025/llxxcc2025/blob/b573acb6cfb83184fd62b1d151041278c276e4e0/uhd",
+        
+           "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+          "logo":"https://epg.112114.xyz/logo/{name}.png"
+             
+        },
+        {
+          "name": "WoCao666",
+          "type": 0,
+        // "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt",
+           "url": "https://github.vzss.link/https://github.com/SiberiaApp/WoCao666/blob/998b6af41b15f14fc172cf35b473aced00e8b8f8/tvnb.txt",
+        
+           "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+          "logo":"https://epg.112114.xyz/logo/{name}.png"
+             
+        },
+        {
+          "name": "blob",
+          "type": 0,
+        // "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt",
+           "url": "https://github.vzss.link/https://github.com/meilirenTV/tv/blob/b4da4f6e26c671fbce400eda43b13ea2affbbb8d/zhibo.txt",
+        
+           "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+          "logo":"https://epg.112114.xyz/logo/{name}.png"
+             
+        },
+        {
+          "name": "iptv-list",
+          "type": 0,
+        // "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt",
+           "url": "https://github.vzss.link/https://github.com/tangchunwei/iptv-list/blob/318cf7ec49a6dfbd979d017b2c387fbcea13daab/%E7%9B%B4%E6%92%AD%E6%BA%90/%F0%9F%9A%80%E4%BF%8A%E4%BD%AC%E7%BA%BF%E8%B7%AF.txt",
         
            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
           "logo":"https://epg.112114.xyz/logo/{name}.png"
@@ -775,8 +815,8 @@
 
     
 ##优质在线源
-
-//https://raw.githubusercontent.com/tqx5201/tqx5201.github.io/816b70cc58e61fd5b6a3c4235dde1a0f2ff274b4/tvbox/fongmi/config.json
+ 
+ //https://raw.githubusercontent.com/tqx5201/tqx5201.github.io/816b70cc58e61fd5b6a3c4235dde1a0f2ff274b4/tvbox/fongmi/config.json
 {
             "key":"MIGU",
             "name":"咪咕视频",
@@ -824,6 +864,7 @@
                 "ratio":1.33
             }
         }, 
+        
         {
             "key": "py_xigua",
             "name": "西花",
@@ -885,10 +926,11 @@
       "name": "小胡子",
       "type": 1,
       "playerType": 1,
-      "api": "http://c.小胡.icu/api.php/provide/vod/"
-      //"jar": "http://xiaohu.xzam.cn/jar/1.jar"
+      "api": "http://xh1.xn--yetu07f.icu/api.php/provide/vod/"
+     // "api": "http://c.小胡.icu/api.php/provide/vod/"
+     //"jar": "http://xiaohu.xzam.cn/jar/1.jar"
     },
-          {
+    {
       "key": "csp_好戏",
       "name": "好戏影视",
       "type": 3,
@@ -912,15 +954,7 @@
     },
    // https://jihulab.com/cc7734437/svip/-/raw/main/1314.json
     //{"key":"布料","name":"🧵布料┃TV","type":3,"api":"csp_Appto","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":"CLtudXE7ZxI/TCPiQMQmMshGSUocT6UcxqWxVG55EmgNtsC77N0yoGmgAB4dRXcuk3wFhrQE2va6VMz+bX7Bzs49hozj8DUds+GasTAft5FjoA7q1iAYlroFk/a9jJi5fXqSkhgg/ABPUW69+xLddSennVB8dptQmxW2aW/qCVRo0ZBt4MFrB/Et8lyUz2q6v5ZYMYf50RIrLw1zlrp2IFRpIbLyOCneZch0SEcSbRZXhl6BI1t8toRlhNE5rJ30MJ53N5JT3uJVSkQcwAiQpqR9zf7F5CXormERc3eScixBj9cV6KKSOsGXN3U+Q+T0MyLyhVZJlJxxegD4DRu08M5FZ9eu6l8s1kDDfZ9/dXECXvT47u9b/k8PB3PhbwJrnFvEIh4liSEpXXOAjbKbMIqQ2aby7YdyQG+KoTmyujKYa+zOVeR4UjjqjHRmODTDjEepspEtFsDzcoTRIyLCUCeCILIvTSJyKyIIHNOMe1G833xzZnAPYLdeu+x8Yb48whqMLmrWQTZhsJKe9O7Mb92u1raxpZLvaaqTjH+xAweKFtEQ9bjj2oUdxZ5R2BJFTzCTHv5RaS7xlqiBAmb6DMDgZfIOmHNymT74lfSN0kP0BGNB5CDpnQhaqW76Sz3G+kVwciqqPnUs8SXOYk/yY2Z2MQ5O11jFYhWLSorVcJxQ9oaYoYHHlDPsI9RrmFq6LS2Cy879ZSVi/IKNEKg0D1AKeOInGTITUas9cUTKooLf/Ji17OM1XLDQwqTAubBa0ExqU0Djjeikb6xkwRxRFf70ROiqZvUugZXNr2bGVX9eYb34moQ/K658mqeNADhxrY/W9NarFeaxET7h1GxQVbs0H2ak0PRH9WeArDda84HhAl3AIybJfNBaai8w943AO4+0wYQVijELtJht5kI4tvRg+MZayjSyE4Fn/K/vDLsAwDB02bg7c1dEo5Q6ERaY3W1zqMt7s4t9tKvwLCIiGicwoBTwgLIyqW5kXvAnnL74UYmgJuwsPwOW3GLUkg/L9RdWuNnFM+fEeM8U1XllZ7+FNIf8dB8PX5EDZ7q1I0uifcOhdNKxEQbQ8OUY7ufsyerzN/MjJTUZKuOFNwvlAI+pryxUbUKSh9Hwjh7MkVCCvUbM38+mzpqIHdcXFOoaBd/NLNPKFq2J5Ao4+Deu46v+9TVFg2xjkI51jEuezDCPjGKBuGXgmX1LzcoF3yW84HV4qDWWr7a42FTVDdhZqkmnK/SlCDroHNz/SO2DjyuZgnIXaS8P+078cZ8AbqgIiz+ZVeJVVPsl5NI9De2h1r3RgSfxvClrjjKiaeoOGj3luPfQj0GxsRhASoccUEl2MShvPpxE88i1cQuwmW10IrA==","jar":"https://jihulab.com/0004/0/-/raw/main/6.txt"},
-        {
-      "key": "猫放时光",
-      "name": "猫放时光",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./lib/猫放时光.json",
-         "jar":"./jar/XBPQ2.jar"
-    },
-    
+        
     
     //https://jihulab.com/dwei1/dwei/-/raw/main/Dwei.json
 
@@ -938,25 +972,12 @@
     // },
 
 
-    //技巧
-    {
-      "key": "天天",
-      "name": "天天┃App",
-      "type": 3,
-      "api": "csp_TTian",
-      "playerType": 1,
-      "ext": "http://op.ysdqjs.cn"
-    },
-
-    {
-      "key": "嘶哩",
-      "name": "嘶哩┃动漫",
-      "type": 3,
-      "api": "csp_Skapp",
-      "playerType": 2,
-      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/sili",
-       "jar":"./jar/fix1209.jar"
-    },
+    //x-tang https://github.com/smm2019/X-new
+    
+    {"key":"追忆","name":"追忆影视","type":3,"viewType": 1,"api":"./lib/drpy2.min.js","ext":"./lib/追忆.js", "jar":"./jar/fan.txt"},
+   // {"key":"77","name":"柒柒影视","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"changeable":1, "jar":"./jar/fan.txt"},
+    {"key": "巧技五","name": "星星影视","type": 3,"api": "csp_qiao2","searchable": 1,"quickSearch": 1,"playerType": 2,"filterable": 1,"ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji5","jar":"./jar/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac"},
+    
         
         //荷城
      {
@@ -1284,14 +1305,7 @@
       // "timeout": 30
     // },
     {"key":"樱花","name":"樱花PG","type":3,"api":"csp_Appto","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":"qebgGqODxKrWujD2TaoZoyh6aeYntZLsTaZW8MQvVNORiHLLi/o/cEEEXkSs1vfHEuiURxMTr9zL2Kwbffz2pDvLCamrK1tuxIcczsaI7cfsAh5gcgyzOOdZUszoU45ZgS9Bi4HZ3RDHZAWEqP0JyTaH32oDxgO9nx/xhe1xyVRyj9y5gkfPVt2AP94I8/DwDI9CEstcPzGfRNHYxlCuGMtnMvVwzonmkNDyOw+N5xr2ZI3P8O1cj04mCEAE6/d2tGSU/o+EOyWVLWWw0R3hoduHvjAtuMbBt6WNCcsL51zWceiTcsl34acqd9Pya3lA52ZFRojME/R4zdTzMbvwrOEF3Up0eB58//+NM6k4tW+cBNAHDGgO8t7hcfSG/TnJLQ7Gigrn899dGbFeQMCEQf0zxMxfgYBDkADs0aza9N2QIXChgEDVFDvw0vE2m6b+bJfswmbrhNEIM//95XpMv68HEP3jCTwFEehattwHjyYE4fJoH3OtPO++pDiZltaxdizfFD6WmTO+v4qub1QfpUEXWHzG6nqDA9MioigiTRdRAb4PEMioBCJS5/gel+PGRja1cR1NtBjl4RKpSPstwrmczG8qKQrn2Zjwkz8f4OdnEBKRLaWzb/hVDAQgqRfUyohEdnQyocaYsnB5lJoMSp93QCzwAuHYueyMh2fNpcemWGfs58wrZr5VFSBaQDYv/HjsNntoPaCDpoQIV9DJKiqQsiYMblsz/Mdbnlfd1vI5X69TVPvItzh26zXjgpFBKsiFDOtvd3bNe92XnTH3jiDgBQbqoL6jUbvhNQapqRUZxovWk30UQ0YTQnqODkorKdrEB1IeNhKt0epurJG/G7A6DQ6/6lZ7pAwlYVlfXzFgZOGNb1Hs52j2F+sGvgWY00BAH1eHtpHPPdckL25JMKai3QDQUAVBxAI8njCmcNUPfl9kDZe62QMNJwaZKD9eaOjNrdVsKjah9gkiWL8BnDxJeGErZyrvKhyqg0fwNvyn8wEfeUlwRzfDysrvjdBz3"},
-	{
-			"key": "索尼",
-			"name": "索尼 ",
-			"type": 1,
-			"api": "https://suoniapi.com/api.php/provide/vod",
-			"searchable": 1,
-			"changeable": 1
-		},
+
 
 
 
@@ -1324,6 +1338,7 @@
       "type": 1,
       "url": "https://api.huohua.vip/api/?key=FJ95i3U8qzneBhyWzS&url="
     },
+  
     {
       "name": "龙龙官源",
       "type": 1,
