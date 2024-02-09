@@ -66,7 +66,58 @@
           "logo":"https://epg.112114.xyz/logo/{name}.png"
              
         },
+        {
+          "name": "zytv",
+          "type": 0,
+        // "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt",
+           "url": "https://agit.ai/wuheng42/wh/raw/commit/a45342155af20e89f336b93e5206abfee04d8a21/zytv",
+        
+           "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+          "logo":"https://epg.112114.xyz/logo/{name}.png"
+             
+        },
+        {
+          "name": "llxxcc2025",
+          "type": 0,
+        // "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt",
+           "url": "https://github.vzss.link/https://github.com/llxxcc2025/llxxcc2025/blob/b573acb6cfb83184fd62b1d151041278c276e4e0/uhd",
+        
+           "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+          "logo":"https://epg.112114.xyz/logo/{name}.png"
+             
+        },
+        {
+          "name": "WoCao666",
+          "type": 0,
+        // "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt",
+           "url": "https://github.vzss.link/https://github.com/SiberiaApp/WoCao666/blob/998b6af41b15f14fc172cf35b473aced00e8b8f8/tvnb.txt",
+        
+           "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+          "logo":"https://epg.112114.xyz/logo/{name}.png"
+             
+        },
+        {
+          "name": "blob",
+          "type": 0,
+        // "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt",
+           "url": "https://github.vzss.link/https://github.com/meilirenTV/tv/blob/b4da4f6e26c671fbce400eda43b13ea2affbbb8d/zhibo.txt",
+        
+           "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+          "logo":"https://epg.112114.xyz/logo/{name}.png"
+             
+        },
+        {
+          "name": "iptv-list",
+          "type": 0,
+        // "url": "https://ghproxy.net/https://raw.githubusercontent.com/smm2019/tv/master/LIVE/zhanghg.txt",
+           "url": "https://github.vzss.link/https://github.com/tangchunwei/iptv-list/blob/318cf7ec49a6dfbd979d017b2c387fbcea13daab/%E7%9B%B4%E6%92%AD%E6%BA%90/%F0%9F%9A%80%E4%BF%8A%E4%BD%AC%E7%BA%BF%E8%B7%AF.txt",
+        
+           "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+          "logo":"https://epg.112114.xyz/logo/{name}.png"
+             
+        },
 
+   
         {"name":"央视频嗅探","ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0","type":0,"timeout": 40,"url":"./LIVE/ysp.m3u","boot":false},
         {
             "name": "appletv",
