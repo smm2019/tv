@@ -659,12 +659,12 @@
         },
 
     //来源业余分享，外挂香雅倩Jar和外挂Token
-        {"key":"Gitcafe","name":"📀小纸条(搜索)","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/XYQ.jar"},
+       // {"key":"Gitcafe","name":"📀小纸条(搜索)","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/XYQ.jar"},
         // {"key":"csp_Zhaozy","name":"📀找资源(搜索)","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0,"ext":"yingshi$$$abcd1234","jar":"./jar/XYQ.jar"},
         // {"key":"csp_AliPS","name":"📀喵狸盘搜(搜索)","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/XYQ.jar"},
         // {"key":"csp_Yisou","name":"📀易搜(搜索)","type":3,"api":"csp_Yisou","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/XYQ.jar"},
         // {"key":"csp_Upyunso","name":"📀UP云搜(搜索)","type":3,"api":"csp_Upyunso","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/XYQ.jar"},
-       // {"key": "csp_XYQHikerAL_玩偶哥哥","name":"📀玩偶哥哥(优)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶哥哥.json","jar":"./jar/XYQ.jar"},
+        {"key": "csp_XYQHikerAL_玩偶哥哥","name":"📀玩偶哥哥(优)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶哥哥.json","jar":"./jar/XYQ.jar"},
         //{"key": "csp_XYQHikerAL_玩偶妹妹","name":"📀玩偶妹妹(优)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶妹妹.json","jar":"./jar/XYQ.jar"},
         // {"key": "csp_XYQHikerAL_云盘资源","name":"📀云盘资源(搜索)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/云盘资源.json","jar":"./jar/XYQ.jar"},
         // {"key": "csp_XYQHikerAL_云盘资源分享","name":"📀云盘资源分享(搜索)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/云盘资源分享.json","jar":"./jar/XYQ.jar"},
@@ -676,7 +676,7 @@
 
  
     //饭太硬
-    {"key":"玩偶哥哥","name":"🔎玩偶饭太硬","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/tok.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$","jar":"./jar/fan.txt"},
+   // {"key":"玩偶哥哥","name":"🔎玩偶饭太硬","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/tok.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$","jar":"./jar/fan.txt"},
 
 
   // //gty-pg
@@ -685,7 +685,7 @@
     {"key":"校长影视","name":"🔎校长PG","type":3,"api":"csp_XiaoZhang", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
 	{"key":"团长资源","name":"🔎团长PG","type":3,"api":"csp_TZFile", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
 	// {"key":"Wobg","name":"🔎表哥PG","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://wobge.run.goorm.io$$$1"},
-    // {"key":"小紙條", "name": "🔎小紙條PG", "type": 3, "api": "csp_XiaoZhiTiao", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1" , "timeout":30},
+     {"key":"小紙條", "name": "🔎小紙條PG", "type": 3, "api": "csp_XiaoZhiTiao", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1" , "timeout":30},
     // {"key":"Dovx", "name": "🔎DovxPG", "type": 3, "api": "csp_Dovx", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
 	//{"key":"易搜","name":"🔎易搜PG","type":3,"api":"csp_YiSo","ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294"},
 	{"key":"YunSo","name":"🔎小云搜索","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
@@ -908,8 +908,6 @@
             "ext":"./js/bilibili.json"
         },
 {"key":"初见自用","name":"初见自用","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"./lib/初见自用.json","jar": "./jar/1.jar"},
-//{"key":"开心影视","name":"🎦开心影视","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://rihou.vip:55/lib/开心影视.json","jar": "https://jihulab.com/xiaohutx/meisha/-/raw/main/1.jar"},
-{"key":"开心影视","name":"开心影视","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/开心影视.json","jar": "./jar/1.jar"},
 {"key":"追忆","name":"追忆影视","type":3,"viewType": 1,"api":"./lib/drpy2.min.js","ext":"./lib/追忆.js", "jar":"./jar/fan.txt"},
  // {"key":"77","name":"柒柒影视","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"changeable":1, "jar":"./jar/fan.txt"},
  {"key": "巧技五","name": "星星影视","type": 3,"api": "csp_qiao2","searchable": 1,"quickSearch": 1,"playerType": 2,"filterable": 1,"ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji5","jar":"./jar/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac"},

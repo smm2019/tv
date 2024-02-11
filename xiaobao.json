@@ -577,6 +577,7 @@
     {"key":"csp_Bili","name":"哔哩弹幕","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"style":{"type":"rect","ratio":1.555},"filterable":1,"changeable":0,"ext":{"json":"./json/chuqiuyu1.json","cookie": "http://127.0.0.1:9978/file/tvbox/cookie.txt"}},
     {"key":"py_Bilibili2","name":"哔哩哔哩","type":3,"api":"./py/py_bilibili1213.py","searchable":1,"changeable":1,"ext":{"json": "http://127.0.0.1:9978/file/tvbox/bili.json"}},
     //{"key":"py_bilibilivd","name":"B站视频","type":3,"api":"https://api-lmteam.koyeb.app/files/py/py_bilibilivd.py","searchable":1,"quickSearch":1,"filterable":1, "ext": {"json": "./bili.json"}},
+    {"key":"py_bilibilivd","name":"B站视频","type":3,"api":"./py/py_bilibilivd.py","searchable":1,"quickSearch":1,"filterable":1, "ext": {"json": "./bili.json"}}, 
     //{"key":"py_bilibilimd","name":"B站番剧","type":3,"api":"https://api-lmteam.koyeb.app/files/py/py_bilibilimd.py","searchable":1,"quickSearch":1,"filterable":1, "ext": {"json": "./bili.json"}},
       {"key":"py_bilibilimd","name":"B站番剧","type":3,"api":"./py/py_bilibilimd.py","searchable":1,"quickSearch":1,"filterable":1, "ext": {"json": "http://127.0.0.1:9978/file/tvbox/bili.json"}},
 
@@ -891,8 +892,6 @@
 //https://ghproxy.net/https://raw.githubusercontent.com/happybaihao/pan/5a3da1bbedde3ec44f800b18af5899cc6793b7ca/github.json
 //{"key":"初见自用","name":"初见自用","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://win11.asuscomm.com:63/json/初见自用.json","jar": "https://jihulab.com/xiaohutx/meisha/-/raw/main/1.jar"},
 {"key":"初见自用","name":"初见自用","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"./lib/初见自用.json","jar": "./jar/1.jar"},
-//{"key":"开心影视","name":"🎦开心影视","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://rihou.vip:55/lib/开心影视.json","jar": "https://jihulab.com/xiaohutx/meisha/-/raw/main/1.jar"},
-{"key":"开心影视","name":"开心影视","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/开心影视.json","jar": "./jar/1.jar"},
 
 //https://agit.ai/1018610504/wdck/raw/branch/master/tvbox.json
    // {"key":"Czsapp","name":"📔厂长┃直连","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://www.czz9.com/"},
