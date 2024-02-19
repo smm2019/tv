@@ -1,5 +1,5 @@
 {
-"spider": "./jar/pg.jar;md5;cb67fdc8cc37d49e41bf87be9a1e3201",
+"spider": "./jar/pg.jar;md5;2439bccf8b413976b3176f9a0aa8262e",
 "lives":[
                 {
           "name": "ZHG IPv6",
@@ -529,15 +529,15 @@
 "wallpaper":"https://jianbian.chuqiuyu.tk",
 "sites":[
 
-{
-        "key": "直播转点播",
-        "name": "电视直播",
-        "type": 3,
-        "searchable": 0,
-        "api": "./lib/live2vod.js",
-         "changeable":0,
-        "ext": "./LIVE/feimaolive.json"
-    },
+// {
+        // "key": "直播转点播",
+        // "name": "电视直播",
+        // "type": 3,
+        // "searchable": 0,
+        // "api": "./lib/live2vod.js",
+         // "changeable":0,
+        // "ext": "./LIVE/feimaolive.json"
+    // },
     {
 			"key": "网盘及彈幕配置",
 			"name": "网盘及彈幕配置",
@@ -897,20 +897,20 @@
       //"jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
     },
     {"key":"csp_Kunyu77","name":"77影视","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/XYQ.jar"},
-   {
-            "key":"MIGU",
-            "name":"咪咕视频",
-            "type": 1,
-            "api": "http://stncp.top/tomac10/migu.php",
-            "searchable":1,
-            "quickSearch":0,
-            "changeable":0,
-            "ext":"./js/bilibili.json"
-        },
-{"key":"初见自用","name":"初见自用","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"./lib/初见自用.json","jar": "./jar/1.jar"},
+   // {
+            // "key":"MIGU",
+            // "name":"咪咕视频",
+            // "type": 1,
+            // "api": "http://stncp.top/tomac10/migu.php",
+            // "searchable":1,
+            // "quickSearch":0,
+            // "changeable":0,
+            // "ext":"./js/bilibili.json"
+        // },
+//{"key":"初见自用","name":"初见自用","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"./lib/初见自用.json","jar": "./jar/1.jar"},
 {"key":"追忆","name":"追忆影视","type":3,"viewType": 1,"api":"./lib/drpy2.min.js","ext":"./lib/追忆.js", "jar":"./jar/fan.txt"},
  // {"key":"77","name":"柒柒影视","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"changeable":1, "jar":"./jar/fan.txt"},
- {"key": "巧技五","name": "星星影视","type": 3,"api": "csp_qiao2","searchable": 1,"quickSearch": 1,"playerType": 2,"filterable": 1,"ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji5","jar":"./jar/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac"},
+// {"key": "巧技五","name": "星星影视","type": 3,"api": "csp_qiao2","searchable": 1,"quickSearch": 1,"playerType": 2,"filterable": 1,"ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji5","jar":"./jar/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac"},
 
  //优质磁力PG
     //{"key":"drpy_js_荐片","name":"🧲荐片","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/荐片.js"},

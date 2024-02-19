@@ -1,5 +1,5 @@
 {
-"spider": "./jar/pg.jar;md5;cb67fdc8cc37d49e41bf87be9a1e3201",
+"spider": "./jar/pg.jar;md5;2439bccf8b413976b3176f9a0aa8262e",
 "lives":[
            {
         
@@ -530,25 +530,25 @@
     },
     {"key":"豆豆","name":"豆瓣推荐饭","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0, "jar":"./jar/fan.txt"},
 
-      // {
-            // "key": "lf_js_search3",
-            // "name": "影视推荐",
-            // "type": 3,
-            // "searchable": 0,
-            // "changeable": 1,
-            // "quickSearch": 0,
-            // "filterable": 0,
-            // "api": "./js/lf_search3_min.js"
-        // },     
-        // {
-			// "key": "豆瓣",
-			// "name": "豆瓣",
-			// "type": 3,
-			// "api": "csp_Douban",
-			// "searchable": 0,
-			// "changeable": 1,
-			// "ext": "./lib/douban.json"
-		// },
+      {
+            "key": "lf_js_search3",
+            "name": "影视推荐",
+            "type": 3,
+            "searchable": 0,
+            "changeable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "api": "./js/lf_search3_min.js"
+        },     
+        {
+			"key": "豆瓣",
+			"name": "豆瓣",
+			"type": 3,
+			"api": "csp_Douban",
+			"searchable": 0,
+			"changeable": 1,
+			"ext": "./lib/douban.json"
+		},
 
 //饭太硬
 //{"key":"豆豆","name":"豆瓣推荐饭","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
