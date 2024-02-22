@@ -1,5 +1,5 @@
 {
-"spider": "./jar/pg.jar;md5;2439bccf8b413976b3176f9a0aa8262e",
+"spider": "./jar/pg.jar;md5;07c563204e2a2f86ce66d92ead447fae",
 "lives":[
            {
         
@@ -973,7 +973,7 @@
 
     //x-tang https://github.com/smm2019/X-new
     
-    {"key":"追忆","name":"追忆影视","type":3,"viewType": 1,"api":"./lib/drpy2.min.js","ext":"./lib/追忆.js", "jar":"./jar/fan.txt"},
+    //{"key":"追忆","name":"追忆影视","type":3,"viewType": 1,"api":"./lib/drpy2.min.js","ext":"./lib/追忆.js", "jar":"./jar/fan.txt"},
    // {"key":"77","name":"柒柒影视","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"changeable":1, "jar":"./jar/fan.txt"},
     {"key": "巧技五","name": "星星影视","type": 3,"api": "csp_qiao2","searchable": 1,"quickSearch": 1,"playerType": 2,"filterable": 1,"ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji5","jar":"./jar/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac"},
     
