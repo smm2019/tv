@@ -664,7 +664,7 @@
         // {"key":"csp_AliPS","name":"📀喵狸盘搜(搜索)","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/XYQ.jar"},
         // {"key":"csp_Yisou","name":"📀易搜(搜索)","type":3,"api":"csp_Yisou","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/XYQ.jar"},
         // {"key":"csp_Upyunso","name":"📀UP云搜(搜索)","type":3,"api":"csp_Upyunso","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/XYQ.jar"},
-        {"key": "csp_XYQHikerAL_玩偶哥哥","name":"📀玩偶哥哥(优)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶哥哥.json","jar":"./jar/XYQ.jar"},
+       // {"key": "csp_XYQHikerAL_玩偶哥哥","name":"📀玩偶哥哥(优)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶哥哥.json","jar":"./jar/XYQ.jar"},
         //{"key": "csp_XYQHikerAL_玩偶妹妹","name":"📀玩偶妹妹(优)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶妹妹.json","jar":"./jar/XYQ.jar"},
         // {"key": "csp_XYQHikerAL_云盘资源","name":"📀云盘资源(搜索)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/云盘资源.json","jar":"./jar/XYQ.jar"},
         // {"key": "csp_XYQHikerAL_云盘资源分享","name":"📀云盘资源分享(搜索)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/云盘资源分享.json","jar":"./jar/XYQ.jar"},
@@ -762,15 +762,15 @@
      // "jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
     },
     
-    {
-      "key": "小胡",
-      "name": "小胡子",
-      "type": 1,
-      "playerType": 1,
-      "api": "http://xh1.xn--yetu07f.icu/api.php/provide/vod/"
-     // "api": "http://c.小胡.icu/api.php/provide/vod/"
-     //"jar": "http://xiaohu.xzam.cn/jar/1.jar"
-    },
+    // {
+      // "key": "小胡",
+      // "name": "小胡子",
+      // "type": 1,
+      // "playerType": 1,
+      // "api": "http://xh1.xn--yetu07f.icu/api.php/provide/vod/"
+     // // "api": "http://c.小胡.icu/api.php/provide/vod/"
+     // //"jar": "http://xiaohu.xzam.cn/jar/1.jar"
+    // },
           {
       "key": "csp_好戏",
       "name": "好戏影视",
@@ -843,54 +843,54 @@
    // "jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
   
     },
-    {
-      "key": "csp_徕米",
-      "name": "徕米影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/徕米影视.json",
-        "jar":"./jar/HeChengChaXiu.jar"
-      //"jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
-    },
-    {
-      "key": "csp_xBPQ_奇优",
-      "name": "奇优影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/奇优影视.json",
-       "jar":"./jar/HeChengChaXiu.jar"
-      //"jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
-    },
-    {
-      "key": "csp_乐猪",
-      "name": "乐猪影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/乐猪影视.json",
-      "jar":"./jar/HeChengChaXiu.jar"
-      //"jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
-    },
-    {
-      "key": "csp_农民",
-      "name": "农民影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/农民影视.json",
-     "jar":"./jar/HeChengChaXiu.jar"
-      //"jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
-    },
+    // {
+      // "key": "csp_徕米",
+      // "name": "徕米影视",
+      // "type": 3,
+      // "api": "csp_XBPQ",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 1,
+      // "ext": "./lib/徕米影视.json",
+        // "jar":"./jar/HeChengChaXiu.jar"
+      // //"jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
+    // },
+    // {
+      // "key": "csp_xBPQ_奇优",
+      // "name": "奇优影视",
+      // "type": 3,
+      // "api": "csp_XBPQ",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 1,
+      // "ext": "./lib/奇优影视.json",
+       // "jar":"./jar/HeChengChaXiu.jar"
+      // //"jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
+    // },
+    // {
+      // "key": "csp_乐猪",
+      // "name": "乐猪影视",
+      // "type": 3,
+      // "api": "csp_XBPQ",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 1,
+      // "ext": "./lib/乐猪影视.json",
+      // "jar":"./jar/HeChengChaXiu.jar"
+      // //"jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
+    // },
+    // {
+      // "key": "csp_农民",
+      // "name": "农民影视",
+      // "type": 3,
+      // "api": "csp_XBPQ",
+      // "searchable": 1,
+      // "quickSearch": 1,
+      // "filterable": 1,
+      // "ext": "./lib/农民影视.json",
+     // "jar":"./jar/HeChengChaXiu.jar"
+      // //"jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
+    // },
     {"key":"csp_Kunyu77","name":"77影视","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/XYQ.jar"},
    // {
             // "key":"MIGU",
