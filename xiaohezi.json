@@ -1,5 +1,5 @@
 {
-"spider": "./jar/pg.jar;md5;d800f78d4c346494380adac1dd3ca5b0
+"spider": "./jar/pg.jar;md5;ceb4c6125e26b52855b2c4ace9d48960
 ",
 "lives":[
                 {
@@ -646,7 +646,12 @@
 			// },
 			// "ext":"./pgts.json"
 		// },
-		
+		{"key":"PushShare","name":"我的资源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$./lib/pushshare.txt$$$db$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
         {
             "key": "csp_KungFu404",
             "name": "💖阿里tok设置",
@@ -682,6 +687,9 @@
 
   // //gty-pg
      {"key":"Wogg","name":"🔎玩偶PG","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://wogg.xyz/$$$null$$$1"},
+	{"key":"yydsys","name":"🔎玩偶多多","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://tv.yydsys.top/$$$null$$$1$$$./lib/wogg.json"},
+	{"key":"Libvio","name":"🔎LIBVIO网盘","type":3,"api":"csp_Libvio","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://www.libvio.pro$$$null"},
+		
 	// //{"key":"影视车","name":"🔎影视车网盘","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},
     //{"key":"校长影视","name":"🔎校长PG","type":3,"api":"csp_XiaoZhang", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
 	{"key":"团长资源","name":"🔎团长PG","type":3,"api":"csp_TZFile", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
