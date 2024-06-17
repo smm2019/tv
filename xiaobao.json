@@ -1,6 +1,6 @@
 {
-"spider": "./jar/pg.jar;md5;301bb794a10a31516b45534b8baf36e9
-",
+//"spider": "./jar/pg.jar;adb19be2a16155706321933291b51867",
+"spider":"./jar/pg.jar",
 "lives":[
            {
         
@@ -593,6 +593,32 @@
       "filterable": 1,
       "jar": "./jar/fan1023.txt;md5;8F8F0F3CB3D1C025746FFB35B22748A5"
     },
+    {
+      "key": "py_douyu",
+      "name": "斗鱼直播",
+      "type": 3,
+      "style":{"type":"rect","ratio":1.555},
+      "api": "./py/douyu.py",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "jar": "./jar/fan1023.txt;md5;8F8F0F3CB3D1C025746FFB35B22748A5"
+    },
+    {
+      "key": "斗鱼js",
+      "name": "🐟斗鱼┃直播",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/斗鱼直播.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.755
+      },
+      "playerType": "1",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
          	    
     //{"key":"py_Bilibili","name":"哔哩|影视","type":3,"api":"./py/py_bilibili1222.py","searchable":1,"changeable":1,"ext":""},
 
@@ -650,6 +676,26 @@
 				"ratio": 1
 			},
 			"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"
+		},
+	{
+			"key":"Youtube",
+			"name":"Youtube",
+			"type":3,
+			"api": "csp_Youtube",
+			"searchable": 1,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext":{
+				"json":"./lib/youtube.json",
+				"type":"直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
+				"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
+				"codecs":"",
+				"proxy":"127.0.0.1:10072"
+			},
+			"style": {
+				"type": "rect",
+				"ratio": 1.5
+			}
 		},
         {
             "key": "csp_KungFu404",

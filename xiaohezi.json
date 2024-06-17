@@ -1,6 +1,7 @@
 {
-"spider": "./jar/pg.jar;md5;301bb794a10a31516b45534b8baf36e9
-",
+//"spider": "./jar/pg.jar;md5;adb19be2a16155706321933291b51867",
+"spider":"./jar/pg.jar",
+
 "lives":[
                 {
           "name": "ZHG IPv6",
@@ -552,6 +553,26 @@
 			},
 			"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"
 		},
+	{
+			"key":"Youtube",
+			"name":"Youtube",
+			"type":3,
+			"api": "csp_Youtube",
+			"searchable": 1,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext":{
+				"json":"./lib/youtube.json",
+				"type":"直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
+				"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
+				"codecs":"avs",
+				"proxy":"127.0.0.1:10072"
+			},
+			"style": {
+				"type": "rect",
+				"ratio": 1.5
+			}
+		},
     {"key":"豆豆","name":"豆瓣推荐饭","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0, "jar":"./jar/fan.txt"},
    //真心真语
    { "key": "阿里云集合","name": "真心阿里集合", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/阿里集合.json;http://127.0.0.1:9978/file/tvbox/tok.txt","jar":"./jar/真心真语.jar"},
@@ -687,9 +708,8 @@
 
   // //gty-pg
      {"key":"Wogg","name":"🔎玩偶PG","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://wogg.xyz/$$$null$$$1"},
-	{"key":"yydsys","name":"🔎玩偶多多","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://tv.yydsys.top/$$$null$$$1$$$./lib/wogg.json"},
-	{"key":"Libvio","name":"🔎LIBVIO网盘","type":3,"api":"csp_Libvio","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://www.libvio.pro$$$null"},
-		
+	//{"key":"yydsys","name":"🔎玩偶多多","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://tv.yydsys.top/$$$null$$$1$$$./lib/wogg.json"},
+	{"key":"Libvio","name":"🔎LIBVIO网盘","type":3,"api":"csp_Libvio","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://www.libvio.fun$$$null"},
 	// //{"key":"影视车","name":"🔎影视车网盘","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},
     //{"key":"校长影视","name":"🔎校长PG","type":3,"api":"csp_XiaoZhang", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
 	{"key":"团长资源","name":"🔎团长PG","type":3,"api":"csp_TZFile", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$1"},
@@ -706,16 +726,21 @@
     {"key":"混合盘","name":"🔎混合盘网盘","type":3,"api":"csp_HunHePan","timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
     //{"key":"Ppxzy","name":"🔎皮皮虾网盘","type":3,"api":"csp_Ppxzy", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$https://ppxzy.net$$$null$$$1"},
 	{"key":"YingSo","name":"🔎影搜","type":3,"api":"csp_YingSo","timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"},
-    {"key":"YunPanOne","name":"🔎云盘One","type":3,"api":"csp_YunPanOne","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json$$$null$$$proxy$$$1"},
-	{"key":"美剧迷","name":"🔎美剧迷","type":3,"api":"csp_Meijumi", "quickSearch":1, "changeable":1, "filterable":1, "timeout":120,"ext":"./lib/tokenm.json$$$https://www.meijumi.net/$$$proxy$$$1"},
-		
-    {"key":"XBPQ_BaiPiao","name":"白嫖影视","type":3,"api":"csp_XBPQ", "jar":"./lib/XBPQ.jar",
-			"ext": {
-				"地区":"[替换:大陆>>中国大陆#香港>>中国香港#台湾>>中国台湾]",
-				"分类": "电影$1#电视剧$2#动漫$3#短剧$4#综艺$5",
-				"分类url": "https://www.baipiaoys.com:9092/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
+    {"key":"秒搜","name":"🔎秒搜","type":3,"api":"csp_MiaoSou","timeout":60, "ext":"http://127.0.0.1:9978/file/tvfan/pgts.json",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
 			}
 		},
+	{"key":"美剧迷","name":"🔎美剧迷","type":3,"api":"csp_Meijumi", "quickSearch":1, "changeable":1, "filterable":1, "timeout":120,"ext":"./lib/tokenm.json$$$https://www.meijumi.net/$$$proxy$$$1"},
+		
+    // {"key":"XBPQ_BaiPiao","name":"白嫖影视","type":3,"api":"csp_XBPQ", "jar":"./lib/XBPQ.jar",
+			// "ext": {
+				// "地区":"[替换:大陆>>中国大陆#香港>>中国香港#台湾>>中国台湾]",
+				// "分类": "电影$1#电视剧$2#动漫$3#短剧$4#综艺$5",
+				// "分类url": "https://www.baipiaoys.com:9092/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
+			// }
+		// },
     
     
     // //https://mirror.ghproxy.com/raw.githubusercontent.com/okcaptain/okjar/rm/ok.json
@@ -909,7 +934,7 @@
      // "jar":"./jar/HeChengChaXiu.jar"
       // //"jar": "https://gitee.com/xiaomingstudent2023/bmw/raw/master/jar/HeChengChaXiu.jar"
     // },
-    {"key":"csp_Kunyu77","name":"77影视","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/XYQ.jar"},
+   // {"key":"csp_Kunyu77","name":"77影视","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/XYQ.jar"},
    // {
             // "key":"MIGU",
             // "name":"咪咕视频",
