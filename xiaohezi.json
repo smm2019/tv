@@ -603,7 +603,25 @@
   
     //https://agit.ai/1018610504/ycabao/src/branch/master/XC.json
     //https://notabug.org/chuqiuyu/gao
-    
+     
+     //http://152.70.93.21:4567/sub/oraclecloud/0  ytb
+     {
+    "ext" : "eyJhcGkiOiJodHRwOi8vMTUyLjcwLjkzLjIxOjQ1NjciLCJ0b2tlbiI6Im9yYWNsZWNsb3VkIn0=",
+    "filterable" : 1,
+    "quickSearch" : 1,
+    "playerType" : 2,
+    "name" : "ytbxy",
+    "changeable" : 0,
+    "jar" : "http://152.70.93.21:4567/spring.jar",
+    "style" : {
+      "type" : "rect",
+      "ratio" : 1.597
+    },
+    "api" : "csp_Youtube",
+    "type" : 3,
+    "key" : "csp_Youtube",
+    "searchable" : 1
+  }, 
     {"key":"csp_Bili","name":"哔哩弹幕","playerType":2,"type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"style":{"type":"rect","ratio":1.555},"filterable":1,"changeable":0,"ext":{"json":"./json/chuqiuyu1.json","cookie": "http://127.0.0.1:9978/file/tvbox/cookie.txt"}},
     // {"key":"py_Bilibili2","name":"哔哩哔哩","playerType":2,"type":3,"api":"./py/py_bilibili1213.py","searchable":1,"changeable":1,"ext":""},
     {"key":"py_bilibilimd","name":"哔哩番剧","playerType":2,"type":3,"api":"./py/py_bilibilimd.py","searchable":1,"quickSearch":1,"filterable":1, "ext": {"json": "http://127.0.0.1:9978/file/tvbox/bili.json"}},
@@ -934,7 +952,7 @@
  //优质磁力PG
     //{"key":"drpy_js_荐片","name":"🧲荐片","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/荐片.js"},
     //{"key":"drpy_js_ddys","name":"低端影视[js]","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js","ext":"https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/ddys.js", "quickSearch":1, "changeable":1, "timeout":30, "jar":"./jar/fmpg.jar"},
-     {"key":"drpy_js_ddys","name":"低端影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/ddys.js", "quickSearch":1, "changeable":1, "timeout":30},
+   //  {"key":"drpy_js_ddys","name":"低端影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/ddys.js", "quickSearch":1, "changeable":1, "timeout":30},
    
      //{"key":"drpy_js_libvio","name":"libvio[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/libvio.js", "quickSearch":1, "changeable":1, "timeout":30, "jar":"./jar/fmpg.jar"},
     // {"key":"drpy_js_tzfile","name":"团长影视[js]","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/lib/drpy2.min.js","ext":"https://gh-proxy.com/https://raw.githubusercontent.com/smm2019/gao/master/js/tzfile.js", "quickSearch":1, "changeable":1, "timeout":30, "jar":"./jar/fmpg.jar"},
