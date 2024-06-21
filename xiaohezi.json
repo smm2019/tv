@@ -554,7 +554,7 @@
 			"ext":"http://127.0.0.1:9978/file/tvfan/pgts.json"
 		},
 
-    {"key":"豆豆","name":"豆瓣推荐饭","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0, "jar":"./jar/fan.txt"},
+    {"key":"豆豆","name":"豆瓣推荐饭","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0, "indexs":1,"jar":"./jar/fan.txt"},
    //真心真语
    { "key": "阿里云集合","name": "真心阿里集合", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/阿里集合.json;http://127.0.0.1:9978/file/tvbox/tok.txt","jar":"./jar/真心真语.jar"},
 
